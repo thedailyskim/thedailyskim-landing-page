@@ -49,7 +49,7 @@ h2{font-size:34px;letter-spacing:-1px;margin:0;font-weight:600}.head p{margin:0;
 .card .cover.has-img{padding:0}
 .cbody{padding:22px 24px 24px;display:flex;flex-direction:column;flex:1}
 .meta{font-size:11.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--blue);margin:0 0 8px}
-.card h3{font-size:18px;line-height:1.35;margin:0 0 10px}
+.card h3{font-size:18px;line-height:1.3;margin:0 0 12px}.card h3 .hl{display:block;margin:0 0 8px}.card h3 .hl:last-child{margin:0}
 .card p{font-size:14px;line-height:1.6;color:var(--muted);margin:0 0 18px;flex:1}
 .read{font-size:14px;font-weight:700;color:var(--blue)}
 .about{display:grid;grid-template-columns:1fr 1.3fr;gap:48px;align-items:start;border-top:1px solid var(--line)}
@@ -187,7 +187,7 @@ const SITE_CONFIG = {
   SITE_CONFIG.editions.forEach(function(e){
     var a=document.createElement('a'); a.className='card'; a.href=e.url;
     var cover=e.image ? '<div class="cover has-img"><img src="'+esc(e.image)+'" alt="" loading="lazy"></div>' : '<div class="cover">'+esc(e.title)+'</div>';
-    a.innerHTML=cover+'<div class="cbody"><p class="meta">'+esc(e.date)+' · '+esc(e.readingTime)+'</p><h3>'+esc(e.title)+'</h3><p>'+esc(e.description)+'</p><span class="read">Read edition &rarr;</span></div>';
+    a.innerHTML=cover+'<div class="cbody"><p class="meta">'+esc(e.date)+' · '+esc(e.readingTime)+'</p><h3>'+e.title.split(/(?<=[.!?])\s+(?=[A-Z"])/).map(function(p){return '<span class="hl">'+esc(p)+'</span>';}).join('')+'</h3><p>'+esc(e.description)+'</p><span class="read">Read edition &rarr;</span></div>';
     grid.appendChild(a);
   });
 })();
