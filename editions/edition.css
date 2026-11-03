@@ -11,7 +11,7 @@ a{color:var(--blue)}a:focus-visible{outline:3px solid var(--blue);outline-offset
 .topbar a.cta{font-family:var(--body);background:var(--blue);color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:11px 16px;border-radius:4px;white-space:nowrap}
 .topbar a.cta:hover{background:#1a3cc0}
 .intro{padding:56px 0 12px}
-.eyebrow{font-family:var(--head);font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue);margin:0 0 14px}
+.eyebrow{font-family:var(--head);font-size:12px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--blue);margin:0 0 18px}
 h1{font-family:var(--head);font-weight:600;font-size:38px;line-height:1.15;letter-spacing:-1.1px;margin:0 0 26px}
 h1 .hl{display:block;padding:0 0 14px;margin:0 0 14px;border-bottom:1px solid var(--line)}h1 .hl:last-child{padding:0;margin:0;border:0}
 .dek{font-size:19px;line-height:1.6;color:var(--muted);margin:0 0 34px}
