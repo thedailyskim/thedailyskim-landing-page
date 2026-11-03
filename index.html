@@ -1,33 +1,176 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Daily Skim | A clearer read on the news</title>
-<meta name="description" content="The headlines that matter, with the context to make sense of them. A concise news newsletter, straight to your inbox.">
-<meta name="theme-color" content="#244CE2"><link rel="stylesheet" href="styles.css"></head><body><a class="skip" href="#main">Skip to content</a>
-<header class="wrap"><a href="#" class="logo" aria-label="The Daily Skim home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.288 127" role="img" aria-label="The Daily Skim"><title>The Daily Skim</title><g fill="#142333" transform="translate(8,56) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M228 0V580H24V700H564V580H360V0Z"/><path transform="translate(753.0,0)" d="M66 0V700H198V411H458V700H590V0H458V291H198V0Z"/><path transform="translate(1574.0,0)" d="M66 0V700H516V580H198V413H488V293H198V120H522V0Z"/></g><g fill="#142333" transform="translate(8,86) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M46 0V116H138V584H46V700H334Q475 700 548.5 628.5Q622 557 622 416V284Q622 143 548.5 71.5Q475 0 334 0ZM270 120H336Q416 120 453.0 162.0Q490 204 490 280V420Q490 497 453.0 538.5Q416 580 336 580H270Z"/><path transform="translate(710.0,0)" d="M18 0 202 700H432L616 0H480L442 154H192L154 0ZM223 276H411L326 617H308Z"/><path transform="translate(1394.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1708.0,0)" d="M66 0V700H198V120H518V0Z"/><path transform="translate(2186.0,0)" d="M246 0V241L8 700H155L303 400H321L469 700H616L378 241V0Z"/></g><path d="M97 27V100" stroke="#244CE2" stroke-width="4"/><g fill="#244CE2" transform="translate(116,100) scale(0.096,-0.096)"><path transform="translate(0,0)" d="M309 -14Q228 -14 166.0 15.0Q104 44 69.0 98.0Q34 152 34 228V256H164V228Q164 165 203.0 133.5Q242 102 309 102Q377 102 410.5 129.0Q444 156 444 198Q444 227 427.5 245.0Q411 263 379.5 274.5Q348 286 303 296L280 301Q208 317 156.5 341.5Q105 366 77.5 406.0Q50 446 50 510Q50 574 80.5 619.5Q111 665 166.5 689.5Q222 714 297 714Q372 714 430.5 688.5Q489 663 522.5 612.5Q556 562 556 486V456H426V486Q426 526 410.5 550.5Q395 575 366.0 586.5Q337 598 297 598Q237 598 208.5 575.5Q180 553 180 514Q180 488 193.5 470.0Q207 452 234.0 440.0Q261 428 303 419L326 414Q401 398 456.5 373.0Q512 348 543.0 307.0Q574 266 574 202Q574 138 541.5 89.5Q509 41 449.5 13.5Q390 -14 309 -14Z"/><path transform="translate(543.5,0)" d="M66 0V700H198V422H216L443 700H612L320 355L622 0H448L216 284H198V0Z"/><path transform="translate(1107.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1308.5,0)" d="M66 0V700H311L432 90H450L571 700H816V0H688V603H670L550 0H332L212 603H194V0Z"/></g></svg></a><nav aria-label="Main navigation"><a class="edition-link" href="#editions">Latest editions</a><a class="button" href="#signup">Get the skim ↗</a></nav></header>
-<main id="main"><section class="wrap hero"><div class="label">Your daily news, distilled</div><h1>Less scrolling.<br><span>More knowing.</span></h1><p class="intro">The headlines that matter, with the context to make sense of them. Straight to your inbox.</p><form class="subscribe" id="signup" method="post" action="https://www.aweber.com/scripts/addlead.pl" accept-charset="UTF-8">
+<meta name="description" content="The headlines that matter, with the context to make sense of them. A free five-minute news email, every morning.">
+<link rel="canonical" href="https://thedailyskim.com/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="The Daily Skim">
+<meta property="og:title" content="The Daily Skim | A clearer read on the news">
+<meta property="og:description" content="The headlines that matter, with the context to make sense of them. Free, every morning.">
+<meta property="og:url" content="https://thedailyskim.com/"><meta property="og:image" content="https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&fit=crop&q=80"><meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#244CE2"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23244CE2'/%3E%3Ctext x='32' y='42' font-family='Arial,Helvetica,sans-serif' font-size='28' font-weight='700' fill='%23ffffff' text-anchor='middle'%3EDS%3C/text%3E%3C/svg%3E">
+<style>
+@font-face{font-family:Skim;src:url(skim.ttf) format('truetype');font-weight:300 700;font-display:swap}
+:root{--blue:#244CE2;--ink:#142333;--muted:#516173;--line:#D6DDE8;--pale:#EDF1FF;--paper:#FAFBFD}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+h1,h2,h3,.eyebrow,button{font-family:Skim,Arial,Helvetica,sans-serif}
+a{color:var(--blue)}a:focus-visible,input:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:#fff;padding:8px 12px;z-index:9}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.wrap{width:min(1120px,calc(100% - 64px));margin:0 auto}
+header .wrap{display:flex;justify-content:space-between;align-items:center;min-height:88px;gap:16px}
+header{border-bottom:1px solid var(--line);background:#fff}
+.logo{display:block;width:180px}.logo svg{display:block;width:100%;height:auto}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:12px 18px;border-radius:4px}
+.btn:hover{background:#1a3cc0}
+.hero{padding:72px 0 56px;text-align:center}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--blue);margin:0 0 16px}
+h1{font-size:68px;line-height:1.02;letter-spacing:-2.5px;margin:0 0 18px;font-weight:600}h1 span{color:var(--blue)}
+.sub{font-size:19px;color:var(--muted);max-width:560px;margin:0 auto 30px}
+.subscribe{max-width:540px;margin:0 auto}
+.row{display:flex;gap:10px}
+.row input{flex:1;min-width:0;border:1px solid var(--line);border-radius:4px;padding:15px;font-size:16px;background:#fff;color:var(--ink)}
+.row button{border:0;background:var(--blue);color:#fff;font-weight:700;font-size:15px;padding:0 22px;border-radius:4px;cursor:pointer}
+.row button:hover{background:#1a3cc0}
+.reassure{font-size:12.5px;color:var(--muted);margin:10px 0 0}
+.topics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
+.topics ul{list-style:none;margin:0 auto;padding:16px 0;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;font-size:13px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--muted)}
+section.block{padding:64px 0}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:20px;margin-bottom:26px}
+h2{font-size:34px;letter-spacing:-1px;margin:0;font-weight:600}.head p{margin:0;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.part{background:#fff;border:1px solid var(--line);border-radius:6px;padding:26px}
+.part b{display:block;font-size:42px;color:#B8C7F7;font-family:Skim,Arial,sans-serif;line-height:1;margin-bottom:12px}
+.part h3{font-size:21px;margin:0 0 8px}.part p{margin:0;color:var(--muted);font-size:15px}
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(20,35,51,.08)}
+.cover{aspect-ratio:3/2;background:linear-gradient(135deg,#244CE2,#142333);display:flex;align-items:flex-end;padding:16px;color:#fff;font-family:Skim,Arial,sans-serif;font-size:18px;font-weight:600}
+.cover img{width:100%;height:100%;object-fit:cover;display:block}
+.card .cover.has-img{padding:0}
+.cbody{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
+.meta{font-size:11.5px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--blue);margin:0 0 8px}
+.card h3{font-size:18px;line-height:1.3;margin:0 0 8px}
+.card p{font-size:14px;color:var(--muted);margin:0 0 14px;flex:1}
+.read{font-size:14px;font-weight:700;color:var(--blue)}
+.about{display:grid;grid-template-columns:1fr 1.3fr;gap:48px;align-items:start;border-top:1px solid var(--line)}
+.about p{font-size:17px;color:var(--muted);margin:0 0 14px}.about p strong{color:var(--ink)}
+.faq{border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:16px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";color:var(--blue);font-size:22px;line-height:1}
+.faq details[open] summary::after{content:"\2212"}
+.faq details p{margin:10px 0 0;color:var(--muted);max-width:720px}
+.final{background:var(--ink);color:#fff;text-align:center;padding:72px 0}
+.final h2{font-size:40px;margin:0 0 10px}.final p.lead{color:#C9D3E3;font-size:18px;margin:0 0 26px}
+.final .reassure,.final .reassure a{color:#AAB6C9}
+.final .row input{border-color:#2D4157}
+footer{border-top:1px solid var(--line);padding:24px 0 34px;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+footer nav{display:flex;gap:20px}footer a{color:var(--muted)}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}header .wrap{min-height:72px}.logo{width:140px}
+.hero{padding:44px 0 36px}h1{font-size:46px;letter-spacing:-1.6px}.sub{font-size:17px}
+.row{flex-direction:column}.row button{padding:15px}
+section.block{padding:44px 0}.head{display:block}.head p{margin-top:6px}h2{font-size:28px}
+.grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;gap:16px}.final h2{font-size:31px}}
+@media(max-width:360px){h1{font-size:38px}.btn{padding:10px 12px;font-size:13px}.wrap{width:calc(100% - 28px)}}
+</style></head>
+<body><a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><a class="logo" href="./" aria-label="The Daily Skim home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.288 127" role="img" aria-label="The Daily Skim"><title>The Daily Skim</title><g fill="#142333" transform="translate(8,56) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M228 0V580H24V700H564V580H360V0Z"/><path transform="translate(753.0,0)" d="M66 0V700H198V411H458V700H590V0H458V291H198V0Z"/><path transform="translate(1574.0,0)" d="M66 0V700H516V580H198V413H488V293H198V120H522V0Z"/></g><g fill="#142333" transform="translate(8,86) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M46 0V116H138V584H46V700H334Q475 700 548.5 628.5Q622 557 622 416V284Q622 143 548.5 71.5Q475 0 334 0ZM270 120H336Q416 120 453.0 162.0Q490 204 490 280V420Q490 497 453.0 538.5Q416 580 336 580H270Z"/><path transform="translate(710.0,0)" d="M18 0 202 700H432L616 0H480L442 154H192L154 0ZM223 276H411L326 617H308Z"/><path transform="translate(1394.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1708.0,0)" d="M66 0V700H198V120H518V0Z"/><path transform="translate(2186.0,0)" d="M246 0V241L8 700H155L303 400H321L469 700H616L378 241V0Z"/></g><path d="M97 27V100" stroke="#244CE2" stroke-width="4"/><g fill="#244CE2" transform="translate(116,100) scale(0.096,-0.096)"><path transform="translate(0,0)" d="M309 -14Q228 -14 166.0 15.0Q104 44 69.0 98.0Q34 152 34 228V256H164V228Q164 165 203.0 133.5Q242 102 309 102Q377 102 410.5 129.0Q444 156 444 198Q444 227 427.5 245.0Q411 263 379.5 274.5Q348 286 303 296L280 301Q208 317 156.5 341.5Q105 366 77.5 406.0Q50 446 50 510Q50 574 80.5 619.5Q111 665 166.5 689.5Q222 714 297 714Q372 714 430.5 688.5Q489 663 522.5 612.5Q556 562 556 486V456H426V486Q426 526 410.5 550.5Q395 575 366.0 586.5Q337 598 297 598Q237 598 208.5 575.5Q180 553 180 514Q180 488 193.5 470.0Q207 452 234.0 440.0Q261 428 303 419L326 414Q401 398 456.5 373.0Q512 348 543.0 307.0Q574 266 574 202Q574 138 541.5 89.5Q509 41 449.5 13.5Q390 -14 309 -14Z"/><path transform="translate(543.5,0)" d="M66 0V700H198V422H216L443 700H612L320 355L622 0H448L216 284H198V0Z"/><path transform="translate(1107.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1308.5,0)" d="M66 0V700H311L432 90H450L571 700H816V0H688V603H670L550 0H332L212 603H194V0Z"/></g></svg></a><a class="btn" href="#signup">Sign up free</a></div></header>
+<main id="main">
+<section class="hero wrap" aria-labelledby="hero-title">
+<p class="eyebrow">Your daily news, distilled</p>
+<h1 id="hero-title">Less scrolling.<br><span>More knowing.</span></h1>
+<p class="sub">The headlines that matter, with the context to make sense of them. One free email, every morning, in about five minutes.</p>
+<div id="signup"><form class="subscribe" id="top" method="post" action="https://www.aweber.com/scripts/addlead.pl" accept-charset="UTF-8">
 <input type="hidden" name="listname" value="awlist6982848">
-<input type="hidden" name="redirect" value="https://thedailyskim.github.io/thedailyskim-landing-page/thanks.html">
-<input type="hidden" name="meta_redirect_onlist" value="https://thedailyskim.github.io/thedailyskim-landing-page/thanks.html?already=1">
-<input type="hidden" name="meta_adtracking" value="landing-page">
+<input type="hidden" name="redirect" value="https://thedailyskim.com/thanks.html">
+<input type="hidden" name="meta_redirect_onlist" value="https://thedailyskim.com/thanks.html?already=1">
+<input type="hidden" name="meta_adtracking" value="landing-page-top">
 <input type="hidden" name="meta_message" value="1">
 <input type="hidden" name="meta_required" value="email">
-<label for="email-top" style="display:block;font-size:12px;margin-bottom:8px">Your email address</label><div class="form-row"><input id="email-top" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><button class="button" type="submit">Get the daily skim <span aria-hidden="true">↗</span></button></div>
-<p class="consent">By subscribing, you agree to receive The Daily Skim newsletter by email and accept our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms</a>. Unsubscribe anytime with one click.</p>
-<p class="preview-note" hidden>Design preview. Signup is not connected yet and no email is collected.</p><p class="status" role="status" aria-live="polite"></p></form></section>
-<section class="wrap editions" id="editions" aria-labelledby="edition-title"><div class="section-head"><h2 id="edition-title">Latest editions</h2><p>First issues coming soon.</p></div><div class="edition-grid"><article class="edition"><div class="art" aria-hidden="true"><span>01</span><i></i><i></i></div><div class="card-copy"><small>COMING SOON</small><h3>Future edition 01</h3><p>Our next stories will appear here.</p></div></article><article class="edition"><div class="art" aria-hidden="true"><span>02</span><i></i><i></i></div><div class="card-copy"><small>COMING SOON</small><h3>Future edition 02</h3><p>Our next stories will appear here.</p></div></article><article class="edition"><div class="art" aria-hidden="true"><span>03</span><i></i><i></i></div><div class="card-copy"><small>COMING SOON</small><h3>Future edition 03</h3><p>Our next stories will appear here.</p></div></article></div></section>
-<p class="wrap about"><b>About The Daily Skim.</b> A concise news newsletter for curious readers who want the big picture without the endless feed.</p></main>
-<footer class="wrap"><div class="footer-top"><a href="#" class="logo" aria-label="The Daily Skim home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.288 127" role="img" aria-label="The Daily Skim"><title>The Daily Skim</title><g fill="#142333" transform="translate(8,56) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M228 0V580H24V700H564V580H360V0Z"/><path transform="translate(753.0,0)" d="M66 0V700H198V411H458V700H590V0H458V291H198V0Z"/><path transform="translate(1574.0,0)" d="M66 0V700H516V580H198V413H488V293H198V120H522V0Z"/></g><g fill="#142333" transform="translate(8,86) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M46 0V116H138V584H46V700H334Q475 700 548.5 628.5Q622 557 622 416V284Q622 143 548.5 71.5Q475 0 334 0ZM270 120H336Q416 120 453.0 162.0Q490 204 490 280V420Q490 497 453.0 538.5Q416 580 336 580H270Z"/><path transform="translate(710.0,0)" d="M18 0 202 700H432L616 0H480L442 154H192L154 0ZM223 276H411L326 617H308Z"/><path transform="translate(1394.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1708.0,0)" d="M66 0V700H198V120H518V0Z"/><path transform="translate(2186.0,0)" d="M246 0V241L8 700H155L303 400H321L469 700H616L378 241V0Z"/></g><path d="M97 27V100" stroke="#244CE2" stroke-width="4"/><g fill="#244CE2" transform="translate(116,100) scale(0.096,-0.096)"><path transform="translate(0,0)" d="M309 -14Q228 -14 166.0 15.0Q104 44 69.0 98.0Q34 152 34 228V256H164V228Q164 165 203.0 133.5Q242 102 309 102Q377 102 410.5 129.0Q444 156 444 198Q444 227 427.5 245.0Q411 263 379.5 274.5Q348 286 303 296L280 301Q208 317 156.5 341.5Q105 366 77.5 406.0Q50 446 50 510Q50 574 80.5 619.5Q111 665 166.5 689.5Q222 714 297 714Q372 714 430.5 688.5Q489 663 522.5 612.5Q556 562 556 486V456H426V486Q426 526 410.5 550.5Q395 575 366.0 586.5Q337 598 297 598Q237 598 208.5 575.5Q180 553 180 514Q180 488 193.5 470.0Q207 452 234.0 440.0Q261 428 303 419L326 414Q401 398 456.5 373.0Q512 348 543.0 307.0Q574 266 574 202Q574 138 541.5 89.5Q509 41 449.5 13.5Q390 -14 309 -14Z"/><path transform="translate(543.5,0)" d="M66 0V700H198V422H216L443 700H612L320 355L622 0H448L216 284H198V0Z"/><path transform="translate(1107.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1308.5,0)" d="M66 0V700H311L432 90H450L571 700H816V0H688V603H670L550 0H332L212 603H194V0Z"/></g></svg></a><div class="footer-links"><a href="mailto:hello@thedailyskim.com">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></div></div><p class="copyright">© 2026 The Daily Skim. All rights reserved.</p></footer>
+<label class="sr" for="email-top">Email address</label>
+<div class="row"><input id="email-top" type="email" name="email" placeholder="you@example.com" autocomplete="email" required><button type="submit">Get the Daily Skim</button></div>
+<p class="reassure">Free. One email a day. Unsubscribe anytime with one click. See our <a href="privacy.html">Privacy Policy</a>.</p>
+</form></div>
+</section>
+<nav class="topics" aria-label="What we cover"><ul class="wrap"><li>U.S. news</li><li>World</li><li>Business &amp; markets</li><li>Tech &amp; AI</li><li>Science</li><li>Health</li><li>Culture</li></ul></nav>
+<section class="block wrap" aria-labelledby="inside-title">
+<div class="head"><h2 id="inside-title">Inside the email</h2><p>Same three parts, every morning.</p></div>
+<div class="grid">
+<div class="part"><b>01</b><h3>The Headlines</h3><p>The three stories everyone will be talking about, each cut to the facts that matter.</p></div>
+<div class="part"><b>02</b><h3>The Context</h3><p>One big story explained: what happened, why it matters, and what to watch next.</p></div>
+<div class="part"><b>03</b><h3>The Wider View</h3><p>Quick hits from science, tech and culture, plus a trivia question to end on.</p></div>
+</div></section>
+<section class="block wrap" id="editions" aria-labelledby="ed-title">
+<div class="head"><h2 id="ed-title">Recent editions</h2><p>Read them free. Every fact is linked to its source.</p></div>
+<div class="grid" id="edition-grid"></div>
+<noscript><p><a href="editions/2026-11-03.html">Read the latest edition</a></p></noscript>
+</section>
+<section class="block wrap about" aria-labelledby="about-title">
+<h2 id="about-title">News without the noise.</h2>
+<div><p><strong>The Daily Skim is a free morning email for busy, curious people.</strong> We read the news so you don't have to scroll through it, then cut each story down to what actually matters.</p>
+<p>No hot takes and no clickbait. Just clear, sourced reporting from outlets like AP, Reuters, CBS News and ABC News, with links so you can read further whenever you want.</p></div>
+</section>
+<section class="block wrap faq" aria-labelledby="faq-title">
+<div class="head"><h2 id="faq-title">Questions</h2></div>
+<details><summary>What will I receive?</summary><p>One email each morning with three parts: the headlines that matter, one story explained in context, and a quick look at the wider world in science, tech and culture.</p></details><details><summary>Is it free?</summary><p>Yes. The Daily Skim is free to read.</p></details><details><summary>How long does it take to read?</summary><p>About five minutes. Every story is cut to what you need to know, with links if you want to go deeper.</p></details><details><summary>Can I see an example?</summary><p>Yes. Read any of the <a href="#editions">recent editions</a> above. They are the same format you will get by email.</p></details><details><summary>Can I unsubscribe?</summary><p>Anytime. Every email has a one-click unsubscribe link at the bottom.</p></details>
+</section>
+<section class="final" aria-labelledby="final-title"><div class="wrap">
+<h2 id="final-title">Start tomorrow better informed.</h2>
+<p class="lead">Five minutes. Free. In your inbox before your coffee is ready.</p>
+<form class="subscribe" id="bottom" method="post" action="https://www.aweber.com/scripts/addlead.pl" accept-charset="UTF-8">
+<input type="hidden" name="listname" value="awlist6982848">
+<input type="hidden" name="redirect" value="https://thedailyskim.com/thanks.html">
+<input type="hidden" name="meta_redirect_onlist" value="https://thedailyskim.com/thanks.html?already=1">
+<input type="hidden" name="meta_adtracking" value="landing-page-bottom">
+<input type="hidden" name="meta_message" value="1">
+<input type="hidden" name="meta_required" value="email">
+<label class="sr" for="email-bottom">Email address</label>
+<div class="row"><input id="email-bottom" type="email" name="email" placeholder="you@example.com" autocomplete="email" required><button type="submit">Get the Daily Skim</button></div>
+<p class="reassure">Free. One email a day. Unsubscribe anytime with one click. See our <a href="privacy.html">Privacy Policy</a>.</p>
+</form>
+</div></section>
+</main>
+<footer><div class="wrap"><span>&copy; 2026 The Daily Skim. All rights reserved.</span><nav><a href="mailto:hello@thedailyskim.com">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav></div></footer>
 <script>
-// To go live: replace AWEBER_LIST_ID above with your AWeber list's unique name
-// (AWeber > List Options > List Settings, e.g. "awlist1234567").
-// Never put API keys or account passwords into this public HTML.
-document.querySelectorAll('.subscribe').forEach(function(form){
- var list=form.querySelector('[name=listname]');
- var notConnected=!list||list.value==='AWEBER_LIST_ID';
- if(notConnected){form.querySelector('.preview-note').hidden=false;}
- form.addEventListener('submit',function(event){
-  if(notConnected){event.preventDefault();
-   form.querySelector('.status').textContent='Signups open soon. Please check back shortly.';form.reset();}
- });
-});
-</script></body></html>
+const SITE_CONFIG = {
+ "editions": [
+  {
+   "title": "America Votes Today. The U.S. Just Struck Iran Again. And Measles Killed a Child in New York.",
+   "description": "Election Day explained, new strikes in the Strait of Hormuz, and New York's first measles death in over 30 years.",
+   "url": "editions/2026-11-03.html",
+   "date": "Tue, Nov 3",
+   "readingTime": "6 min read",
+   "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&fit=crop&q=80"
+  },
+  {
+   "title": "Oil Just Crashed 7%. Apple's New Boss Posted a Record Quarter. And a SpaceX Exec Is Giving Kids 2 Million Shares.",
+   "description": "Peace-talk hopes sink oil, John Ternus's first Apple report, and the youth protests spreading across Europe.",
+   "url": "editions/2026-11-02.html",
+   "date": "Mon, Nov 2",
+   "readingTime": "5 min read",
+   "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&fit=crop&q=80"
+  },
+  {
+   "title": "Google Lost Nearly $500 Billion in a Day. Hackers Stole $6.3 Billion in Crypto. And Ukraine Just Got the OK for 500 Patriots.",
+   "description": "Alphabet's worst day ever, the biggest crypto theft on record, and a $2.1 billion missile deal for Ukraine.",
+   "url": "editions/2026-11-01.html",
+   "date": "Sun, Nov 1",
+   "readingTime": "5 min read",
+   "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=800&fit=crop&q=80"
+  }
+ ]
+};
+(function(){
+  var grid=document.getElementById('edition-grid'); if(!grid) return;
+  function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+  SITE_CONFIG.editions.forEach(function(e){
+    var a=document.createElement('a'); a.className='card'; a.href=e.url;
+    var cover=e.image ? '<div class="cover has-img"><img src="'+esc(e.image)+'" alt="" loading="lazy"></div>' : '<div class="cover">'+esc(e.title)+'</div>';
+    a.innerHTML=cover+'<div class="cbody"><p class="meta">'+esc(e.date)+' · '+esc(e.readingTime)+'</p><h3>'+esc(e.title)+'</h3><p>'+esc(e.description)+'</p><span class="read">Read edition &rarr;</span></div>';
+    grid.appendChild(a);
+  });
+})();
+</script>
+</body></html>
