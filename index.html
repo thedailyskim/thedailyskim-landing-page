@@ -74,9 +74,28 @@ footer nav{display:flex;gap:20px}footer a{color:var(--muted)}
 section.block{padding:44px 0}.head{display:block}.head p{margin-top:6px}h2{font-size:28px}
 .grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;gap:16px}.final h2{font-size:31px}}
 @media(max-width:360px){h1{font-size:38px}.btn{padding:10px 12px;font-size:13px}.wrap{width:calc(100% - 28px)}}
+:root{--head:Skim,"Helvetica Neue",Arial,sans-serif;--body:Arial,Helvetica,sans-serif}
+.switcher{background:#fff;border-bottom:1px solid var(--line)}
+.sw-in{display:flex;align-items:center;gap:16px;min-height:58px;padding:8px 0}
+.sw-label{flex:none;font-family:var(--body);font-size:11px;font-weight:700;letter-spacing:1.1px;text-transform:uppercase;color:#fff;background:var(--blue);border-radius:3px;padding:5px 9px;white-space:nowrap}
+.sw-track{flex:1;min-width:0}
+.sw-item{display:none;font-family:var(--head);font-weight:600;font-size:18px;line-height:1.3;letter-spacing:-.3px;color:var(--ink);text-decoration:none}
+.sw-item.is-on{display:block;animation:swIn .45s ease}
+.sw-item:hover{color:var(--blue);text-decoration:underline}
+.sw-ctrl{flex:none;display:flex;align-items:center;gap:6px}
+.sw-ctrl button{border:1px solid var(--line);background:#fff;color:var(--ink);border-radius:50%;width:28px;height:28px;cursor:pointer;font-size:15px;line-height:1;padding:0}
+.sw-ctrl button:hover{border-color:var(--blue);color:var(--blue)}
+.sw-dots{display:flex;gap:5px}.sw-dots button{width:8px;height:8px;border:0;background:var(--line);padding:0}
+.sw-dots button[aria-current="true"]{background:var(--blue)}
+.no-js .sw-ctrl{display:none}
+@keyframes swIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.sw-item.is-on{animation:none}}
+@media(max-width:760px){.sw-in{flex-wrap:wrap;gap:8px 12px;padding:12px 0}.sw-track{flex-basis:100%;order:3}.sw-item{font-size:16px}.sw-ctrl{margin-left:auto}}
+@media(max-width:360px){.sw-label{font-size:10px}}
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap"><a class="logo" href="./" aria-label="The Daily Skim home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.288 127" role="img" aria-label="The Daily Skim"><title>The Daily Skim</title><g fill="#142333" transform="translate(8,56) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M228 0V580H24V700H564V580H360V0Z"/><path transform="translate(753.0,0)" d="M66 0V700H198V411H458V700H590V0H458V291H198V0Z"/><path transform="translate(1574.0,0)" d="M66 0V700H516V580H198V413H488V293H198V120H522V0Z"/></g><g fill="#142333" transform="translate(8,86) scale(0.02,-0.02)"><path transform="translate(0,0)" d="M46 0V116H138V584H46V700H334Q475 700 548.5 628.5Q622 557 622 416V284Q622 143 548.5 71.5Q475 0 334 0ZM270 120H336Q416 120 453.0 162.0Q490 204 490 280V420Q490 497 453.0 538.5Q416 580 336 580H270Z"/><path transform="translate(710.0,0)" d="M18 0 202 700H432L616 0H480L442 154H192L154 0ZM223 276H411L326 617H308Z"/><path transform="translate(1394.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1708.0,0)" d="M66 0V700H198V120H518V0Z"/><path transform="translate(2186.0,0)" d="M246 0V241L8 700H155L303 400H321L469 700H616L378 241V0Z"/></g><path d="M97 27V100" stroke="#244CE2" stroke-width="4"/><g fill="#244CE2" transform="translate(116,100) scale(0.096,-0.096)"><path transform="translate(0,0)" d="M309 -14Q228 -14 166.0 15.0Q104 44 69.0 98.0Q34 152 34 228V256H164V228Q164 165 203.0 133.5Q242 102 309 102Q377 102 410.5 129.0Q444 156 444 198Q444 227 427.5 245.0Q411 263 379.5 274.5Q348 286 303 296L280 301Q208 317 156.5 341.5Q105 366 77.5 406.0Q50 446 50 510Q50 574 80.5 619.5Q111 665 166.5 689.5Q222 714 297 714Q372 714 430.5 688.5Q489 663 522.5 612.5Q556 562 556 486V456H426V486Q426 526 410.5 550.5Q395 575 366.0 586.5Q337 598 297 598Q237 598 208.5 575.5Q180 553 180 514Q180 488 193.5 470.0Q207 452 234.0 440.0Q261 428 303 419L326 414Q401 398 456.5 373.0Q512 348 543.0 307.0Q574 266 574 202Q574 138 541.5 89.5Q509 41 449.5 13.5Q390 -14 309 -14Z"/><path transform="translate(543.5,0)" d="M66 0V700H198V422H216L443 700H612L320 355L622 0H448L216 284H198V0Z"/><path transform="translate(1107.0,0)" d="M66 0V700H198V0Z"/><path transform="translate(1308.5,0)" d="M66 0V700H311L432 90H450L571 700H816V0H688V603H670L550 0H332L212 603H194V0Z"/></g></svg></a><a class="btn" href="#signup">Sign up free</a></div></header>
+<div class="switcher no-js" data-switcher role="region" aria-label="Top stories"><div class="wrap sw-in"><span class="sw-label">Top stories · <span class="sw-n">1</span> of 4</span><div class="sw-track" aria-live="polite"><a class="sw-item is-on" href="editions/2026-11-03.html#s1">Congress Is Up for Grabs Today, and So Are 145 Ballot Measures</a><a class="sw-item" href="editions/2026-11-03.html#s2">Obamacare Sign-Ups Just Opened, and Premiums Are Expected to Jump 13%</a><a class="sw-item" href="editions/2026-11-03.html#s3">Netflix Now Wants to Pick Your Next Show Based on Your Mood</a><a class="sw-item" href="editions/2026-11-03.html#context">What&#x27;s at Stake Tonight, and Why Results May Take Days</a></div><div class="sw-ctrl"><button type="button" class="sw-prev" aria-label="Previous headline">&lsaquo;</button><span class="sw-dots"><button type="button" aria-label="Show headline 1"></button><button type="button" aria-label="Show headline 2"></button><button type="button" aria-label="Show headline 3"></button><button type="button" aria-label="Show headline 4"></button></span><button type="button" class="sw-next" aria-label="Next headline">&rsaquo;</button></div></div></div>
 <main id="main">
 <section class="hero wrap" aria-labelledby="hero-title">
 <p class="eyebrow">Your daily news, distilled</p>
@@ -137,28 +156,28 @@ section.block{padding:44px 0}.head{display:block}.head p{margin-top:6px}h2{font-
 const SITE_CONFIG = {
  "editions": [
   {
-   "title": "America Votes Today. The U.S. Just Struck Iran Again. And Measles Killed a Child in New York.",
-   "description": "Election Day explained, new strikes in the Strait of Hormuz, and New York's first measles death in over 30 years.",
+   "title": "America Votes Today on Congress and 145 Ballot Measures. Your Health Insurance Is About to Cost More. And Netflix Wants to Read Your Mood.",
+   "description": "Election Day explained, a 13% jump in marketplace premiums, and Netflix's new AI tab.",
    "url": "editions/2026-11-03.html",
    "date": "Tue, Nov 3",
-   "readingTime": "6 min read",
+   "readingTime": "5 min read",
    "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&fit=crop&q=80"
   },
   {
-   "title": "Oil Just Crashed 7%. Apple's New Boss Posted a Record Quarter. And a SpaceX Exec Is Giving Kids 2 Million Shares.",
-   "description": "Peace-talk hopes sink oil, John Ternus's first Apple report, and the youth protests spreading across Europe.",
+   "title": "Oil Just Lost Nearly $9 a Barrel in a Day. A Senator Had a Stroke at a Hockey Game. And a \"Super\" El Niño Is Flooding the Southwest.",
+   "description": "Peace-talk hopes sink crude, Sen. Chris Murphy's recovery, and flash floods from Sedona to Durango.",
    "url": "editions/2026-11-02.html",
    "date": "Mon, Nov 2",
    "readingTime": "5 min read",
    "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&fit=crop&q=80"
   },
   {
-   "title": "Google Lost Nearly $500 Billion in a Day. Hackers Stole $6.3 Billion in Crypto. And Ukraine Just Got the OK for 500 Patriots.",
-   "description": "Alphabet's worst day ever, the biggest crypto theft on record, and a $2.1 billion missile deal for Ukraine.",
+   "title": "Wall Street Just Had Its Worst Day Since June. A Judge Tossed Trump's WSJ Lawsuit for Good. And You Got an Hour Back.",
+   "description": "AI fears hammer stocks, a defamation case that can't be refiled, and why the clock change still isn't going away.",
    "url": "editions/2026-11-01.html",
    "date": "Sun, Nov 1",
    "readingTime": "5 min read",
-   "image": "https://images.unsplash.com/photo-1562813733-b31f71025d54?w=800&fit=crop&q=80"
+   "image": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&fit=crop&q=80"
   }
  ]
 };
@@ -172,5 +191,20 @@ const SITE_CONFIG = {
     grid.appendChild(a);
   });
 })();
+</script>
+<script>
+(function(){document.querySelectorAll('[data-switcher]').forEach(function(sw){
+var items=[].slice.call(sw.querySelectorAll('.sw-item'));if(items.length<2)return;
+var dots=[].slice.call(sw.querySelectorAll('.sw-dots button'));var n=sw.querySelector('.sw-n');var i=0,t=null;
+var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function show(k){i=(k+items.length)%items.length;items.forEach(function(el,j){el.classList.toggle('is-on',j===i);el.setAttribute('aria-hidden',j===i?'false':'true');el.tabIndex=j===i?0:-1;});dots.forEach(function(d,j){d.setAttribute('aria-current',j===i?'true':'false');});if(n)n.textContent=i+1;}
+function start(){if(reduce||t)return;t=setInterval(function(){show(i+1);},4000);}
+function stop(){clearInterval(t);t=null;}
+sw.querySelector('.sw-prev').addEventListener('click',function(){show(i-1);});
+sw.querySelector('.sw-next').addEventListener('click',function(){show(i+1);});
+dots.forEach(function(d,j){d.addEventListener('click',function(){show(j);});});
+sw.addEventListener('mouseenter',stop);sw.addEventListener('mouseleave',start);
+sw.addEventListener('focusin',stop);sw.addEventListener('focusout',start);
+sw.classList.remove('no-js');show(0);start();});})();
 </script>
 </body></html>
