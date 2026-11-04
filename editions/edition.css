@@ -39,9 +39,6 @@ figure img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cov
 .signoff a.cta{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;padding:13px 22px;border-radius:4px}
 .ednav{display:flex;justify-content:space-between;gap:16px;border-top:1px solid var(--line);padding:22px 0;font-size:14px}
 .ednav a{text-decoration:none;font-weight:600}.ednav span{color:var(--muted)}
-footer{border-top:1px solid var(--line);padding:22px 0 34px;font-size:13px;color:var(--muted)}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
-footer nav{display:flex;gap:18px}footer a{color:var(--muted)}
 @media(max-width:760px){body{font-size:16px}.story,.ctx{padding:32px 0 36px}.trivia{padding:22px 20px}h1{font-size:30px}h1 .hl{padding-bottom:12px;margin-bottom:12px}.dek{font-size:17px}.part h2{font-size:26px}.story h3,.ctx h3{font-size:23px}.topbar .logo{width:128px}}
 @media(max-width:360px){h1{font-size:26px}.topbar a.cta{padding:9px 12px;font-size:13px}.wrap{width:calc(100% - 28px)}}
 .switcher{background:#fff;border-bottom:1px solid var(--line)}
@@ -61,3 +58,34 @@ footer nav{display:flex;gap:18px}footer a{color:var(--muted)}
 @media(prefers-reduced-motion:reduce){.sw-item.is-on{animation:none}}
 @media(max-width:760px){.sw-in{flex-wrap:wrap;gap:8px 12px;padding:12px 0}.sw-track{flex-basis:100%;order:3}.sw-item{font-size:16px}.sw-ctrl{margin-left:auto}}
 @media(max-width:360px){.sw-label{font-size:10px}}
+
+.ds-more{padding:40px 0 8px;border-top:1px solid var(--line)}
+.ds-more h2{font-family:var(--head);font-weight:600;font-size:24px;letter-spacing:-.5px;margin:0 0 18px}
+.ds-more-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.ds-mcard{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;text-decoration:none;color:var(--ink);transition:transform .15s,box-shadow .15s}
+.ds-mcard:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(20,35,51,.08)}
+.ds-mcard img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;background:var(--pale)}
+.ds-mcard div{padding:12px 14px 16px}
+.ds-mcard small{display:block;font-family:var(--body);font-size:11px;font-weight:700;letter-spacing:.9px;text-transform:uppercase;color:var(--blue);margin-bottom:6px}
+.ds-mcard b{display:block;font-family:var(--head);font-weight:600;font-size:15px;line-height:1.4}
+.ds-more-all{display:inline-block;margin:16px 0 0;font-family:var(--body);font-size:14px;font-weight:700;text-decoration:none}
+.ds-foot{background:#142333;color:#C9D3E3;margin-top:48px;font-family:var(--body)}
+.ds-foot.flush{margin-top:0;border-top:1px solid #24364A}
+.ds-foot a{color:#fff}
+.ds-foot-in{width:min(1120px,calc(100% - 40px));margin:0 auto;display:grid;grid-template-columns:1.4fr .8fr 1.3fr;gap:40px;padding:52px 0 40px}
+.ds-foot-logo{display:block;width:170px;margin:0 0 16px}.ds-foot-logo svg{display:block;width:100%;height:auto}
+.ds-foot p{font-size:14.5px;line-height:1.65;margin:0 0 12px}
+.ds-foot h3{font-family:var(--head);font-weight:600;font-size:16px;color:#fff;letter-spacing:.2px;margin:4px 0 14px}
+.ds-foot ul{list-style:none;margin:0;padding:0}.ds-foot li{margin:0 0 10px;font-size:14.5px}
+.ds-foot li a{color:#C9D3E3;text-decoration:none}.ds-foot li a:hover{color:#fff;text-decoration:underline}
+.ds-foot form .row{display:flex;gap:8px;margin:0}
+.ds-foot input[type=email]{flex:1;min-width:0;border:1px solid #2D4157;background:#0E1A27;color:#fff;border-radius:4px;padding:13px 12px;font-size:15px}
+.ds-foot input[type=email]::placeholder{color:#8A98AB}
+.ds-foot button{border:0;background:#244CE2;color:#fff;font-weight:700;font-size:14px;padding:0 18px;border-radius:4px;cursor:pointer;font-family:var(--body)}
+.ds-foot button:hover{background:#3A5EEA}
+.ds-foot .note{font-size:12.5px;color:#8A98AB;margin:10px 0 0}
+.ds-foot-base{border-top:1px solid #24364A}
+.ds-foot-base div{width:min(1120px,calc(100% - 40px));margin:0 auto;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:18px 0 26px;font-size:13px;color:#8A98AB}
+.ds-foot-base nav{display:flex;gap:18px}.ds-foot-base a{color:#8A98AB}
+.ds-foot :focus-visible{outline:3px solid #8FA8FF;outline-offset:3px}
+@media(max-width:760px){.ds-more-grid{grid-template-columns:1fr}.ds-foot-in{grid-template-columns:1fr;gap:28px;padding:40px 0 30px}.ds-foot form .row{flex-direction:column}.ds-foot button{padding:13px}}
