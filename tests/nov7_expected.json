@@ -1,0 +1,153 @@
+{
+  "title": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+  "subject": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+  "preview_text": "The latest health count, a divided market and a new White House chief of staff.",
+  "description": "Measles cases exceed 5,000, technology shares regain ground and new U.S. strikes come as Qatar continues Iran mediation.",
+  "contents_extra": "Rocket engines, the White House transition, trivia and your poll",
+  "stories": [
+    {
+      "topic": "us-measles-nov7-case-count",
+      "title": "Measles Cases Pass 5,000 Across Most of the U.S.",
+      "paragraphs": [
+        "The United States has recorded 5,182 confirmed measles cases so far this year, according to the latest CDC data. <a href=\"https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years\">Al Jazeera reports that this is the highest annual count since 1991</a>. Cases have been confirmed in 45 states and Washington, D.C., <a href=\"https://www.goodmorningamerica.com/wellness/story/measles-cases-surpass-5000-us-infections-confirmed-45-137907591\">ABC News reports</a>.",
+        "About 96% of cases involve people who were unvaccinated or whose vaccination status is unknown, <a href=\"https://www.goodmorningamerica.com/wellness/story/measles-cases-surpass-5000-us-infections-confirmed-45-137907591\">according to ABC’s review of CDC figures</a>. <a href=\"https://www.aljazeera.com/news/2026/11/7/cdc-reports-more-than-5000-measles-cases-highest-number-in-35-years\">Al Jazeera reports a dispute over classifying measles deaths</a>, leaving federal and state totals different. The latest data also show lower kindergarten vaccination coverage than before the pandemic."
+      ],
+      "region": "us",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/empty-hospital-bed-inside-room-zbpgmGe27p8",
+        "alt": "Empty hospital ward; illustrative healthcare file photo",
+        "verified": true
+      }
+    },
+    {
+      "topic": "nov6-market-close-ai-rebound",
+      "title": "Technology Shares Rebound Without Erasing the Week’s Losses",
+      "paragraphs": [
+        "Technology stocks regained some ground Friday after a sharp selloff, but Wall Street still ended the week lower. <a href=\"https://www.devdiscourse.com/article/international/4003019-global-markets-wall-street-stocks-rally-after-heavy-ai-relatedselloff\">Reuters reports that the Nasdaq gained about 1.1%</a> while the Dow fell 0.46%. Chipmakers led the rebound, following worries about AI infrastructure spending and possible tighter regulation.",
+        "The recovery was uneven across regions and indexes. <a href=\"https://news.rthk.hk/rthk/en/component/k2/1876903-20261107.htm\">Reuters reports that the Nasdaq posted a fourth weekly decline</a>. Investors also weighed stronger U.S. hiring data and the outlook for interest rates. A positive session for some technology shares did not resolve concerns about the cost of the AI buildout."
+      ],
+      "region": "us",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1534469650761-fce6cc26ac0d?auto=format&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/concrete-building-with-usa-flags-mHdATQY9fIU",
+        "alt": "New York Stock Exchange facade; file photo",
+        "verified": true
+      }
+    },
+    {
+      "topic": "nov7-iran-limited-strikes",
+      "title": "New U.S. Strikes Come as Qatar Keeps Iran Mediation Active",
+      "paragraphs": [
+        "Trump said U.S. forces carried out limited strikes against an Iranian air defense system Friday. <a href=\"https://www.nbcnews.com/news/us-news/us-military-carries-new-targeted-strikes-iran-rcna607969\">AP reports that Iranian state media described explosions on Qeshm Island</a>, near the Strait of Hormuz. Trump described the action as minor but did not provide detailed information about the target.",
+        "Diplomacy continued alongside the military action. <a href=\"https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island\">Al Jazeera reports that Qatar rejected claims that negotiations had failed</a> on Saturday. Qatar’s prime minister said mediation remained active to prevent further escalation. Neither those statements nor Trump’s claims of progress establish that the parties have reached an agreement."
+      ],
+      "region": "world",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1570030534989-31a8e6812fc9?auto=format&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/city-photography-ShZzflXymPI",
+        "alt": "Tehran skyline at sunset; Iran file photo",
+        "verified": true
+      }
+    },
+    {
+      "topic": "firefly-ast-blacklift-engine-deal",
+      "title": "AST Buys Engine Capacity While Keeping Other Launch Providers",
+      "paragraphs": [
+        "AST SpaceMobile is moving into rocket development with a Firefly engine agreement worth more than $1.3 billion. <a href=\"https://www.channelnewsasia.com/business/firefly-inks-13-billion-deal-supply-engines-new-ast-spacemobile-blacklift-rocket-6531826\">Reuters reports that Blacklift would support AST’s satellite broadband network</a>. The planned vehicle could carry five BlueBird satellites, with a debut targeted for late 2028 rather than an announced launch date.",
+        "The purchase is not a complete break with existing launch companies. <a href=\"https://www.devdiscourse.com/article/international/4003097-reuters-science-news-summary\">Reuters describes the deal as a bid for more reliable access to space</a>. AST says it still has more than 100 outside launch agreements. Firefly will supply engines initially, while licensing lets AST eventually manufacture them itself."
+      ],
+      "region": "us",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?auto=format&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/rocket-ship-photography-uj3hvdfQujI",
+        "alt": "SpaceX Falcon 9 launch; file photo, not Firefly",
+        "verified": true
+      }
+    }
+  ],
+  "deep_dive": {
+    "topic": "miller-chief-of-staff-appointment",
+    "title": "What Miller’s Promotion Changes Inside the White House",
+    "paragraphs": [
+      "<strong>What happened.</strong> Trump selected Stephen Miller to succeed Susie Wiles as chief of staff, with the change taking effect Monday. <a href=\"https://www.abc.net.au/news/2026-11-07/donald-trump-cos-susie-wiles-to-be-replaced-by-stephen-miller/107358840\">ABC reports that Wiles will move to Trump’s political operation</a>. Miller currently serves as deputy chief of staff for policy. His promotion follows Republican losses that will put Democrats in control of Congress.",
+      "<strong>Why it matters.</strong> The chief of staff coordinates the president’s team and helps shape access and priorities. Miller also brings extensive policy experience. <a href=\"https://www.cnbctv18.com/world/who-is-stephen-miller-trump-aide-replacing-susie-wiles-white-house-chief-staff-20029323.htm\">AP describes his knowledge of executive power and federal government</a>. His appointment puts an architect of Trump’s immigration program at the center of the administration as congressional scrutiny is expected to increase.",
+      "<strong>What each side says.</strong> Trump praised Wiles, who said her commitment to his agenda would continue. Democratic Rep. Robert Garcia criticized Miller’s appointment as doubling down on policies voters had rejected. <a href=\"https://www.cnbctv18.com/world/who-is-stephen-miller-trump-aide-replacing-susie-wiles-white-house-chief-staff-20029323.htm\">AP reports those contrasting reactions after Tuesday’s Republican defeat</a>. Miller spent the campaign defending Trump’s policies, while Wiles helped run his successful 2024 campaign.",
+      "<strong>What comes next.</strong> Miller begins Monday, as Democrats prepare to control both chambers of Congress next year. <a href=\"https://www.cnbctv18.com/world/who-is-stephen-miller-trump-aide-replacing-susie-wiles-white-house-chief-staff-20029323.htm\">AP reports that Garcia is set to chair the House Oversight Committee</a>. Miller’s background includes service as a homeland security adviser and coordination across federal agencies. Those roles add to his experience implementing immigration policy before this move into staff leadership."
+    ],
+    "region": "us",
+    "photo": {
+      "image_url": "https://images.unsplash.com/photo-1577942948749-a3dbb5c6db0a?auto=format&fit=crop&w=1280&h=720&q=85",
+      "original_url": "https://unsplash.com/photos/architectural-photography-of-white-house-zfKlCKK-Ql0",
+      "alt": "White House south facade; historical file photo",
+      "verified": true
+    }
+  },
+  "trivia": {
+    "question": "Which index gained about 1.1% in Friday’s trading?",
+    "options": [
+      "Nasdaq Composite",
+      "Dow Jones Industrial Average",
+      "Nikkei 225",
+      "STOXX 600"
+    ],
+    "correct_letter": "A",
+    "explanation": "A. Nasdaq Composite. <a href=\"https://www.devdiscourse.com/article/international/4003019-global-markets-wall-street-stocks-rally-after-heavy-ai-relatedselloff\">Reuters reports that it rose about 1.1% while the Dow declined</a>."
+  },
+  "poll": {
+    "question": "Should states make local vaccination coverage easier to find?",
+    "slug": "local-vaccination-coverage-access"
+  },
+  "briefing": {
+    "World view": [
+      "<strong>Paraguay installs a successor.</strong> Pedro Alliana became president after Santiago Peña’s impeachment over alleged links to a banking scandal; <a href=\"https://www.devdiscourse.com/article/international/4003035-reuters-world-news-summary\">Reuters reports</a>.",
+      "<strong>Europe checks broadcaster threats.</strong> Evacuations disrupted television programming, with no bombs found at the affected sites; <a href=\"https://www.devdiscourse.com/article/international/4003035-reuters-world-news-summary\">Reuters reports</a>.",
+      "<strong>Brazil building collapse injures four.</strong> Authorities said all 35 people inside a São Paulo commercial building were rescued; <a href=\"https://www.devdiscourse.com/article/international/4003035-reuters-world-news-summary\">Reuters reports</a>.",
+      "<strong>Germany considers a presidential candidate.</strong> German media say Merz’s party backs Ilse Aigner, who would be the first woman elected president; <a href=\"https://www.devdiscourse.com/article/international/4003035-reuters-world-news-summary\">Reuters reports</a>."
+    ],
+    "Need to know": [
+      "<strong>Cornell faculty challenge leaders.</strong> A no confidence resolution criticized the handling of a sexual assault crisis but carries no concrete consequences; <a href=\"https://www.devdiscourse.com/article/international/4003035-reuters-world-news-summary\">Reuters reports</a>.",
+      "<strong>Vitamin K refusals draw scrutiny.</strong> Two studies found rising dangerous infant bleeding alongside increased refusal of protective newborn doses; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>.",
+      "<strong>Hospitals prepare for pressure.</strong> U.S. operators anticipate revenue challenges from insurance coverage losses and Medicaid funding changes; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>.",
+      "<strong>FDA examines gene therapy risk.</strong> The agency is investigating tumor formation associated with Novartis’ Zolgensma after two reported cases; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>."
+    ],
+    "Money & markets": [
+      "<strong>Humana lifts profit guidance.</strong> Lower medical costs supported the insurer’s stronger annual forecast; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>.",
+      "<strong>Lilly reaches a telehealth agreement.</strong> Hims & Hers will offer Lilly obesity medicines directly rather than send patients to a separate platform; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>.",
+      "<strong>Dental startup targets a listing.</strong> Switzerland’s vVardis is seeking a valuation of up to $4.37 billion in a U.S. offering; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>.",
+      "<strong>Cigna raises annual forecast.</strong> The health company cited growth in insurance, specialty pharmacy and health services; <a href=\"https://www.devdiscourse.com/article/international/4003100-reuters-health-news-summary\">Reuters reports</a>."
+    ],
+    "Future frontiers": [
+      "<strong>Octopuses adapt to tighter gaps.</strong> Scientists mapped changing movement strategies that could inform robots designed for confined spaces; <a href=\"https://www.devdiscourse.com/article/international/4003097-reuters-science-news-summary\">Reuters reports</a>.",
+      "<strong>Ancient cannabis evidence emerges.</strong> Researchers found seeds and chemical traces in human hair at a Siberian burial site; <a href=\"https://www.devdiscourse.com/article/international/4003097-reuters-science-news-summary\">Reuters reports</a>.",
+      "<strong>An unusual beak gets examined.</strong> Research describes how an endangered Hawaiian honeycreeper uses its body and beak to find larvae; <a href=\"https://www.devdiscourse.com/article/international/4003097-reuters-science-news-summary\">Reuters reports</a>.",
+      "<strong>China adopts Antarctic legislation.</strong> The new law covers scientific activities and environmental protection in the region; <a href=\"https://www.devdiscourse.com/article/international/4003097-reuters-science-news-summary\">Reuters reports</a>."
+    ],
+    "The score": [
+      "<strong>Lakers beat Portland 124 to 118.</strong> Luka Doncic’s 53 points included a long heave before halftime; <a href=\"https://www.cadillacnews.com/ap/sports/ap-sports-summarybrief-at-2-49-a-m-est/article_b83fe39f-2d35-58a9-8d1d-974bc4d98337.html\">AP reports</a>.",
+      "<strong>Arizona defeats TCU 29 to 28.</strong> A field goal with 39 seconds left followed a recovered onside kick; <a href=\"https://www.cadillacnews.com/ap/sports/ap-sports-summarybrief-at-2-49-a-m-est/article_b83fe39f-2d35-58a9-8d1d-974bc4d98337.html\">AP reports</a>.",
+      "<strong>New Mexico beats Nevada 31 to 3.</strong> The Lobos won their first game after entering the AP rankings; <a href=\"https://www.cadillacnews.com/ap/sports/ap-sports-summarybrief-at-2-49-a-m-est/article_b83fe39f-2d35-58a9-8d1d-974bc4d98337.html\">AP reports</a>.",
+      "<strong>UConn tops Michigan 85 to 77.</strong> Braylon Mullins scored 23 points in the NCAA championship rematch; <a href=\"https://www.cadillacnews.com/ap/sports/ap-sports-summarybrief-at-2-49-a-m-est/article_b83fe39f-2d35-58a9-8d1d-974bc4d98337.html\">AP reports</a>."
+    ],
+    "Life & culture": [
+      "<strong>A Syrian journey reaches the screen.</strong> One in a Million follows refugee Israa over a decade and across eight countries; <a href=\"https://www.devdiscourse.com/article/international/4003099-reuters-entertainment-news-summary\">Reuters reports</a>.",
+      "<strong>A director revisits childhood.</strong> Takashi Yamazaki’s Godzilla Minus Zero brings monster destruction to his hometown of Matsumoto; <a href=\"https://www.devdiscourse.com/article/international/4003099-reuters-entertainment-news-summary\">Reuters reports</a>.",
+      "<strong>Club Kid reveals another side.</strong> Jordan Firstman says his directorial debut reflects his more sensitive and emotional personality; <a href=\"https://www.devdiscourse.com/article/international/4003099-reuters-entertainment-news-summary\">Reuters reports</a>.",
+      "<strong>A familiar cat gets new company.</strong> The animated Cat in the Hat combines Dr. Seuss’s story with additional characters; <a href=\"https://www.devdiscourse.com/article/international/4003099-reuters-entertainment-news-summary\">Reuters reports</a>."
+    ]
+  },
+  "qa_notes": {
+    "status": "LOCAL_EDITORIAL_AND_PHOTO_INPUTS_VERIFIED; not published or scheduled",
+    "source_review": "Fresh original pages opened after11:00UTC; no early cancelled copy used.",
+    "uncertainties": [
+      "Moving election count must be rechecked before scheduling; no final winner asserted.",
+      "Kyiv casualty reports differ; no casualty number printed.",
+      "S&P500 close differs across reports; no exact S&P500 close printed.",
+      "Current reporting about prior-day developments is new selection, not yesterday's newsletter copy."
+    ],
+    "photo_review": "Fourteen unique Unsplash images opened/licensed/visually reviewed by photo helper and independently visually inspected in a single14-image batch by editorial helper. File/context alts are truthful."
+  },
+  "date_line": "Saturday, November 7, 2026 · 6 min read",
+  "brand": "thedailyskim",
+  "source_web_sha256": "34fe33b8eacf45c93194e0f827204aafe9b2e99974d2adb37fe37014830d0c0a"
+}
