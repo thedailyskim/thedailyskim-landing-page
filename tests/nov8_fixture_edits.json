@@ -1,0 +1,30 @@
+{
+  "tests/test_site.py": [
+    [
+      "'editions/2026-11-07.html','editions/2026-11-06.html','editions/2026-11-05.html',",
+      "'editions/2026-11-08.html','editions/2026-11-07.html','editions/2026-11-06.html','editions/2026-11-05.html',"
+    ],
+    [
+      "href=\"editions/2026-11-07.html#',home)),5)",
+      "href=\"editions/2026-11-08.html#',home)),5)"
+    ],
+    [
+      "self.assertEqual(count,8)",
+      "self.assertEqual(count,9)"
+    ],
+    [
+      "self.assertEqual(cases,42)",
+      "self.assertEqual(cases,49)"
+    ]
+  ],
+  "tests/test_nov7_site.py": [
+    [
+      "            self.assertTrue(rows[0][\"url\"].endswith(f\"editions/{DATE}.html\"))\n            self.assertEqual(rows[0][\"description\"], EXPECTED[\"description\"])\n            title = \"\\n\".join(rows[0][\"title\"]) if isinstance(rows[0][\"title\"], list) else rows[0][\"title\"]",
+      "            matches = [r for r in rows if r[\"url\"].endswith(f\"editions/{DATE}.html\")]\n            self.assertEqual(len(matches), 1, \"Preserved Nov7 card must remain unique\")\n            row = matches[0]\n            self.assertEqual(row[\"description\"], EXPECTED[\"description\"])\n            title = \"\\n\".join(row[\"title\"]) if isinstance(row[\"title\"], list) else row[\"title\"]"
+    ],
+    [
+      "for before, after in FIXTURE_EDITS[BRAND].get(path, []):",
+      "for before, after in FIXTURE_EDITS[BRAND].get(path, []) + json.loads((ROOT / \"tests/nov8_fixture_edits.json\").read_text()).get(path, []):"
+    ]
+  ]
+}
