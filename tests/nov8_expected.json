@@ -14,7 +14,7 @@
       ],
       "region": "us",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/architectural-photography-of-trial-court-interior-view-HpmDAS1Dozs",
         "alt": "Empty law school courtroom; illustrative file photo.",
         "verified": true
@@ -29,7 +29,7 @@
       ],
       "region": "world",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1529079688486-feaa9f516c9a?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1529079688486-feaa9f516c9a?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/beige-concrete-building-AFuIPTsaR-0",
         "alt": "Historic Jerusalem stone walls and ruins; file photo.",
         "verified": true
@@ -44,7 +44,7 @@
       ],
       "region": "world",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1560782205-4dd83ceb0270?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1560782205-4dd83ceb0270?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/wet-road-close-up-photography-MQjJHTT-diQ",
         "alt": "Rainwater in a Cincinnati pothole; illustrative file photo.",
         "verified": true
@@ -59,7 +59,7 @@
       ],
       "region": "world",
       "photo": {
-        "image_url": "https://images.unsplash.com/photo-1687273705305-d8ff89951fdc?auto=format&fit=crop&w=1280&h=720&q=85",
+        "image_url": "https://images.unsplash.com/photo-1687273705305-d8ff89951fdc?fm=jpg&fit=crop&w=1280&h=720&q=85",
         "original_url": "https://unsplash.com/photos/a-car-driving-down-a-street-with-a-mountain-in-the-background-xQmduy11yRA",
         "alt": "Mount Fuji above street lamps; contextual Japan file photo.",
         "verified": true
@@ -77,7 +77,7 @@
     ],
     "region": "world",
     "photo": {
-      "image_url": "https://images.unsplash.com/photo-1674246145742-c6e4563d94cb?auto=format&fit=crop&w=1280&h=720&q=85",
+      "image_url": "https://images.unsplash.com/photo-1674246145742-c6e4563d94cb?fm=jpg&fit=crop&w=1280&h=720&q=85",
       "original_url": "https://unsplash.com/photos/a-street-light-and-a-building-with-two-towers-7XV2wtTl8dY",
       "alt": "St Mary Basilica towers in Krakow; file photo.",
       "verified": true
@@ -149,5 +149,5 @@
   },
   "date_line": "Sunday, November 8, 2026 · 6 min read",
   "brand": "thedailyskim",
-  "source_web_sha256": "9cfa4002849a5cbb9682c2fa7b3f508f7cb271d2483c757ebabf4fef47594af2"
+  "source_web_sha256": "a9b51ac503e1ede2d074d15ad3b34314c9a453c64b122f3534b2b4b47bf42df8"
 }
