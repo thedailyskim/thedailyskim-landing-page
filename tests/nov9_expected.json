@@ -1,0 +1,281 @@
+{
+  "brand": "thedailyskim",
+  "date": "2026-11-09",
+  "old": "2026-11-08",
+  "content": {
+    "title": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
+    "subject": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
+    "preview_text": "A corporate inquiry, an early heart repair study and the practical stakes of climate talks.",
+    "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt’s train collision and AI’s power equipment squeeze.",
+    "contents_extra": "A deadly train collision, AI’s electricity squeeze, trivia and your poll",
+    "stories": [
+      {
+        "topic": "nvidia-huang-board-foreign-intelligence-investigation",
+        "title": "Nvidia Opens a Board Inquiry as China Rejects Spying Allegations",
+        "region": "us",
+        "paragraphs": [
+          "Nvidia’s board announced an independent investigation Sunday into reports that CEO Jensen Huang was targeted by foreign intelligence. <a href=\"https://apnews.com/article/nvidia-jensen-huang-investigation-chinese-spy-68839e7ca6ba2b121529f7e475e501d6\">AP reports that Huang will remain CEO during the review</a>. The board said it had no reason to believe national security or company secrets were compromised.",
+          "China’s Foreign Ministry rejected the allegations Monday, calling them unsubstantiated. <a href=\"https://apnews.com/article/china-denies-spy-jensen-huang-nvidia-3345b9f05c54d58909e88f6dcb9c1cd8\">AP reports that Huang acknowledged an intimate relationship with a business executive</a>. The New York Times reported that U.S. intelligence identified the woman as gathering information for Beijing. That allegation remains the subject of the company’s inquiry."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1706954867029-3798018ae194?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/a-close-up-of-a-computer-processor-on-a-table-6T_Yvxw2z9Q",
+          "alt": "Nvidia graphics card; file photo, uploaded 2024.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "cambridge-mrna-heart-muscle-repair-mouse-study-nov9",
+        "title": "An Experimental Treatment Helps Injured Mouse Hearts Repair",
+        "region": "world",
+        "paragraphs": [
+          "A new mouse study offers an early route toward repairing heart muscle after a heart attack. <a href=\"https://www.cam.ac.uk/stories/treatment-promotes-repair-after-heart-attack\">Cambridge researchers report that temporary mRNA treatment stimulated heart cells to divide</a>. Treated mice pumped about 10% more blood per heartbeat than mice receiving a mock treatment, according to the university.",
+          "The treatment temporarily activates proteins called Myc and cyclin T1. <a href=\"https://www.nature.com/articles/s44161-026-00910-7\">The study in Nature Cardiovascular Research describes repair and improved function in mice</a>. Researchers still need studies in larger animals and then humans. These findings do not establish a safe or effective treatment for people with heart failure."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1582719471425-ab68645ba31d?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/person-holding-black-round-plate-E9Ucfek-Lp0",
+          "alt": "Laboratory samples; contextual file photo, uploaded 2020.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "cop31-antalya-opening-implementation-finance-nov9",
+        "title": "Climate Talks Open With Pressure to Turn Promises Into Action",
+        "region": "world",
+        "paragraphs": [
+          "COP31 opened Monday in Antalya, Turkey, with delegates under pressure to implement climate commitments after another year of destructive weather. <a href=\"https://apnews.com/article/turkey-cop31-summit-climate-change-edd587ab19f3b57848b50f9dc724ba82\">AP reports that Turkey is hosting while Australia leads negotiations</a>. The conference runs through Nov. 20, with financing for poorer countries among the central disputes.",
+          "The energy debate also concerns how quickly countries can replace fossil fuels with electricity from cleaner sources. <a href=\"https://apnews.com/article/cop31-climate-change-turkey-energy-power-grids-6e78fb86160d6cabe12f245307706cf4\">AP reports that outdated grids are obstructing renewable energy deployment</a>. Installing generation alone is not enough when networks cannot absorb the supply. The talks face both diplomatic disagreements and physical infrastructure constraints."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1713885638833-6541c5ad5a34?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/a-sandy-beach-with-mountains-in-the-background-FHssDauBEwU",
+          "alt": "Antalya coast; file photo, uploaded 2024.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "egypt-al-ayyat-nov8-train-collision-investigation",
+        "title": "Egypt Investigates a Train Collision That Killed 7 Near Cairo",
+        "region": "world",
+        "paragraphs": [
+          "2 trains collided Sunday in al Ayyat, south of Cairo. <a href=\"https://apnews.com/article/egypt-train-crash-giza-collision-cairo-injuries-4ad591268ce015d85ae302e22185b235\">AP reports that 7 people were killed and at least 125 were injured</a>, citing Egyptian authorities. Investigators arrived Sunday night. An initial inspection indicated that a moving train struck the rear of another train standing on the same track.",
+          "Rescuers and nearby residents pulled passengers from damaged carriages while emergency teams worked to clear the wreckage. <a href=\"https://www.aljazeera.com/news/2026/11/8/train-crash-kills-four-injures-dozens-near-egypts-cairo-city\">Al Jazeera reported more than 125 injured and said the president ordered an urgent investigation</a>. The reports do not establish responsibility for the collision."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1589835479361-c81e5d44a77b?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/uXDuOXe9rps",
+          "alt": "Desert railway trestle; contextual file photo, uploaded 2020.",
+          "verified": true
+        }
+      }
+    ],
+    "deep_dive": {
+      "topic": "ai-data-center-used-gas-turbine-power-equipment-shortage-nov9",
+      "title": "Why AI Developers Are Searching for Used Turbines and Retired Jet Engines",
+      "region": "us",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1680796261004-cb56372e3599?fm=jpg&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/a-large-blue-machine-in-a-large-building-rYxeAIFYqNQ",
+        "alt": "Historic generator; contextual file photo, uploaded 2023.",
+        "verified": true
+      },
+      "paragraphs": [
+        "<strong>What happened.</strong> Utilities and data center developers are searching for used gas turbines and engines adapted from aircraft. <a href=\"https://www.channelnewsasia.com/business/analysisai-power-rush-sends-data-centres-hunting-used-turbines-and-jet-engines-6535516\">Reuters reports that delivery discussions for new U.S. equipment now center on 2030 and 2031</a>. Its Monday analysis draws on brokers, service companies and suppliers. Developers are also reviving idle machinery rather than waiting for new units to arrive.",
+        "<strong>Why it matters.</strong> The shortage reaches beyond technology companies to utilities that need more generating capacity. <a href=\"https://live.euronext.com/en/financial-news/analysis-ai-power-rush-sends-data-centres-hunting-used-turbines-and-jet-engines\">Reuters cites worldwide turbine orders above 100 gigawatts against estimated global production capacity of 60 to 70 gigawatts</a>. Wood Mackenzie puts average U.S. delivery waits at 6 years. Equipment prices have also risen sharply, according to the Tennessee Valley Authority.",
+        "<strong>What each side says.</strong> Equipment suppliers describe a busy secondary market and rising demand for refurbished machines. But analysts question how much relief it can provide. <a href=\"https://www.channelnewsasia.com/business/analysisai-power-rush-sends-data-centres-hunting-used-turbines-and-jet-engines-6535516\">Enverus analyst Noor Qureshi told Reuters that limited surplus equipment is unlikely to offset a meaningful share of delays</a>. Used turbines can also carry uncertain maintenance histories and limited remaining operating life.",
+        "<strong>What comes next.</strong> More manufacturing capacity is planned, but analysts still expect demand to exceed supply in 2028. Developers are assembling combinations of smaller machines and considering gas engines instead of turbines. <a href=\"https://live.euronext.com/en/financial-news/analysis-ai-power-rush-sends-data-centres-hunting-used-turbines-and-jet-engines\">Reuters reports that air permits and grid access remain separate obstacles</a>. Securing a generator therefore does not by itself resolve every constraint on a project."
+      ]
+    },
+    "briefing": {
+      "World view": [
+        "<strong>New Zealand waits for final results.</strong> Incoming lawmakers are preparing for parliament while coalition negotiations await the final count; <a href=\"https://sightmagazine.com.au/news/new-zealands-new-lawmakers-start-to-arrive-at-parliament-as-government-remains-in-limbo-after-election/\">Reuters reports</a>.",
+        "<strong>Saudi Arabia reports interceptions.</strong> Officials said falling debris damaged an Aramco building in Riyadh without casualties at the facility; <a href=\"https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60\">AP reports</a>.",
+        "<strong>A ship’s crew reaches safety.</strong> The UAE said it rescued 22 people after a cargo ship fire in the Sea of Oman; <a href=\"https://apnews.com/article/mideast-news-november-8-2026-090d96e25872f5c63e105b9dd3e5dc60\">AP reports</a>.",
+        "<strong>Ukraine reports power disruptions.</strong> Its deputy energy minister said Russian attacks left some consumers without electricity across 12 regions; <a href=\"https://www.thehindu.com/news/international/russia-hits-power-stations-in-ukraine-vessel-in-black-sea/article71681628.ece\">Reuters reports</a>."
+      ],
+      "Need to know": [
+        "<strong>Congress returns Monday.</strong> Lawmakers face a government funding deadline in December before the new Congress takes office in January; <a href=\"https://apnews.com/article/midterm-elections-congress-new-lawmakers-231d18d536141d9c19ac7e8cfca66eec\">AP reports</a>.",
+        "<strong>Reservoir gains have limits.</strong> Lake Powell has risen more than 20 feet from September’s low, but the region remains in drought; <a href=\"https://apnews.com/article/flooding-nino-colorado-drought-river-southwest-water-a71ee754e28e2bb12a9687420ea1d5fb\">AP reports</a>.",
+        "<strong>Police announce a campus arrest.</strong> A suspect faces murder charges after a fatal shooting during Winston Salem State’s homecoming weekend; <a href=\"https://wtop.com/national/2026/11/police-2-shootings-at-winston-salem-state-during-homecoming-weekend-leave-1-dead/\">AP reports</a>.",
+        "<strong>A Utah hearing addresses trial timing.</strong> A judge is expected to set a date in Charlie Kirk’s killing; the defendant denies guilt; <a href=\"https://wtop.com/national/2026/11/a-utah-judge-is-expected-to-set-a-trial-date-in-charlie-kirks-killing/\">AP reports</a>."
+      ],
+      "Money & markets": [
+        "<strong>Global markets edge upward.</strong> Monday’s recovery remained fragile as Nvidia’s investigation renewed pressure on technology shares; <a href=\"https://live.euronext.com/en/financial-news/asian-stocks-bounce-ai-mideast-jitters-recede-dollar-firm-fed-bets\">Reuters reports</a>.",
+        "<strong>Inflation data arrive Tuesday.</strong> Investors await the U.S. consumer price report after strong employment figures reinforced expectations of higher interest rates; <a href=\"https://live.euronext.com/en/financial-news/asian-stocks-bounce-ai-mideast-jitters-recede-dollar-firm-fed-bets\">Reuters reports</a>.",
+        "<strong>CTP expands toward Vietnam.</strong> The logistics property operator agreed to buy assets for $500 million, subject to regulatory approval; <a href=\"https://live.euronext.com/en/financial-news/logistics-group-ctp-reaches-500-million-deal-expand-vietnam-clients-seek-china\">Reuters reports</a>.",
+        "<strong>Evonik resists BASF’s approach.</strong> Handelsblatt reported renewed opposition after weekend talks; both companies declined to comment on the meeting; <a href=\"https://live.euronext.com/en/financial-news/basf-evonik-management-held-talks-over-weekend-sources-say\">Reuters reports</a>."
+      ],
+      "Future frontiers": [
+        "<strong>A chip materials acquisition advances.</strong> Mitsui Chemicals announced a 1.84 trillion yen JSR purchase with Development Bank of Japan investment; <a href=\"https://www.channelnewsasia.com/business/mitsui-chemicals-buy-jsr-116-billion-dbj-backing-6535076\">Reuters reports</a>.",
+        "<strong>Researchers test PTSD screening.</strong> NYU says an AI tool flagged all 30 later cases within a study of 145 emergency patients; <a href=\"https://nyulangone.org/news/ai-predicts-ptsd-risk-based-stories-about-what-brought-patients-emergency-room\">the university reports</a>.",
+        "<strong>Clinical notes inform predictions.</strong> NYU’s Lang1 models were trained using records from more than 10 million patients to support healthcare decisions; <a href=\"https://nyulangone.org/news/ai-models-predictions-accurate-enough-quickly-improve-medical-decisions\">the university reports</a>.",
+        "<strong>Researchers unify physical simulations.</strong> MIT’s WorldParticle system models materials from sand to proteins using one AI architecture; <a href=\"https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109\">MIT reports</a>."
+      ],
+      "The score": [
+        "<strong>Cincinnati wins in Madrid.</strong> Joe Burrow threw 3 touchdown passes as the Bengals beat Atlanta 34 to 17; <a href=\"https://www.devdiscourse.com/article/international/4003789-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>Norris wins in Brazil.</strong> McLaren’s driver won the Sao Paulo Grand Prix as Mercedes secured the Formula One constructors’ title; <a href=\"https://www.devdiscourse.com/article/international/4003789-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>Gauff opens with a win.</strong> Coco Gauff defeated Jessica Pegula in 3 sets at the WTA Finals in Indian Wells; <a href=\"https://www.devdiscourse.com/article/international/4003789-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>Alcaraz takes the Paris title.</strong> Carlos Alcaraz beat Ben Shelton for his 5th title of the year; <a href=\"https://www.devdiscourse.com/article/international/4003789-reuters-sports-news-summary\">Reuters reports</a>."
+      ],
+      "Life & culture": [
+        "<strong>Godzilla leads the weekend.</strong> Godzilla Minus Zero opened with an estimated $31.6 million at North American theaters; <a href=\"https://wtop.com/national/2026/11/godzilla-minus-zero-stomps-to-a-record-setting-31-6-debut-clobbering-the-cat-in-the-hat/\">AP reports</a>.",
+        "<strong>Nepal celebrates dogs.</strong> Kukur Tihar brought garlands, ceremonial marks and treats honoring the animals’ loyalty; <a href=\"https://radionepalonline.com/en/2026/11/08/438492.html\">Radio Nepal reports</a>.",
+        "<strong>Harlem prepares a new museum.</strong> The Urban Civil Rights Museum will explore Northern civil rights history through permanent and rotating exhibitions; <a href=\"https://wtop.com/national/2026/11/few-museums-show-the-norths-civil-rights-movement-a-new-one-in-harlem-is-just-getting-started/\">AP reports</a>.",
+        "<strong>Kabul’s fortress reveals earlier lives.</strong> Conservation at Bala Hissar has uncovered monastery remains, coins and ceramics; <a href=\"https://apnews.com/article/afghanistan-bala-hissar-fortress-culture-conservation-taliban-0e5cbce05081844cfcfd3aeb0e787e45\">AP reports</a>."
+      ]
+    },
+    "trivia": {
+      "question": "Which proteins does the experimental heart repair treatment temporarily activate?",
+      "options": [
+        "Myc and cyclin T1",
+        "Insulin and glucagon",
+        "Collagen and keratin",
+        "Hemoglobin and albumin"
+      ],
+      "correct_letter": "A",
+      "explanation": "A. Myc and cyclin T1. <a href=\"https://www.nature.com/articles/s44161-026-00910-7\">The mouse study temporarily activates these proteins to stimulate heart muscle cell division</a>."
+    },
+    "poll": {
+      "question": "Should data center developers fund the power infrastructure their projects require?",
+      "slug": "data-center-power-infrastructure-funding"
+    },
+    "qa_notes": {
+      "status": "LOCAL_VERIFIED_EDITORIAL_INPUTS_ONLY; parent review and release required",
+      "unresolved_points": [
+        "Nvidia spying allegations are disputed; the independent inquiry has not established that company or national security secrets were compromised.",
+        "Cambridge research concerns mice, not a demonstrated therapy for patients.",
+        "Egypt injury reporting uses different lower bound wording: AP says at least 125; Al Jazeera says more than 125. Each source’s qualification is retained separately.",
+        "Two AI power deep dive URLs carry the same Reuters analysis, not independent confirmation. Credit remains Reuters.",
+        "The NYU PTSD press release does not provide a false positive rate. The brief states the sample and observed case detection, not general diagnostic accuracy.",
+        "Market direction is from the opened Reuters 12:01 UTC update, not a predicted opening or closing value.",
+        "The Harlem museum is upcoming. No claim is made that it already opened."
+      ],
+      "photo_review": "Original Unsplash pages and standard license opened, all five actual JPEGs visually inspected. Railway and generator are explicitly contextual file photographs."
+    },
+    "date_line": "Monday, November 9, 2026 · 6 min read"
+  },
+  "base_tree": "ec5283a99ce7f8bddab1f0006ffc5402e097cb97",
+  "immutable_fingerprint": "ebfca08544acd4622ce479862b032f37f9428a73a084b9b238ce242ddfdc79aa",
+  "baseline": {
+    "files": {
+      "skim.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "styles.css": "cd7bc8e40ef0c9fe7a7d8bc5cfad5e0e21898d7c61b6865db6675ad4944111a9",
+      "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
+      "thanks.html": "35ca39337c8f3e89cb291dfa4242006c5eee1a681db8749bb731908d378f2c0e",
+      "index.html": "f39e2438dabceb6e638340b9f19cb4946bba612063abd9d50f316f33a5556ccf",
+      "privacy.html": "ae1ee904f16cf7cf16b2be42a0136b9175ef8f5435ee2ee352ee956e1c16c408",
+      "terms.html": "5d3b5be26de64b7935c34bef5220846fc40abb6369832541990c4bfd235863d1",
+      "email/2026-11-03-email.html": "69030338231d359ce17c6e48c30d3763a3b7100740f28ebc06380b9c067453f2",
+      "email/logo.png": "5c8b19143ff3b3c8e5efa4398f2ea5db73b95b5d5ea14328ae44dbcdab7b0fac",
+      "email/polls.js": "d3971bb4315da1dd8cd05180bf364c3c123540372a6af7808c8ea61af723bf73",
+      "email/thanks.html": "b51feedb6dc6c69822154e429d44c8c8020a8e2982528eae96c7919ee55eb582",
+      "editions/edition.css": "ccd1a537b6cb03945474107488b97c0e6ba5ea85bc13ba27343cf7286e3944b9",
+      "editions/2026-11-08.html": "8808d6a6ed614c44f202ba53d85412ca415e51d2b6283ec40e8c8a234718bf9c",
+      "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+      "editions/2026-11-03.html": "a28f7cb4454a939df3ae536b34c97279d225ecab864c4a50d798f290fc498bc2",
+      "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+      "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+      "editions/2026-11-05.html": "445e92043e91a556989d43b647bc5d6ce2676ab53b41f6fa36748768f9be6e88",
+      "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3",
+      "tests/nov8_fixture_edits.json": "41490e6465e4cb21495bc944b7de1e0f7fedab6732af6562391605ceb8ffcc48",
+      "tests/test_nov8_site.py": "a2ab69f01eadfc0128624106e5547737e951e0c74db4f1cacd351da5db7bf676",
+      "tests/nov7_expected.json": "b4d8a967698566a9f24b3077d6196a0e2f5ca296dc00a19e03746014c39502b5",
+      "tests/test_nov7_site.py": "3d92392ae15a4db38a992367d99ab5d4d443c167825930672fb07616cb2433e2",
+      "tests/nov8_expected.json": "d899c23edc04590300f67c1fb7a5ad17867af932e12fb4015e9d2ac43cbab93e",
+      "tests/polls.browser.cjs": "7d9c8f19114394e1121bf0c955185aa42d7de516d7a0e52b0940aed6a0a08479",
+      "tests/test_site.py": "1e047d77c7f5a646ff12339efabc6c68aed8570747ad2235fbade7f910c2fbb8"
+    },
+    "nov8_without_nav_sha256": "8ea652bc9d1c92ebee83dbfb7ec8d46726eb409394dbbd74537d1a1b0ce0a7ed",
+    "frozen_nov9_normalized_sha256": "f390e7b0f382d22d81e5e395e02ace0a669b832e5bb45668b8d81ebce945a822",
+    "frozen_first_image": "https://images.unsplash.com/photo-1706954867029-3798018ae194?fm=jpg&fit=crop&w=1280&h=720&q=80",
+    "homes": {
+      "index.html": {
+        "config": {
+          "editions": [
+            {
+              "title": "Trump Orders a DOJ Review.\nIsrael Faces Coalition Talks.\nJapan Assesses Quake Damage.",
+              "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland’s investigation.",
+              "url": "editions/2026-11-08.html",
+              "date": "Sun, Nov 8",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+              "description": "Measles cases exceed 5,000, technology shares regain ground and new U.S. strikes come as Qatar continues Iran mediation.",
+              "url": "editions/2026-11-07.html",
+              "date": "Sat, Nov 7",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Tesla Plans a Factory Shift. Raman Inherits an Olympic Host City. Cash Buyers Skew Older.",
+              "description": "Tesla plans factory changes, Los Angeles chooses a new mayor, and cash buyers reveal a widening gap in access to homes.",
+              "url": "editions/2026-11-06.html",
+              "date": "Fri, Nov 6",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=800&h=450&fit=crop&q=80&crop=entropy"
+            },
+            {
+              "title": "Democrats are projected to take Congress. Tankers burn near Hormuz. Indonesia fires a top aide.",
+              "description": "Democrats are projected to win both chambers of Congress, Iran says four tankers hit mines near Hormuz, and Indonesia's president fires his chief of staff.",
+              "url": "editions/2026-11-05.html",
+              "date": "Thu, Nov 5",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1775147514417-b9b6d50c7b69?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "America votes today on Congress and 145 ballot measures. Your health insurance is about to cost more. And Netflix wants to read your mood.",
+              "description": "Control of Congress is on the ballot today along with 145 state measures, Obamacare premiums are set to climb, and Netflix starts picking shows by mood.",
+              "url": "editions/2026-11-03.html",
+              "date": "Tue, Nov 3",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Niño is flooding the Southwest.",
+              "description": "Signs that Iran is open to peace talks knocked oil to its steepest one day drop in months, Sen. Chris Murphy had a stroke, and storms drenched the desert Southwest.",
+              "url": "editions/2026-11-02.html",
+              "date": "Mon, Nov 2",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "Wall Street had its worst day since June. A judge ended Trump's WSJ lawsuit. And Milwaukee got its parade.",
+              "description": "AI worries sent tech stocks and Intel tumbling, a federal judge ended Trump's case against The Wall Street Journal, and Milwaukee threw its first World Series parade.",
+              "url": "editions/2026-11-01.html",
+              "date": "Sun, Nov 1",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&h=450&fit=crop&crop=entropy&q=80"
+            }
+          ]
+        },
+        "locked": {
+          "style": [
+            "ea66e3bdca5a60949c3630f53b97922af4b8a7d1767e8393e3bf5c0af1e6e1f5"
+          ],
+          "header": [
+            "357bb27c3df9ea4acbd34b2d41f1f8adfb425f5388d77479500be000ec4f44e2"
+          ],
+          "form": [
+            "df097d82ee31dc4721a6f9ffa66a6cac2e806327f1cea77d0485952c5fb3d206",
+            "663b0151663299226f27fb6473632e6e7b26b2297444a74ed3687a3a0ecb52f5"
+          ],
+          "scripts": [
+            "ad45710e928dd09ee0a6d0608f97811a84ab5a574e29f352d84b89ad6bf2dc73",
+            "325d99e43e4ffa840e5146494502eec766422c44a99c8c8f6c375e5f26e4e970"
+          ],
+          "topics": "c3fda37668c6f3ef1914069ac9ad816446663f2a31739691b2d3c661f192c70c",
+          "route_nov9": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        }
+      }
+    }
+  },
+  "fixture_file_sha256": {
+    "tests/test_site.py": "3501afda8ba15434b714a2ef86719c0c287785c4cd34ef107754c1e2d3e0b486",
+    "tests/test_nov7_site.py": "d900542eba780221b5736598f15363bd129cd852c55c5f0d13ce09595450fb54",
+    "tests/test_nov8_site.py": "77a1f188a7e8a243622c7c62fd9c39f7ffac3af81b58378597506f918ffe9ce5"
+  },
+  "fixture_edits_sha256": "00029464da037cccc86a4b8e309aff65017da916e1af48193f583517a6bc160c"
+}
