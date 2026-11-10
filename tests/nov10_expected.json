@@ -103,7 +103,7 @@
       "Money & markets": [
         "<strong>SoftBank posts a $7 billion loss.</strong> The quarterly loss contrasts with a large profit a year earlier tied to its OpenAI stake; <a href=\"https://www.investing.com/news/stock-market-news/softbank-swings-to-7-billion-net-loss-in-second-quarter-5014234\">Reuters reports</a>.",
         "<strong>Oil slips below $90.</strong> Global stocks rose Tuesday on hopes of U.S. and Iran peace talks; <a href=\"https://www.business-standard.com/markets/news/world-stocks-rise-as-oil-slips-below-90-on-hopes-of-us-iran-peace-talks-126111000408_1.html\">Business Standard reports</a>.",
-        "<strong>Inflation data arrive Tuesday.</strong> Economists expect consumer prices rose 0.3% in October after a 0.6% jump in September; <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">Reuters reports</a>.",
+        "<strong>October prices rise 0.4%.</strong> Consumer prices rose 0.4% in October after a 0.6% increase in September; core prices rose 0.3%, seasonally adjusted, <a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">the Bureau of Labor Statistics reports</a>.",
         "<strong>Skydance details cost cuts.</strong> The company targets $6 billion in savings and plans an HBO Max and Paramount+ bundle; <a href=\"https://www.devdiscourse.com/article/international/4004264-reuters-entertainment-news-summary\">Reuters reports</a>."
       ],
       "Future frontiers": [
@@ -190,7 +190,7 @@
       "tests/test_site.py": "3501afda8ba15434b714a2ef86719c0c287785c4cd34ef107754c1e2d3e0b486"
     },
     "nov9_without_nav_sha256": "f390e7b0f382d22d81e5e395e02ace0a669b832e5bb45668b8d81ebce945a822",
-    "frozen_nov10_normalized_sha256": "48baa93bd1b49868d19c7fb50328d6375e3a43cb3e18ceee93d8714914808366",
+    "frozen_nov10_normalized_sha256": "11f0981bdc296348344637e1cb0c11186cf0d69ec2832d1e11c9baed38137944",
     "frozen_first_image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=80",
     "homes": {
       "index.html": {
@@ -316,5 +316,23 @@
         }
       }
     }
+  },
+  "cpi_revision": {
+    "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "parent_approved": true,
+    "web_changes": {
+      "editions/2026-11-10.html": {
+        "before_sha256": "985bb6261c41e26df9adc9f85b136b4d7e33a8a56de30627c84d197925a005b5",
+        "after_sha256": "149109ec6409f033bbd444b861e473fd7394c17c3bf136d44924c9b466d800aa",
+        "replacements": [
+          {
+            "old": "<strong>Inflation data arrive Tuesday.</strong> Economists expect consumer prices rose 0.3% in October after a 0.6% jump in September; <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">Reuters reports</a>.",
+            "new": "<strong>October prices rise 0.4%.</strong> Consumer prices rose 0.4% in October after a 0.6% increase in September; core prices rose 0.3%, seasonally adjusted, <a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">the Bureau of Labor Statistics reports</a>.",
+            "count": 1
+          }
+        ]
+      }
+    },
+    "immutable_build_unchanged": true
   }
 }

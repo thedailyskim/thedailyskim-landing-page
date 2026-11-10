@@ -1,0 +1,66 @@
+{
+  "brand": "thedailyskim",
+  "authority": "Parent explicit reviewed CPI patch Nov10; original today authorization1794314759.816279",
+  "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+  "baseline": {
+    "skim.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+    "styles.css": "cd7bc8e40ef0c9fe7a7d8bc5cfad5e0e21898d7c61b6865db6675ad4944111a9",
+    "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
+    "thanks.html": "35ca39337c8f3e89cb291dfa4242006c5eee1a681db8749bb731908d378f2c0e",
+    "index.html": "565d96fa99bce129997376625cb0f41c70ca4ff05b7821c8fecaad001cd4071e",
+    "privacy.html": "ae1ee904f16cf7cf16b2be42a0136b9175ef8f5435ee2ee352ee956e1c16c408",
+    "terms.html": "5d3b5be26de64b7935c34bef5220846fc40abb6369832541990c4bfd235863d1",
+    "email/2026-11-03-email.html": "69030338231d359ce17c6e48c30d3763a3b7100740f28ebc06380b9c067453f2",
+    "email/logo.png": "5c8b19143ff3b3c8e5efa4398f2ea5db73b95b5d5ea14328ae44dbcdab7b0fac",
+    "email/polls.js": "d3971bb4315da1dd8cd05180bf364c3c123540372a6af7808c8ea61af723bf73",
+    "email/thanks.html": "b51feedb6dc6c69822154e429d44c8c8020a8e2982528eae96c7919ee55eb582",
+    "editions/edition.css": "ccd1a537b6cb03945474107488b97c0e6ba5ea85bc13ba27343cf7286e3944b9",
+    "editions/2026-11-09.html": "84a92dd351ae26b9cf2f0d769d195dcf320a9ebd55c4541f5a21fbd89be56eac",
+    "editions/2026-11-10.html": "985bb6261c41e26df9adc9f85b136b4d7e33a8a56de30627c84d197925a005b5",
+    "editions/2026-11-08.html": "ce935fb69ea7f55f319c2f07c83e1beeee3998d84a381eb456d46216f18b9df0",
+    "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+    "editions/2026-11-03.html": "a28f7cb4454a939df3ae536b34c97279d225ecab864c4a50d798f290fc498bc2",
+    "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+    "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+    "editions/2026-11-05.html": "445e92043e91a556989d43b647bc5d6ce2676ab53b41f6fa36748768f9be6e88",
+    "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3",
+    "tests/nov8_fixture_edits.json": "41490e6465e4cb21495bc944b7de1e0f7fedab6732af6562391605ceb8ffcc48",
+    "tests/test_nov8_site.py": "77a1f188a7e8a243622c7c62fd9c39f7ffac3af81b58378597506f918ffe9ce5",
+    "tests/nov10_expected.json": "edfaca35fa078b9c7ce0ee260d569dac12d7ddb828c8902c012ce8aa432662c1",
+    "tests/nov10_hyphen_revision.json": "0bc62edb45d97ac93c9196e5b729f04379fcfd47bafdb2ac0f5a963ccc34d880",
+    "tests/test_nov9_site.py": "d3b6b200253f4262e006d78f19659eabc7b3e49e2fa4285af70e093410ee243b",
+    "tests/nov7_expected.json": "b4d8a967698566a9f24b3077d6196a0e2f5ca296dc00a19e03746014c39502b5",
+    "tests/nov10_fixture_edits.json": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7",
+    "tests/test_nov7_site.py": "d900542eba780221b5736598f15363bd129cd852c55c5f0d13ce09595450fb54",
+    "tests/nov8_expected.json": "d899c23edc04590300f67c1fb7a5ad17867af932e12fb4015e9d2ac43cbab93e",
+    "tests/nov9_expected.json": "752e080ee71d80713e24f0ce82df2bf979d84ce159a87dd80b0821154c3977d7",
+    "tests/nov9_fixture_edits.json": "00029464da037cccc86a4b8e309aff65017da916e1af48193f583517a6bc160c",
+    "tests/test_nov10_hyphen_revision.py": "8507c3af550415964fbac9850430ab18222e4c597313d43aaeb37b21f9035fe7",
+    "tests/test_nov10_site.py": "98f001d87cf084974feb6ba1108c16415be379cd6526c803549460b540e72b12",
+    "tests/polls.browser.cjs": "7d9c8f19114394e1121bf0c955185aa42d7de516d7a0e52b0940aed6a0a08479",
+    "tests/test_site.py": "b808151f71653db14587b66b4aa1ffdac187ee9f2e6339684c879331ca5e37d5"
+  },
+  "allowed": [
+    "editions/2026-11-10.html",
+    "tests/nov10_cpi_revision.json",
+    "tests/nov10_expected.json",
+    "tests/test_nov10_cpi_revision.py",
+    "tests/test_nov10_site.py"
+  ],
+  "web_changes": {
+    "editions/2026-11-10.html": {
+      "before_sha256": "985bb6261c41e26df9adc9f85b136b4d7e33a8a56de30627c84d197925a005b5",
+      "after_sha256": "149109ec6409f033bbd444b861e473fd7394c17c3bf136d44924c9b466d800aa",
+      "replacements": [
+        {
+          "old": "<strong>Inflation data arrive Tuesday.</strong> Economists expect consumer prices rose 0.3% in October after a 0.6% jump in September; <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">Reuters reports</a>.",
+          "new": "<strong>October prices rise 0.4%.</strong> Consumer prices rose 0.4% in October after a 0.6% increase in September; core prices rose 0.3%, seasonally adjusted, <a href=\"https://www.bls.gov/news.release/cpi.nr0.htm\">the Bureau of Labor Statistics reports</a>.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "immutable_build_unchanged": true,
+  "esp_writes": false,
+  "poll_changes": false
+}
