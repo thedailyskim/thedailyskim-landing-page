@@ -1,0 +1,290 @@
+{
+  "brand": "thedailyskim",
+  "date": "2026-11-10",
+  "old": "2026-11-09",
+  "content": {
+    "title": "FDA Adds a Vision Warning to GLP 1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+    "subject": "FDA Adds a Vision Warning to GLP 1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+    "preview_text": "A rare eye risk gets a label, a weight loss pill posts trial results and a retracted IPO filing.",
+    "description": "The FDA adds a vision loss warning to GLP 1 drugs and Lilly reports sleep apnea results. Plus Anthropic’s IPO and Novaya Gazeta.",
+    "contents_extra": "Novaya Gazeta’s last day, new DNA screening rules, trivia and your poll",
+    "stories": [
+      {
+        "topic": "fda-glp1-naion-vision-loss-label-warning-nov10",
+        "title": "The FDA Orders a Rare Vision Loss Warning on GLP 1 Drugs",
+        "region": "us",
+        "paragraphs": [
+          "The FDA is requiring all GLP 1 drug labels to warn of a rare eye condition called NAION. <a href=\"https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential\">The agency says the condition can cause sudden, painless vision loss in one eye</a>. Its analysis of 126 trials found 6.4 cases per 100,000 person years on the drugs, versus 3.8 on comparators.",
+          "<a href=\"https://apnews.com/article/glp1-drugs-vision-loss-warning-d85a58ea769bc12cc1989e914a51f248\">AP reports the warning covers brands including Ozempic, Wegovy, Zepbound and Mounjaro</a>. The underlying cause is not understood, the FDA said. <a href=\"https://www.washingtonpost.com/health/2026/11/09/fda-tells-glp-1-makers-warn-potential-vision-loss-side-effect/\">The Washington Post reports that studies on the link have reached conflicting conclusions</a>. Novo Nordisk said its own trial analysis found no association, and Lilly said it was evaluating the update."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/a-semaglutide-injection-pen-is-shown-TzKc7FGaL7Y",
+          "alt": "Semaglutide injection pen; file photo, uploaded 2025.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "lilly-foundayo-orforglipron-sleep-apnea-attain-osa-nov10",
+        "title": "Lilly’s Weight Loss Pill Cuts Sleep Apnea Episodes in Trials",
+        "region": "us",
+        "paragraphs": [
+          "Eli Lilly said Monday that its oral drug Foundayo significantly reduced sleep apnea severity in two late stage studies. <a href=\"https://www.devdiscourse.com/article/international/4004259-reuters-health-news-summary\">Reuters reports the trial met its main goal and Lilly shares rose over 3%</a>. The <a href=\"https://www.fiercepharma.com/pharma/lilly-heads-fda-phase-3-foundayo-win-sleep-apnea\">program enrolled 712 adults</a> with overweight or obesity and moderate to severe obstructive sleep apnea.",
+          "<a href=\"https://www.fiercepharma.com/pharma/lilly-heads-fda-phase-3-foundayo-win-sleep-apnea\">Fierce Pharma reports episodes fell 43.8% among patients not using breathing machines</a>, compared with a smaller drop on placebo. Patients also lost about 11% of body weight. Stomach side effects were most common, and more Foundayo patients stopped treatment. Lilly plans to submit the data to the FDA by year end."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1585577529540-a8095ea25427?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/man-in-blue-shirt-sleeping-hfvFunLkFgg",
+          "alt": "A person asleep; contextual file photo, uploaded 2020.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "anthropic-ipo-pricing-filing-retracted-nov10",
+        "title": "Anthropic Retracts IPO Pricing Details Sent to Banks",
+        "region": "us",
+        "paragraphs": [
+          "Details of Anthropic’s planned IPO briefly reached banks late Monday before the company retracted them. <a href=\"https://www.devdiscourse.com/article/international/4004211-exclusive-anthropics-nearly-70-billion-ipo-plan-briefly-circulated-to-banks-then-retracted\">Reuters reports the filing showed about 867 million shares at $70 to $80 each</a>. That would raise about $69.3 billion at the top of the range. A follow up email called the pricing details inaccurate without saying what was wrong.",
+          "The original filing also listed $26 billion in planned investments from Google, Nvidia, Microsoft and other technology companies. <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">A Reuters markets column says a successful listing is seen as critical for the AI trade</a>. The roadshow was expected to begin Tuesday, with pricing the following week. Anthropic declined to comment."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1761233138997-44d9b002a08f?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/new-york-stock-exchange-building-with-american-flags-HpYTYo_jF2Y",
+          "alt": "New York Stock Exchange facade; file photo, uploaded 2025.",
+          "verified": true
+        }
+      },
+      {
+        "topic": "novaya-gazeta-moscow-newsroom-closure-nov9",
+        "title": "Novaya Gazeta Closes Its Moscow Newsroom After 33 Years",
+        "region": "world",
+        "paragraphs": [
+          "Russia’s Novaya Gazeta left its Moscow office Monday, citing relentless government pressure. <a href=\"https://apnews.com/article/russian-newspaper-media-novaya-gazeta-closure-01cca444cb9636ee74a57979b0dcd604\">AP describes it as the last major independent Kremlin critic still active inside Russia</a>. Founded in 1993, the paper has seen 6 of its journalists killed, including Anna Politkovskaya. Staff removed their portraits from the newsroom on the final day.",
+          "<a href=\"https://novayagazeta.eu/amp/en/articles/2026/11/09/this-isnt-goodbye-novaya-gazetas-staff-walk-out-of-its-moscow-office-for-the-last-time-en-news\">Novaya Gazeta Europe reports that editor Sergey Sokolov insisted this is not goodbye</a>. A new sign over the nameplate said the paper had lived there. Kremlin spokesperson Dmitry Peskov disputed that the era of independent Russian media is ending. He described Russian media as diverse and competitive."
+        ],
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1758562235074-c54b9f68af12?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/framed-black-and-white-portraits-on-a-shelf-Qm4RGuyBhyk",
+          "alt": "Framed portraits on a shelf; contextual file photo.",
+          "verified": true
+        }
+      }
+    ],
+    "deep_dive": {
+      "topic": "us-nucleic-acid-synthesis-screening-policy-federal-labs-nov10",
+      "title": "Why Federally Funded Labs Must Now Buy DNA From Screened Suppliers",
+      "region": "us",
+      "photo": {
+        "image_url": "https://images.unsplash.com/photo-1582560475093-ba66accbc424?fm=jpg&fit=crop&w=1280&h=720&q=85",
+        "original_url": "https://unsplash.com/photos/person-using-pipette-in-laboratory-wDxFn_dBEC0",
+        "alt": "Gloved hand pipetting lab samples; file photo, uploaded 2020.",
+        "verified": true
+      },
+      "paragraphs": [
+        "<strong>What happened.</strong> A new White House policy requires federally funded scientists to buy synthetic DNA and benchtop synthesizers only from approved suppliers. <a href=\"https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna\">Science reports vendors must verify customers and screen orders for dangerous sequences</a>. The policy was released Nov. 5 and replaces a voluntary system. Its requirements phase in over 340 days.",
+        "<strong>Why it matters.</strong> Officials and experts worry that artificial intelligence could make designing dangerous pathogens easier. <a href=\"https://factlen.com/news/u-s-ties-federal-funding-to-verified-dna-screening-to-counter-ai-biosecurity-ris-39502-aeb36aae\">Factlen reports the policy lowers the screening threshold to orders of 50 nucleotides</a>. The earlier industry protocol screened orders of 200 base pairs or longer. Benchtop machines must also receive verified authorization before printing.",
+        "<strong>What each side says.</strong> Stanford’s Drew Endy called the move from voluntary to verified screening a real step forward. <a href=\"https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna\">MIT’s Kevin Esvelt told Science that shorter fragments could still be ordered and stitched together</a>. Johns Hopkins expert Gigi Gronvall noted the rules cover only the United States. She also said existing benchtop machines are left out.",
+        "<strong>What comes next.</strong> NIST must issue screening and benchtop standards by day 90 of the timeline. <a href=\"https://factlen.com/news/u-s-ties-federal-funding-to-verified-dna-screening-to-counter-ai-biosecurity-ris-39502-aeb36aae\">Factlen reports health officials will publish a first list of adherent suppliers by day 160</a>. Endy questioned whether NIST has the money for the work. Esvelt said biosafety officers face added duties without extra funds."
+      ]
+    },
+    "briefing": {
+      "World view": [
+        "<strong>A high rise fire kills 14 in China.</strong> Xinhua said the blaze hit a building in Taiyuan, with 25 people still hospitalized; <a href=\"https://www.devdiscourse.com/article/international/4003940-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>Greece recovers 13 migrant bodies.</strong> The coast guard said 18 survivors were found aboard a boat spotted off Crete; <a href=\"https://www.devdiscourse.com/article/international/4003940-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>A steel plant blast hits Turkey.</strong> The governor’s office said 3 people died and 10 were missing near Izmir; <a href=\"https://www.devdiscourse.com/article/international/4003940-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>China’s trade surplus passes $1 trillion.</strong> October exports rose 35.2% as global AI building lifted demand for technology products; <a href=\"https://ca.investing.com/news/economy-news/chinas-trade-surplus-soars-past-1-trillion-as-ai-boom-powers-exports-4945297\">Reuters reports</a>."
+      ],
+      "Need to know": [
+        "<strong>A retrial looms for Lindsay Clancy.</strong> A Massachusetts judge rejected her bid to dismiss murder charges over her three children’s deaths; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>.",
+        "<strong>A watchdog faults a USDA overhaul.</strong> The report said the department lacked documentation analyzing potential harms of its reorganization; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>.",
+        "<strong>A screwworm gap draws scrutiny.</strong> Reuters examines how a shortage of sterile flies left U.S. cattle exposed to the pest; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>.",
+        "<strong>Congress weighs chip curbs.</strong> Lawmakers say Nvidia’s controversy raises the odds of tighter limits on AI chip sales to China; <a href=\"https://www.devdiscourse.com/article/international/4004137-nvidia-spy-allegations-likely-to-spur-laws-totighten-chinas-access-to-ai-chips\">Reuters reports</a>."
+      ],
+      "Money & markets": [
+        "<strong>SoftBank posts a $7 billion loss.</strong> The quarterly loss contrasts with a large profit a year earlier tied to its OpenAI stake; <a href=\"https://www.investing.com/news/stock-market-news/softbank-swings-to-7-billion-net-loss-in-second-quarter-5014234\">Reuters reports</a>.",
+        "<strong>Oil slips below $90.</strong> Global stocks rose Tuesday on hopes of U.S. and Iran peace talks; <a href=\"https://www.business-standard.com/markets/news/world-stocks-rise-as-oil-slips-below-90-on-hopes-of-us-iran-peace-talks-126111000408_1.html\">Business Standard reports</a>.",
+        "<strong>Inflation data arrive Tuesday.</strong> Economists expect consumer prices rose 0.3% in October after a 0.6% jump in September; <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">Reuters reports</a>.",
+        "<strong>Skydance details cost cuts.</strong> The company targets $6 billion in savings and plans an HBO Max and Paramount+ bundle; <a href=\"https://www.devdiscourse.com/article/international/4004264-reuters-entertainment-news-summary\">Reuters reports</a>."
+      ],
+      "Future frontiers": [
+        "<strong>The FDA rejects a cancer device.</strong> Novocure said regulators declined to approve Optune Mya for some lung cancer patients with brain tumors; <a href=\"https://www.devdiscourse.com/article/international/4004259-reuters-health-news-summary\">Reuters reports</a>.",
+        "<strong>This year ranks among the hottest.</strong> A UN report says 2026 is on track for one of the four hottest years on record; <a href=\"https://www.devdiscourse.com/article/international/4003940-reuters-world-news-summary\">Reuters reports</a>.",
+        "<strong>Data centers face a permitting test.</strong> A bipartisan energy bill is Congress’s first test on public anger over data centers and power costs; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>.",
+        "<strong>Perpetual futures raise alarms.</strong> Exchange executives warn the offshore products could bring new risks to U.S. derivatives markets; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>."
+      ],
+      "The score": [
+        "<strong>Cooper Flagg scores 43.</strong> The Mavericks rallied from 13 points down to beat Indiana 125 to 122; <a href=\"https://www.devdiscourse.com/article/international/4004356-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>Golden State extends its streak.</strong> The Warriors routed New Orleans 138 to 87 for their eighth straight win; <a href=\"https://www.devdiscourse.com/article/international/4004356-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>The playoff grows to 24 teams.</strong> ESPN signed a five year deal worth nearly $1.7 billion for an expanded College Football Playoff; <a href=\"https://www.devdiscourse.com/article/international/4004263-reuters-sports-news-summary\">Reuters reports</a>.",
+        "<strong>UCLA jumps into the top 10.</strong> The Bruins climbed 13 spots to No. 9 after beating Arizona; <a href=\"https://www.devdiscourse.com/article/international/4004263-reuters-sports-news-summary\">Reuters reports</a>."
+      ],
+      "Life & culture": [
+        "<strong>DC Studios gets a new chief.</strong> Former Marvel executive Jeremy Latcham will replace James Gunn and Peter Safran on Dec. 1; <a href=\"https://www.devdiscourse.com/article/international/4004264-reuters-entertainment-news-summary\">Reuters reports</a>.",
+        "<strong>Take Two raises its forecasts.</strong> The publisher is banking on next week’s launch of Grand Theft Auto VI; <a href=\"https://www.devdiscourse.com/article/international/4004264-reuters-entertainment-news-summary\">Reuters reports</a>.",
+        "<strong>A minister cites media abuse problems.</strong> Lisa Nandy spoke after Russell Brand’s conviction for rape and sexual assault; <a href=\"https://www.devdiscourse.com/article/international/4004121-reuters-entertainment-news-summary\">Reuters reports</a>.",
+        "<strong>Clemente’s sons lose a plate fight.</strong> The Supreme Court declined their challenge to Puerto Rico’s use of his image on license plates; <a href=\"https://www.devdiscourse.com/article/international/4004172-reuters-us-domestic-news-summary\">Reuters reports</a>."
+      ]
+    },
+    "trivia": {
+      "question": "What eye condition will GLP 1 drug labels now warn about?",
+      "options": [
+        "NAION",
+        "Glaucoma",
+        "Cataracts",
+        "Macular degeneration"
+      ],
+      "correct_letter": "A",
+      "explanation": "A. NAION. <a href=\"https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential\">The FDA says this rare condition can cause sudden vision loss in one eye</a>."
+    },
+    "poll": {
+      "question": "Should all DNA synthesis companies screen every customer, even without federal funding?",
+      "slug": "dna-synthesis-screening-all-customers-nov10-2026"
+    },
+    "qa_notes": {
+      "status": "LOCAL_VERIFIED_EDITORIAL_INPUTS_ONLY; parent review and release required",
+      "unresolved_points": [
+        "GLP 1 and NAION: FDA describes a potential increased risk; WaPo notes conflicting studies and Novo Nordisk cites a 90,000 participant analysis finding no association. Both preserved.",
+        "Foundayo results are company trial results reported by Fierce Pharma and Reuters; not yet FDA approved for sleep apnea.",
+        "Anthropic: Reuters could not determine what was erroneous in the retracted pricing; figures are from the retracted original filing.",
+        "DNA policy: released Nov 5; Science article (news hook) published Nov 9. Factlen is a secondary aggregator summarizing the policy memo.",
+        "FDA page publication time is exposed as Mon, 11/09/2026 - 08:47 without zone; normalized as America/New_York.",
+        "Briefs rely on Reuters summaries syndicated by Devdiscourse; credited as Reuters reports."
+      ],
+      "photo_review": "Original Unsplash pages opened in browser showing Free to use under the Unsplash License; all five JPEGs visually inspected. Sleep, portraits, pipette and NYSE are contextual file photographs."
+    },
+    "date_line": "Tuesday, November 10, 2026 · 6 min read"
+  },
+  "base_tree": "c736493c959f7358c7b2e5afc887ee187216bc65",
+  "immutable_fingerprint": "4b3122f84a40ea543ffde877e78ae8b8b1c701a1fb9c92e726749e0d8895685a",
+  "baseline": {
+    "files": {
+      "skim.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "styles.css": "cd7bc8e40ef0c9fe7a7d8bc5cfad5e0e21898d7c61b6865db6675ad4944111a9",
+      "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
+      "thanks.html": "35ca39337c8f3e89cb291dfa4242006c5eee1a681db8749bb731908d378f2c0e",
+      "index.html": "aa8fc08b2075867848b269647e236afc0b055d15bf042de603e1bdf4ab740657",
+      "privacy.html": "ae1ee904f16cf7cf16b2be42a0136b9175ef8f5435ee2ee352ee956e1c16c408",
+      "terms.html": "5d3b5be26de64b7935c34bef5220846fc40abb6369832541990c4bfd235863d1",
+      "email/2026-11-03-email.html": "69030338231d359ce17c6e48c30d3763a3b7100740f28ebc06380b9c067453f2",
+      "email/logo.png": "5c8b19143ff3b3c8e5efa4398f2ea5db73b95b5d5ea14328ae44dbcdab7b0fac",
+      "email/polls.js": "d3971bb4315da1dd8cd05180bf364c3c123540372a6af7808c8ea61af723bf73",
+      "email/thanks.html": "b51feedb6dc6c69822154e429d44c8c8020a8e2982528eae96c7919ee55eb582",
+      "editions/edition.css": "ccd1a537b6cb03945474107488b97c0e6ba5ea85bc13ba27343cf7286e3944b9",
+      "editions/2026-11-09.html": "fe409fb8533fb91d4e7e4b17a43649593118db8179df939f783528fea14be220",
+      "editions/2026-11-08.html": "ce935fb69ea7f55f319c2f07c83e1beeee3998d84a381eb456d46216f18b9df0",
+      "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+      "editions/2026-11-03.html": "a28f7cb4454a939df3ae536b34c97279d225ecab864c4a50d798f290fc498bc2",
+      "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+      "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+      "editions/2026-11-05.html": "445e92043e91a556989d43b647bc5d6ce2676ab53b41f6fa36748768f9be6e88",
+      "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3",
+      "tests/nov8_fixture_edits.json": "41490e6465e4cb21495bc944b7de1e0f7fedab6732af6562391605ceb8ffcc48",
+      "tests/test_nov8_site.py": "77a1f188a7e8a243622c7c62fd9c39f7ffac3af81b58378597506f918ffe9ce5",
+      "tests/test_nov9_site.py": "d3b6b200253f4262e006d78f19659eabc7b3e49e2fa4285af70e093410ee243b",
+      "tests/nov7_expected.json": "b4d8a967698566a9f24b3077d6196a0e2f5ca296dc00a19e03746014c39502b5",
+      "tests/test_nov7_site.py": "d900542eba780221b5736598f15363bd129cd852c55c5f0d13ce09595450fb54",
+      "tests/nov8_expected.json": "d899c23edc04590300f67c1fb7a5ad17867af932e12fb4015e9d2ac43cbab93e",
+      "tests/nov9_expected.json": "752e080ee71d80713e24f0ce82df2bf979d84ce159a87dd80b0821154c3977d7",
+      "tests/nov9_fixture_edits.json": "00029464da037cccc86a4b8e309aff65017da916e1af48193f583517a6bc160c",
+      "tests/polls.browser.cjs": "7d9c8f19114394e1121bf0c955185aa42d7de516d7a0e52b0940aed6a0a08479",
+      "tests/test_site.py": "3501afda8ba15434b714a2ef86719c0c287785c4cd34ef107754c1e2d3e0b486"
+    },
+    "nov9_without_nav_sha256": "f390e7b0f382d22d81e5e395e02ace0a669b832e5bb45668b8d81ebce945a822",
+    "frozen_nov10_normalized_sha256": "e3849097a54c7fd1a284906545ad4731c20b091cae44b39bf10feb03cdba6f47",
+    "frozen_first_image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=80",
+    "homes": {
+      "index.html": {
+        "config": {
+          "editions": [
+            {
+              "title": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
+              "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt’s train collision and AI’s power equipment squeeze.",
+              "url": "editions/2026-11-09.html",
+              "date": "Mon, Nov 9",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1706954867029-3798018ae194?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Trump Orders a DOJ Review.\nIsrael Faces Coalition Talks.\nJapan Assesses Quake Damage.",
+              "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland’s investigation.",
+              "url": "editions/2026-11-08.html",
+              "date": "Sun, Nov 8",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?fm=jpg&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+              "description": "Measles cases exceed 5,000, technology shares regain ground and new U.S. strikes come as Qatar continues Iran mediation.",
+              "url": "editions/2026-11-07.html",
+              "date": "Sat, Nov 7",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1280&h=720&q=80"
+            },
+            {
+              "title": "Tesla Plans a Factory Shift. Raman Inherits an Olympic Host City. Cash Buyers Skew Older.",
+              "description": "Tesla plans factory changes, Los Angeles chooses a new mayor, and cash buyers reveal a widening gap in access to homes.",
+              "url": "editions/2026-11-06.html",
+              "date": "Fri, Nov 6",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=800&h=450&fit=crop&q=80&crop=entropy"
+            },
+            {
+              "title": "Democrats are projected to take Congress. Tankers burn near Hormuz. Indonesia fires a top aide.",
+              "description": "Democrats are projected to win both chambers of Congress, Iran says four tankers hit mines near Hormuz, and Indonesia's president fires his chief of staff.",
+              "url": "editions/2026-11-05.html",
+              "date": "Thu, Nov 5",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1775147514417-b9b6d50c7b69?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "America votes today on Congress and 145 ballot measures. Your health insurance is about to cost more. And Netflix wants to read your mood.",
+              "description": "Control of Congress is on the ballot today along with 145 state measures, Obamacare premiums are set to climb, and Netflix starts picking shows by mood.",
+              "url": "editions/2026-11-03.html",
+              "date": "Tue, Nov 3",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Niño is flooding the Southwest.",
+              "description": "Signs that Iran is open to peace talks knocked oil to its steepest one day drop in months, Sen. Chris Murphy had a stroke, and storms drenched the desert Southwest.",
+              "url": "editions/2026-11-02.html",
+              "date": "Mon, Nov 2",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&h=450&fit=crop&crop=entropy&q=80"
+            },
+            {
+              "title": "Wall Street had its worst day since June. A judge ended Trump's WSJ lawsuit. And Milwaukee got its parade.",
+              "description": "AI worries sent tech stocks and Intel tumbling, a federal judge ended Trump's case against The Wall Street Journal, and Milwaukee threw its first World Series parade.",
+              "url": "editions/2026-11-01.html",
+              "date": "Sun, Nov 1",
+              "readingTime": "6 min read",
+              "image": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&h=450&fit=crop&crop=entropy&q=80"
+            }
+          ]
+        },
+        "locked": {
+          "style": [
+            "ea66e3bdca5a60949c3630f53b97922af4b8a7d1767e8393e3bf5c0af1e6e1f5"
+          ],
+          "header": [
+            "357bb27c3df9ea4acbd34b2d41f1f8adfb425f5388d77479500be000ec4f44e2"
+          ],
+          "form": [
+            "df097d82ee31dc4721a6f9ffa66a6cac2e806327f1cea77d0485952c5fb3d206",
+            "663b0151663299226f27fb6473632e6e7b26b2297444a74ed3687a3a0ecb52f5"
+          ],
+          "scripts": [
+            "ad45710e928dd09ee0a6d0608f97811a84ab5a574e29f352d84b89ad6bf2dc73",
+            "325d99e43e4ffa840e5146494502eec766422c44a99c8c8f6c375e5f26e4e970"
+          ],
+          "topics": "c3fda37668c6f3ef1914069ac9ad816446663f2a31739691b2d3c661f192c70c",
+          "route_nov10": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91"
+        }
+      }
+    }
+  },
+  "fixture_file_sha256": {
+    "tests/test_site.py": "b808151f71653db14587b66b4aa1ffdac187ee9f2e6339684c879331ca5e37d5"
+  },
+  "fixture_edits_sha256": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7"
+}
