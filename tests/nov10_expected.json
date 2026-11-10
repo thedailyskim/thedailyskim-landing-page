@@ -3,18 +3,18 @@
   "date": "2026-11-10",
   "old": "2026-11-09",
   "content": {
-    "title": "FDA Adds a Vision Warning to GLP 1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
-    "subject": "FDA Adds a Vision Warning to GLP 1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+    "title": "FDA Adds a Vision Warning to GLP-1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+    "subject": "FDA Adds a Vision Warning to GLP-1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
     "preview_text": "A rare eye risk gets a label, a weight loss pill posts trial results and a retracted IPO filing.",
-    "description": "The FDA adds a vision loss warning to GLP 1 drugs and Lilly reports sleep apnea results. Plus Anthropic’s IPO and Novaya Gazeta.",
+    "description": "The FDA adds a vision loss warning to GLP-1 drugs and Lilly reports sleep apnea results. Plus Anthropic’s IPO and Novaya Gazeta.",
     "contents_extra": "Novaya Gazeta’s last day, new DNA screening rules, trivia and your poll",
     "stories": [
       {
         "topic": "fda-glp1-naion-vision-loss-label-warning-nov10",
-        "title": "The FDA Orders a Rare Vision Loss Warning on GLP 1 Drugs",
+        "title": "The FDA Orders a Rare Vision Loss Warning on GLP-1 Drugs",
         "region": "us",
         "paragraphs": [
-          "The FDA is requiring all GLP 1 drug labels to warn of a rare eye condition called NAION. <a href=\"https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential\">The agency says the condition can cause sudden, painless vision loss in one eye</a>. Its analysis of 126 trials found 6.4 cases per 100,000 person years on the drugs, versus 3.8 on comparators.",
+          "The FDA is requiring all GLP-1 drug labels to warn of a rare eye condition called NAION. <a href=\"https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential\">The agency says the condition can cause sudden, painless vision loss in one eye</a>. Its analysis of 126 trials found 6.4 cases per 100,000 person-years on the drugs, versus 3.8 on comparators.",
           "<a href=\"https://apnews.com/article/glp1-drugs-vision-loss-warning-d85a58ea769bc12cc1989e914a51f248\">AP reports the warning covers brands including Ozempic, Wegovy, Zepbound and Mounjaro</a>. The underlying cause is not understood, the FDA said. <a href=\"https://www.washingtonpost.com/health/2026/11/09/fda-tells-glp-1-makers-warn-potential-vision-loss-side-effect/\">The Washington Post reports that studies on the link have reached conflicting conclusions</a>. Novo Nordisk said its own trial analysis found no association, and Lilly said it was evaluating the update."
         ],
         "photo": {
@@ -126,7 +126,7 @@
       ]
     },
     "trivia": {
-      "question": "What eye condition will GLP 1 drug labels now warn about?",
+      "question": "What eye condition will GLP-1 drug labels now warn about?",
       "options": [
         "NAION",
         "Glaucoma",
@@ -143,7 +143,7 @@
     "qa_notes": {
       "status": "LOCAL_VERIFIED_EDITORIAL_INPUTS_ONLY; parent review and release required",
       "unresolved_points": [
-        "GLP 1 and NAION: FDA describes a potential increased risk; WaPo notes conflicting studies and Novo Nordisk cites a 90,000 participant analysis finding no association. Both preserved.",
+        "GLP-1 and NAION: FDA describes a potential increased risk; WaPo notes conflicting studies and Novo Nordisk cites a 90,000 participant analysis finding no association. Both preserved.",
         "Foundayo results are company trial results reported by Fierce Pharma and Reuters; not yet FDA approved for sleep apnea.",
         "Anthropic: Reuters could not determine what was erroneous in the retracted pricing; figures are from the retracted original filing.",
         "DNA policy: released Nov 5; Science article (news hook) published Nov 9. Factlen is a secondary aggregator summarizing the policy memo.",
@@ -190,7 +190,7 @@
       "tests/test_site.py": "3501afda8ba15434b714a2ef86719c0c287785c4cd34ef107754c1e2d3e0b486"
     },
     "nov9_without_nav_sha256": "f390e7b0f382d22d81e5e395e02ace0a669b832e5bb45668b8d81ebce945a822",
-    "frozen_nov10_normalized_sha256": "e3849097a54c7fd1a284906545ad4731c20b091cae44b39bf10feb03cdba6f47",
+    "frozen_nov10_normalized_sha256": "48baa93bd1b49868d19c7fb50328d6375e3a43cb3e18ceee93d8714914808366",
     "frozen_first_image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=80",
     "homes": {
       "index.html": {
@@ -286,5 +286,35 @@
   "fixture_file_sha256": {
     "tests/test_site.py": "b808151f71653db14587b66b4aa1ffdac187ee9f2e6339684c879331ca5e37d5"
   },
-  "fixture_edits_sha256": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7"
+  "fixture_edits_sha256": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7",
+  "dated_revision": {
+    "authority": "Cio1794316017.491789",
+    "scope": "Scientific hyphens only; source immutable build unchanged",
+    "web_changes": {
+      "index.html": {
+        "before_sha256": "040d94b7a3638265c0a777d8b22db5ff7fd32d33ef90012cfb637b08206bcbe7",
+        "after_sha256": "565d96fa99bce129997376625cb0f41c70ca4ff05b7821c8fecaad001cd4071e",
+        "changes": {
+          "GLP 1": {
+            "replacement": "GLP-1",
+            "count": 3
+          }
+        }
+      },
+      "editions/2026-11-10.html": {
+        "before_sha256": "49e6c31c2e231744430bf63a585693513d0fdaf49f58af4b24be6ceedcaf3cc6",
+        "after_sha256": "985bb6261c41e26df9adc9f85b136b4d7e33a8a56de30627c84d197925a005b5",
+        "changes": {
+          "GLP 1": {
+            "replacement": "GLP-1",
+            "count": 9
+          },
+          "person years": {
+            "replacement": "person-years",
+            "count": 1
+          }
+        }
+      }
+    }
+  }
 }
