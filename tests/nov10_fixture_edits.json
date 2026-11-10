@@ -1,0 +1,20 @@
+{
+  "tests/test_site.py": [
+    [
+      "'editions/2026-11-09.html','editions/2026-11-08.html'",
+      "'editions/2026-11-10.html','editions/2026-11-09.html','editions/2026-11-08.html'"
+    ],
+    [
+      "href=\"editions/2026-11-09.html#",
+      "href=\"editions/2026-11-10.html#"
+    ],
+    [
+      "self.assertEqual(count,10)",
+      "self.assertEqual(count,11)"
+    ],
+    [
+      "self.assertEqual(cases,56)",
+      "self.assertEqual(cases,63)"
+    ]
+  ]
+}

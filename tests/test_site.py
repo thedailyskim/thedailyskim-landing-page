@@ -40,9 +40,9 @@ class SiteChecks(unittest.TestCase):
         home = text('index.html'); new = text('editions/2026-11-06.html')
         config = json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',home,re.S)[1])
         self.assertEqual([e['url'] for e in config['editions']],[
-            'editions/2026-11-09.html','editions/2026-11-08.html','editions/2026-11-07.html','editions/2026-11-06.html','editions/2026-11-05.html','editions/2026-11-03.html',
+            'editions/2026-11-10.html','editions/2026-11-09.html','editions/2026-11-08.html','editions/2026-11-07.html','editions/2026-11-06.html','editions/2026-11-05.html','editions/2026-11-03.html',
             'editions/2026-11-02.html','editions/2026-11-01.html'])
-        self.assertEqual(len(re.findall(r'class="sw-item[^"]*" href="editions/2026-11-09.html#',home)),5)
+        self.assertEqual(len(re.findall(r'class="sw-item[^"]*" href="editions/2026-11-10.html#',home)),5)
         self.assertIn('href="2026-11-06.html">Fri, Nov 6',text('editions/2026-11-05.html'))
         self.assertIn('href="2026-11-05.html">&larr; Thu, Nov 5',new)
         self.assertIn('https://thedailyskim.com/editions/2026-11-06.html',new)
@@ -72,7 +72,7 @@ class SiteChecks(unittest.TestCase):
                 self.assertEqual(vals['listname'],'awlist6982848')
                 self.assertEqual(vals['redirect'],'https://thedailyskim.com/thanks.html')
                 self.assertEqual(vals['meta_redirect_onlist'],'https://thedailyskim.com/thanks.html?already=1')
-        self.assertEqual(count,10)
+        self.assertEqual(count,11)
 
     def test_javascript_syntax_and_trivia_runtime(self):
         cases=0
@@ -103,7 +103,7 @@ let setTimeout=f=>f();
                     harness+=f"\nassert(q.classList.contains('done'));assert(buttons.every(b=>b.disabled));assert(buttons[{answer}].classList.contains('right'));let before=verdict.textContent;buttons[1].click();assert.equal(verdict.textContent,before);"
                     subprocess.run(['node'],input=harness,text=True,check=True,capture_output=True)
                     cases+=1
-        self.assertEqual(cases,56)
+        self.assertEqual(cases,63)
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
