@@ -1,0 +1,656 @@
+{
+  "original_files": {
+    "skim.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+    "styles.css": "cd7bc8e40ef0c9fe7a7d8bc5cfad5e0e21898d7c61b6865db6675ad4944111a9",
+    "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
+    "thanks.html": "35ca39337c8f3e89cb291dfa4242006c5eee1a681db8749bb731908d378f2c0e",
+    "index.html": "565d96fa99bce129997376625cb0f41c70ca4ff05b7821c8fecaad001cd4071e",
+    "privacy.html": "ae1ee904f16cf7cf16b2be42a0136b9175ef8f5435ee2ee352ee956e1c16c408",
+    "terms.html": "5d3b5be26de64b7935c34bef5220846fc40abb6369832541990c4bfd235863d1",
+    "email/2026-11-03-email.html": "69030338231d359ce17c6e48c30d3763a3b7100740f28ebc06380b9c067453f2",
+    "email/logo.png": "5c8b19143ff3b3c8e5efa4398f2ea5db73b95b5d5ea14328ae44dbcdab7b0fac",
+    "email/polls.js": "d3971bb4315da1dd8cd05180bf364c3c123540372a6af7808c8ea61af723bf73",
+    "email/thanks.html": "b51feedb6dc6c69822154e429d44c8c8020a8e2982528eae96c7919ee55eb582",
+    "editions/edition.css": "ccd1a537b6cb03945474107488b97c0e6ba5ea85bc13ba27343cf7286e3944b9",
+    "editions/2026-11-09.html": "84a92dd351ae26b9cf2f0d769d195dcf320a9ebd55c4541f5a21fbd89be56eac",
+    "editions/2026-11-10.html": "149109ec6409f033bbd444b861e473fd7394c17c3bf136d44924c9b466d800aa",
+    "editions/2026-11-08.html": "ce935fb69ea7f55f319c2f07c83e1beeee3998d84a381eb456d46216f18b9df0",
+    "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+    "editions/2026-11-03.html": "a28f7cb4454a939df3ae536b34c97279d225ecab864c4a50d798f290fc498bc2",
+    "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+    "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+    "editions/2026-11-05.html": "445e92043e91a556989d43b647bc5d6ce2676ab53b41f6fa36748768f9be6e88",
+    "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3",
+    "tests/nov8_fixture_edits.json": "41490e6465e4cb21495bc944b7de1e0f7fedab6732af6562391605ceb8ffcc48",
+    "tests/test_nov8_site.py": "77a1f188a7e8a243622c7c62fd9c39f7ffac3af81b58378597506f918ffe9ce5",
+    "tests/nov10_expected.json": "686e6ba1592a7d8b97c6db9f1abd98ae1ab3cd73b539e8329780c416602abd2b",
+    "tests/nov10_cpi_revision.json": "425d36d652281b7a0296aec800951249318f59808a80afbc2f0f379d8286ddb8",
+    "tests/nov10_hyphen_revision.json": "0bc62edb45d97ac93c9196e5b729f04379fcfd47bafdb2ac0f5a963ccc34d880",
+    "tests/test_nov9_site.py": "d3b6b200253f4262e006d78f19659eabc7b3e49e2fa4285af70e093410ee243b",
+    "tests/nov7_expected.json": "b4d8a967698566a9f24b3077d6196a0e2f5ca296dc00a19e03746014c39502b5",
+    "tests/test_nov10_cpi_revision.py": "ece76a4082b4e4ba380c159823b1a9a9a03efb35a027599b3d7b6d9dce2e5bff",
+    "tests/nov10_fixture_edits.json": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7",
+    "tests/test_nov7_site.py": "d900542eba780221b5736598f15363bd129cd852c55c5f0d13ce09595450fb54",
+    "tests/nov8_expected.json": "d899c23edc04590300f67c1fb7a5ad17867af932e12fb4015e9d2ac43cbab93e",
+    "tests/nov9_expected.json": "752e080ee71d80713e24f0ce82df2bf979d84ce159a87dd80b0821154c3977d7",
+    "tests/nov9_fixture_edits.json": "00029464da037cccc86a4b8e309aff65017da916e1af48193f583517a6bc160c",
+    "tests/test_nov10_hyphen_revision.py": "8507c3af550415964fbac9850430ab18222e4c597313d43aaeb37b21f9035fe7",
+    "tests/test_nov10_site.py": "9b57da2c2c66b892dd339a0742187e09c40c68f63bec316b3fde4a16eade2ec1",
+    "tests/polls.browser.cjs": "7d9c8f19114394e1121bf0c955185aa42d7de516d7a0e52b0940aed6a0a08479",
+    "tests/test_site.py": "b808151f71653db14587b66b4aa1ffdac187ee9f2e6339684c879331ca5e37d5"
+  },
+  "original_archive": [
+    {
+      "title": "FDA Adds a Vision Warning to GLP-1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+      "description": "The FDA adds a vision loss warning to GLP-1 drugs and Lilly reports sleep apnea results. Plus Anthropic\u2019s IPO and Novaya Gazeta.",
+      "url": "editions/2026-11-10.html",
+      "date": "Tue, Nov 10",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
+      "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt\u2019s train collision and AI\u2019s power equipment squeeze.",
+      "url": "editions/2026-11-09.html",
+      "date": "Mon, Nov 9",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1706954867029-3798018ae194?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Trump Orders a DOJ Review.\nIsrael Faces Coalition Talks.\nJapan Assesses Quake Damage.",
+      "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland\u2019s investigation.",
+      "url": "editions/2026-11-08.html",
+      "date": "Sun, Nov 8",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+      "description": "Measles cases exceed 5,000, technology shares regain ground and new U.S. strikes come as Qatar continues Iran mediation.",
+      "url": "editions/2026-11-07.html",
+      "date": "Sat, Nov 7",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Tesla Plans a Factory Shift. Raman Inherits an Olympic Host City. Cash Buyers Skew Older.",
+      "description": "Tesla plans factory changes, Los Angeles chooses a new mayor, and cash buyers reveal a widening gap in access to homes.",
+      "url": "editions/2026-11-06.html",
+      "date": "Fri, Nov 6",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=800&h=450&fit=crop&q=80&crop=entropy"
+    },
+    {
+      "title": "Democrats are projected to take Congress. Tankers burn near Hormuz. Indonesia fires a top aide.",
+      "description": "Democrats are projected to win both chambers of Congress, Iran says four tankers hit mines near Hormuz, and Indonesia's president fires his chief of staff.",
+      "url": "editions/2026-11-05.html",
+      "date": "Thu, Nov 5",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1775147514417-b9b6d50c7b69?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "America votes today on Congress and 145 ballot measures. Your health insurance is about to cost more. And Netflix wants to read your mood.",
+      "description": "Control of Congress is on the ballot today along with 145 state measures, Obamacare premiums are set to climb, and Netflix starts picking shows by mood.",
+      "url": "editions/2026-11-03.html",
+      "date": "Tue, Nov 3",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Ni\u00f1o is flooding the Southwest.",
+      "description": "Signs that Iran is open to peace talks knocked oil to its steepest one day drop in months, Sen. Chris Murphy had a stroke, and storms drenched the desert Southwest.",
+      "url": "editions/2026-11-02.html",
+      "date": "Mon, Nov 2",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "Wall Street had its worst day since June. A judge ended Trump's WSJ lawsuit. And Milwaukee got its parade.",
+      "description": "AI worries sent tech stocks and Intel tumbling, a federal judge ended Trump's case against The Wall Street Journal, and Milwaukee threw its first World Series parade.",
+      "url": "editions/2026-11-01.html",
+      "date": "Sun, Nov 1",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&h=450&fit=crop&crop=entropy&q=80"
+    }
+  ],
+  "navigation_maintenance": [
+    "editions/2026-11-03.html",
+    "editions/2026-11-05.html",
+    "editions/2026-11-10.html"
+  ],
+  "original_without_nav": {
+    "editions/2026-11-09.html": "cc19d9c3f7162f347f99bf97718015e19ba1504ce743d4c81e9743e1490ac672",
+    "editions/2026-11-10.html": "4325bf7b11fe0c4ce5f38865188ada0a87579af201587ece856d13ccd0284880",
+    "editions/2026-11-08.html": "1e85246d7fd523226758e6b0c1c73a3ca5359808b83825effc5254def0f13819",
+    "editions/2026-11-06.html": "e044747fffb550321d38d9cf8edc3b55d49c541053eaa778b66ec9944d3cdcff",
+    "editions/2026-11-03.html": "49f6c3badfb9ae357282fc8b5a3d494ce3fc9b127fbe2e3e68cb947f7240760f",
+    "editions/2026-11-02.html": "ba98a30238bffd829808947363923305ca38b9fcdf09341367946730176589fe",
+    "editions/2026-11-07.html": "f09e9590468aabb43b28ff11ca35748cd40dfa1c1e6c4e089071c1173c903377",
+    "editions/2026-11-05.html": "cd1c26fa68bca83a3df92a389bd59ec64112db85f9149f6650fa5bf5000dd1a3",
+    "editions/2026-11-01.html": "897e4af0d8e883e9c9202bd0513792c7fce86eb9506f44c4a62d3b09253aab4f"
+  },
+  "locked": {
+    "style": [
+      "b11f24efdabea383ec8a9b61e2026a3bb858bcea29f83db6a0606410e0e75924"
+    ],
+    "script": [
+      "325d99e43e4ffa840e5146494502eec766422c44a99c8c8f6c375e5f26e4e970",
+      "b8261393388569c249d285f66855c1f648bd8c5243b1e8e2215d4581a75710ef"
+    ],
+    "header": [
+      "7e383a3ab278badd60127086aaf698129810b5390da5f3ebc5d6b47df3977618"
+    ],
+    "form": [
+      "542e4c49a39a358b1e2e3b2a5b29ea0840cc414fb6fc474401d25dc3ac6b8d25"
+    ],
+    "link[rel=stylesheet]": [
+      "ab2d0aa474e70f0b3fdc19e71c8f72394c8aa870eaa4c57bd7e023fdb0bcf6cd"
+    ]
+  },
+  "home_locked": {
+    "style": [
+      "ea66e3bdca5a60949c3630f53b97922af4b8a7d1767e8393e3bf5c0af1e6e1f5"
+    ],
+    "header": [
+      "357bb27c3df9ea4acbd34b2d41f1f8adfb425f5388d77479500be000ec4f44e2"
+    ],
+    "form": [
+      "df097d82ee31dc4721a6f9ffa66a6cac2e806327f1cea77d0485952c5fb3d206",
+      "663b0151663299226f27fb6473632e6e7b26b2297444a74ed3687a3a0ecb52f5"
+    ],
+    "link[rel=stylesheet]": []
+  },
+  "content": {
+    "2026-11-04": {
+      "date": "2026-11-04",
+      "date_line": "Wednesday, November 4, 2026 \u00b7 6 min read",
+      "title": "What the Midterms Mean for Your Budget. CVS Plans a Split. Healthcare Stocks Rally.",
+      "description": "The election opens a household-policy debate, CVS plans two companies, and health and energy shares rally.",
+      "preview_text": "Health premiums and taxes face a new debate, while CVS prepares a corporate breakup.",
+      "contents_extra": "Cancer testing, Idaho's abortion vote, trivia and your poll",
+      "stories": [
+        {
+          "title": "Your Health Bills and Taxes Enter a New Congressional Debate",
+          "topic": "household-policy-midterms-nov4",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1707762890671-52ef6d6f51e7?w=1280&h=720&fit=crop&crop=entropy&q=80",
+            "original_url": "https://unsplash.com/photos/U4-I4oH4xlg",
+            "alt": "Desk with paperwork; contextual file photograph.",
+            "verified": true
+          },
+          "paragraphs": [
+            "The midterm results could reshape debates over household costs, but they do not immediately change anyone's benefits or taxes. <a href=\"https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html\">CNBC reports</a> Democrats could seek renewed Affordable Care Act subsidies and changes to Medicaid work requirements. Newly elected lawmakers take office in January.",
+            "President Donald Trump retains veto power, limiting what the incoming majority can enact alone. <a href=\"https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html\">CNBC also identifies</a> student-loan rules, housing and retirement savings as possible areas for legislation or oversight. These are potential policy paths, not measures already approved."
+          ]
+        },
+        {
+          "title": "CVS Plans to Separate Its Pharmacies From Insurance",
+          "topic": "cvs-separation-nov4",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1696861308115-54a5e5a134b0?w=1280&h=720&fit=crop&crop=entropy&q=80",
+            "original_url": "https://unsplash.com/photos/FLntgQJNjD0",
+            "alt": "Medicine bottles on pharmacy shelves; contextual file photograph.",
+            "verified": true
+          },
+          "paragraphs": [
+            "CVS Health plans to split into two public companies by the first half of 2028. <a href=\"https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html\">CNBC reports</a> roughly 9,000 retail pharmacies would separate from the insurer Aetna and pharmacy benefit manager Caremark. The plan follows a board strategic review.",
+            "The insurance and benefits company would retain the CVS Health name under CEO David Joyner. <a href=\"https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html\">According to CNBC</a>, Prem Shah would lead CVS Pharmacy. Existing shareholders would receive stock in both companies. CVS shares closed more than 12% lower Wednesday."
+          ]
+        },
+        {
+          "title": "Healthcare and Clean Energy Shares Rally After the Vote",
+          "topic": "sector-reaction-midterms-nov4",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1707862456300-ba388efd9c98?w=1280&h=720&fit=crop&crop=entropy&q=80",
+            "original_url": "https://unsplash.com/photos/kyIQovQzSG8",
+            "alt": "New York financial-district street; contextual file photograph.",
+            "verified": true
+          },
+          "paragraphs": [
+            "Investors moved into healthcare and clean energy shares after the midterms, while defense and data-center stocks fell. <a href=\"https://www.cnbc.com/2026/11/04/every-stock-thats-moving-as-a-result-of-the-election.html\">CNBC reports</a> Centene gained 12.6% and HCA Healthcare rose 10.3%. Traders anticipated possible changes to health spending and energy policy.",
+            "Lockheed Martin fell 6.9%, while CoreWeave lost 9.9% amid concerns about military spending and restrictions on data-center construction. <a href=\"https://www.cnbc.com/2026/11/04/every-stock-thats-moving-as-a-result-of-the-election.html\">CNBC lists</a> Microsoft and Apple among major technology winners. These market reactions reflect expectations, not guarantees about legislation or future returns."
+          ]
+        },
+        {
+          "title": "England Will Test Blood Screening for Several Cancers",
+          "topic": "england-multi-cancer-trial-nov4",
+          "region": "world",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1631556763178-b96af5e9993e?w=1280&h=720&fit=crop&crop=entropy&q=80",
+            "original_url": "https://unsplash.com/photos/RuTQYiOOz0Y",
+            "alt": "Laboratory specimen tubes; contextual file photograph.",
+            "verified": true
+          },
+          "paragraphs": [
+            "At least 200 English GP practices will offer multi-cancer blood tests in a government-funded trial. <a href=\"https://www.gov.uk/government/news/new-nhs-blood-test-trial-to-help-spot-cancers-earlier\">The UK health department says</a> more than 20,000 symptomatic patients aged 45 or older will take part. Researchers aim to identify abdominal cancers earlier.",
+            "The tests look for signals such as blood proteins and may help doctors decide who needs an urgent referral. <a href=\"https://www.gov.uk/government/news/new-nhs-blood-test-trial-to-help-spot-cancers-earlier\">The department explains</a> a positive result is not a confirmed cancer diagnosis. The trial will assess performance before any nationwide rollout."
+          ]
+        }
+      ],
+      "deep_dive": {
+        "topic": "idaho-abortion-ballot-rejection-nov4",
+        "title": "Idaho's Abortion Vote Leaves Its Existing Ban in Place",
+        "region": "us",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1750365501430-395251fe4b7e?w=1280&h=720&fit=crop&crop=entropy&q=80",
+          "original_url": "https://unsplash.com/photos/DWELZ1vtM6Y",
+          "alt": "Courthouse facade; contextual file photograph.",
+          "verified": true
+        },
+        "paragraphs": [
+          "<strong>What happened.</strong> Idaho voters rejected Proposition 1, which would have protected abortion access until fetal viability, <a href=\"https://www.nbcnews.com/politics/2026-election/idaho-abortion-ballot-measure-reject-voters-midterms-rcna603395\">NBC News projects</a>. The result leaves the state's existing abortion ban in place. That ban took effect in 2022 after the Supreme Court overturned Roe v. Wade. The proposed initiative would have taken effect in 2027 if approved.",
+          "<strong>Why it matters.</strong> The initiative covered more than abortion. Its definition of reproductive freedom included contraception, fertility treatment, miscarriage care and care during and after pregnancy. <a href=\"https://www.nbcnews.com/politics/2026-election/idaho-abortion-ballot-measure-reject-voters-midterms-rcna603395\">NBC News reports</a> it would have protected personal healthcare decisions made with a provider. Voters' rejection means those proposed protections do not become state law through this measure.",
+          "<strong>What each side says.</strong> The initiative's text argued that reproductive healthcare belongs to patients in consultation with providers. Idaho's existing law instead preserves the state's abortion restrictions. <a href=\"https://www.nbcnews.com/politics/2026-election/idaho-abortion-ballot-measure-reject-voters-midterms-rcna603395\">NBC News describes</a> the proposal's limit as fetal viability, generally around 23 to 24 weeks. It also included an exception after viability for medical emergencies threatening the woman's life.",
+          "<strong>What comes next.</strong> This election result does not create a new statewide abortion right or implement the initiative's proposed 2027 start date. <a href=\"https://apnews.com/article/ballot-issues-abortion-redistricting-transgender-fe17112e9538f5e4ed5907f6d1f5b470\">AP also reports</a> Idaho's rejection among the election's reproductive-rights ballot decisions. Patients and providers remain subject to existing law. The projection should not be confused with a claim that every ballot has been counted."
+        ]
+      },
+      "briefing": {
+        "World view": [
+          "<strong>A Drone Strike Hits Russia.</strong> A Ukrainian attack set fire to an Ozon logistics hub, reports <a href=\"https://www.reuters.com/3fec1b0a85a0/world/ukrainian-drone-strike-sets-fire-hub-e-retailer-ozon-southern-russia-2026-11-04/\">Reuters</a>.",
+          "<strong>Spain's Transport Minister Quits.</strong> The resignation follows scrutiny of a deadly train crash, reports <a href=\"https://apnews.com/article/spain-transport-minister-train-crash-159910e970f48f6a54e50cc7ea740403\">AP</a>.",
+          "<strong>Indonesia Deploys Troops.</strong> Authorities have not confirmed a connection between the deployment and the wiretapping investigation, reports <a href=\"https://apnews.com/article/indonesia-security-forces-deployment-wiretapping-8e598661a904d8af89b35ea04d420506\">AP</a>.",
+          "<strong>Hackers Target Supermarket Cooling.</strong> Connected refrigeration systems exposed European food supplies to cyberattacks, reports <a href=\"https://apnews.com/article/supermarkets-europe-internet-cyberattack-food-fridges-hacked-b6abfab3f5cdd65c19476b9032eb7a9d\">AP</a>."
+        ],
+        "Need to know": [
+          "<strong>Women Reach a Governors' Record.</strong> The election raises the number of women chosen to lead states, reports <a href=\"https://www.nbcnews.com/politics/2026-election/record-number-female-governors-elected-rcna607366\">NBC News</a>.",
+          "<strong>Florida Elects Byron Donalds.</strong> NBC projects the Republican becomes the state's first Black governor, reports <a href=\"https://www.nbcnews.com/politics/2026-election/byron-donalds-florida-governor-win-gop-first-black-leader-jolly-rcna603345\">NBC News</a>.",
+          "<strong>Marathon Death Highlights Muscle Injury.</strong> A runner's father says rhabdomyolysis caused her death, reports <a href=\"https://www.cbsnews.com/news/nyc-marathon-runner-rhabdomyolysis-death-condition/\">CBS News</a>.",
+          "<strong>Harvard Scientist Charges Face Dismissal.</strong> U.S. prosecutors moved to drop frog-embryo smuggling charges, reports <a href=\"https://www.reuters.com/3fec1b0a85a0/world/us-moves-drop-smuggling-charges-against-harvard-scientist-2026-11-04/\">Reuters</a>."
+        ],
+        "Money & markets": [
+          "<strong>Meta Raises $15 Billion.</strong> A five-part U.S. bond sale will help fund AI expansion, reports <a href=\"https://www.reuters.com/5f374b32b07b/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/\">Reuters</a>.",
+          "<strong>Central Banks Pause.</strong> Major central banks slowed policy moves in October after September's hiking wave, reports <a href=\"https://www.investing.com/news/economy-news/global-central-banks-hit-pause-in-october-after-september-hiking-spree-4998373\">Reuters</a>.",
+          "<strong>The Dollar Falls.</strong> The currency weakened as investors assessed the U.S. midterm results, reports <a href=\"https://www.cnbc.com/2026/11/04/dollar-dips-with-us-midterm-results-in-focus.html\">CNBC</a>.",
+          "<strong>AMD Takes a Deal-Related Charge.</strong> OpenAI and Meta chip agreements triggered a $1 billion quarterly expense, reports <a href=\"https://www.investing.com/news/stock-market-news/amds-openai-meta-chip-deals-trigger-1-billion-quarterly-charge-4997141\">Reuters</a>."
+        ],
+        "Future frontiers": [
+          "<strong>Google Links School Search to AI.</strong> School systems rejecting Google's AI tools will also lose access to its search engine, reports <a href=\"https://apnews.com/article/ai-schools-classroom-students-google-7ba4219e505db1c11d672f6eefe7155a\">AP</a>.",
+          "<strong>NASA Features a Hidden Galaxy.</strong> A new astronomy feature examines IC 342 behind the Milky Way's dust, explains <a href=\"https://science.nasa.gov/image-article/apod-2026-november-4-the-not-so-hidden-galaxy-ic-342/\">NASA</a>.",
+          "<strong>Tiny Tags Follow Monarchs.</strong> Researchers use lightweight trackers to study butterfly migration, reports <a href=\"https://apnews.com/article/monarch-butterflies-migration-tracking-conservation-threats-437fd1b19ade1acc4dbb78fbcd12a699\">AP</a>.",
+          "<strong>NASA Tracks the Ozone Hole.</strong> Satellite observations follow the Antarctic ozone layer's seasonal depletion, reports <a href=\"https://science.nasa.gov/earth/climate-change/ozone-layer/2026-ozone-hole/\">NASA</a>."
+        ],
+        "The score": [
+          "<strong>Watson Enters Concussion Protocol.</strong> Cleveland's quarterback could miss Sunday's game against New Orleans, reports <a href=\"https://apnews.com/article/browns-watson-sanders-8f8ef6e994be1aea09252ee4ca23082a\">AP</a>.",
+          "<strong>Pulisic Returns to the U.S. Squad.</strong> Balogun and McKennie also return for Nations League quarterfinals against Haiti, reports <a href=\"https://apnews.com/article/pulisic-balogun-mckennie-us-roster-70316c0f65922f50468aa7f85235ae28\">AP</a>.",
+          "<strong>Lightning Beat Red Wings.</strong> NHL's Lightning won 4-2 on Nov. 3, records <a href=\"https://www.espn.com/nhl/scoreboard/_/date/20261103\">ESPN</a>.",
+          "<strong>Rangers Beat Blues.</strong> NHL's Rangers won 3-1 on Nov. 3, records <a href=\"https://www.espn.com/nhl/scoreboard/_/date/20261103\">ESPN</a>."
+        ],
+        "Life & culture": [
+          "<strong>Alexander Biography Wins.</strong> Edmund Richardson's Alexander: God, King, Man won the Baillie Gifford nonfiction prize, reports <a href=\"https://apnews.com/article/baillie-gifford-book-prize-nonfiction-6ac87a87b081b1b52aaa919df1552fc5\">AP</a>.",
+          "<strong>Bob Dylan Meets Pope Leo.</strong> The singer visited the Vatican during a break between Italian concerts, reports <a href=\"https://apnews.com/article/pope-bob-dylan-patti-smith-0cd13339b413d9fa01c9f1f05c721027\">AP</a>.",
+          "<strong>The Lettermen Lose a Founder.</strong> Singer Tony Butala, known for The Way You Look Tonight, died at 87, reports <a href=\"https://apnews.com/article/tony-butala-dies-lettermen-028f24604e6a4bcb34286f5576220210\">AP</a>.",
+          "<strong>Collins Chooses Its Word.</strong> The dictionary selected mogging as its 2026 word of the year, reports <a href=\"https://apnews.com/article/collins-dictionary-2026-word-of-year-mogging-0f42c69049bb0912f5e9cecc13e00060\">AP</a>."
+        ]
+      },
+      "trivia": {
+        "question": "When does CVS aim to complete its planned corporate split?",
+        "options": [
+          "The end of 2026",
+          "The first half of 2028",
+          "The end of 2029",
+          "The first half of 2030"
+        ],
+        "correct_letter": "B",
+        "explanation": "B. The first half of 2028. <a href=\"https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html\">CNBC reports</a> this is CVS's target, not a completed separation."
+      },
+      "poll": {
+        "question": "Should Congress prioritize restoring enhanced ACA premium subsidies?",
+        "slug": "nov4-2026-aca-subsidies"
+      },
+      "subject": "What the Midterms Mean for Your Budget. CVS Plans a Split. Healthcare Stocks Rally."
+    },
+    "2026-11-11": {
+      "date": "2026-11-11",
+      "date_line": "Wednesday, November 11, 2026 \u00b7 6 min read",
+      "title": "Health Data Practices Face a Lawsuit. Claude Expands at Work. Wall Street Rebounds.",
+      "description": "Five states join the Hims & Hers case, Anthropic expands workplace tools, and stocks recover before another Fed decision.",
+      "preview_text": "A health privacy lawsuit, new AI office tools and a stock-market rebound.",
+      "contents_extra": "Ukraine talks, the Fed's inflation dilemma, trivia and your poll",
+      "stories": [
+        {
+          "title": "Five States Join the Hims & Hers Privacy Case",
+          "topic": "hims-states-lawsuit-nov11",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1543709533-c032159da7b0?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/HTttz00wkzU",
+            "alt": "Empty prescription pill bottles; file photo, 2018.",
+            "verified": true
+          },
+          "paragraphs": [
+            "Five states joined a Federal Trade Commission lawsuit accusing Hims & Hers of unlawful business practices. <a href=\"https://www.investing.com/news/stock-market-news/five-us-states-join-ftc-suit-over-alleged-hims--hers-unlawful-practices-5016982\">Reuters reports</a> the allegations include sharing sensitive health data and making subscriptions difficult to cancel. These are allegations in a lawsuit, not findings by a court.",
+            "The complaint also challenges billing and cancellation practices. <a href=\"https://www.investing.com/news/stock-market-news/five-us-states-join-ftc-suit-over-alleged-hims--hers-unlawful-practices-5016982\">According to Reuters</a>, Hims & Hers called the allegations flawed and said it would defend itself. The case puts health-data handling and online subscription consent under renewed scrutiny."
+          ]
+        },
+        {
+          "title": "Anthropic Adds Meetings and Spreadsheets to Its Workplace Push",
+          "topic": "anthropic-workplace-tools-nov11",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/hpjSkU2UYSU",
+            "alt": "Laptop showing a data dashboard; file photo, 2016.",
+            "verified": true
+          },
+          "paragraphs": [
+            "Anthropic introduced Claude Meetings, expanding its push into everyday office work. <a href=\"https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/\">TechCrunch reports</a> the tool turns discussions into structured plans and tasks. The rollout accompanies Claude Sheets and Whiteboards as the company competes in workplace software.",
+            "The tools connect meeting notes, planning and spreadsheet work rather than leaving each task in isolation. <a href=\"https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/\">TechCrunch describes</a> a broader productivity strategy challenging established office suites. Businesses still need to assess access, accuracy and sensitive-data handling before relying on AI-generated work."
+          ]
+        },
+        {
+          "title": "Ukraine and Russia Agree in Principle to a Prisoner Exchange",
+          "topic": "abu-dhabi-prisoner-exchange-nov11",
+          "region": "world",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1783685158044-6892424e93c8?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/UYeicBzWHKo",
+            "alt": "Modern buildings in Abu Dhabi; file photo, 2026.",
+            "verified": true
+          },
+          "paragraphs": [
+            "Russia and Ukraine agreed in principle to a large prisoner exchange as two days of Abu Dhabi talks concluded. <a href=\"https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64\">AP reports</a> the U.S.-mediated discussions produced no major breakthrough on ending the war. Officials had not finalized the exchange's size.",
+            "Territory, postwar security guarantees and Europe's role remained obstacles to a settlement. <a href=\"https://apnews.com/article/russia-ukraine-war-talks-kushner-witkoff-7c8d1024302e0c6ad8be064eec852a64\">AP reports</a> U.S. envoys planned to visit Moscow next, then meet Ukraine's president in Dublin. A proposed humanitarian exchange is not a final peace agreement."
+          ]
+        },
+        {
+          "title": "Stocks Rebound as the Nasdaq Gains 1.6%",
+          "topic": "wall-street-close-nov11",
+          "region": "us",
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1494083306499-e22e4a457632?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/S4jSvcHYcOs",
+            "alt": "Computer processor held by tweezers; file photo, 2017.",
+            "verified": true
+          },
+          "paragraphs": [
+            "U.S. stocks finished higher Wednesday as technology shares recovered. <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC reports</a> the Nasdaq Composite gained 1.60% to 25,466.19. The S&P 500 rose 1.31% to 7,619.38, while the Dow added 254.60 points to 52,486.49.",
+            "CoreWeave jumped nearly 25% after better-than-expected results, while Nvidia rose 2.9%. <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC reports</a> bond markets were closed for Veterans Day. The equity rebound did not erase the inflation pressures confronting households or determine the Federal Reserve's next decision."
+          ]
+        }
+      ],
+      "deep_dive": {
+        "title": "Why the Fed Is Again Talking About Higher Rates",
+        "topic": "fed-waller-inflation-nov11",
+        "region": "us",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1783571856194-004fac25c615?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/74Fa_EIeLsY",
+          "alt": "Chicago Fed building corner; file photo, 2026.",
+          "verified": true
+        },
+        "paragraphs": [
+          "<strong>What happened.</strong> Federal Reserve Governor Christopher Waller said he leaned toward a quarter-point rate increase in December. <a href=\"https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm\">His official remarks</a> also left room for a larger move if the data justified one. Waller was describing his own outlook, not announcing a committee decision. The Fed's next action remained unsettled as markets assessed persistent inflation.",
+          "<strong>Why it matters.</strong> Higher policy rates can keep borrowing costs elevated for households and businesses. <a href=\"https://www.reuters.com/5f374b32b07b/world/us/us-consumer-prices-rise-above-expectations-october-2026-11-10/\">Reuters reports</a> consumer prices rose briskly for a third consecutive month in October. That complicates the balance between containing inflation and protecting growth. A single official's speech does not automatically change credit-card rates, mortgages or the interest paid on savings.",
+          "<strong>What each side says.</strong> Waller argued that inflation risks justified considering further tightening. <a href=\"https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html\">CNBC reports</a> he favored a measured increase while remaining open to a larger one. His comments were made before the latest consumer-price release. Market investors can disagree about the likely path, but trading expectations are not commitments from the Federal Open Market Committee.",
+          "<strong>What comes next.</strong> Officials will assess incoming inflation and economic data before the December meeting. <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC reports</a> stocks rebounded Wednesday even as investors weighed higher rates. Consumers should distinguish a market rally from a policy announcement. The important next development is the committee's actual decision and explanation, not an assumption that one speech settles the outcome."
+        ]
+      },
+      "briefing": {
+        "World view": [
+          "<strong>Najib Moves to House Arrest.</strong> Malaysia's former prime minister left prison after royal clemency, reports <a href=\"https://www.aljazeera.com/news/2026/11/10/malaysian-court-clears-former-pm-najib-razak-for-house-arrest-transfer\">Al Jazeera</a>.",
+          "<strong>Baltic Nations Issue Drone Alerts.</strong> Russia and Ukraine exchanged strikes as neighbors monitored their airspace, reports <a href=\"https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region\">Al Jazeera</a>.",
+          "<strong>Carney Warns Against Interference.</strong> Canada's leader said he would raise outside meddling with China's president, reports <a href=\"https://www.internazionale.it/ultime-notizie-reuters/2026/11/10/carney-says-he-will-tell-xi-that-outsiders-should-not-meddle-in-canada-s-affairs\">Reuters via Internazionale</a>.",
+          "<strong>Garment Workers Cut Essentials.</strong> Bangladeshi workers described reducing food and healthcare spending as wages fell short, reports <a href=\"https://www.reuters.com/3fec1b0a85a0/business/world-at-work/behind-bangladeshs-garment-boom-workers-cut-food-healthcare-wages-fall-short-2026-11-11/\">Reuters</a>."
+        ],
+        "Need to know": [
+          "<strong>Americans Want the Iran War Ended.</strong> A Reuters/Ipsos survey found pressure on the incoming Democratic Congress, reports <a href=\"https://www.investing.com/news/politics-news/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-reutersipsos-poll-finds-5014731\">Reuters</a>.",
+          "<strong>House Passes Retirement Legislation.</strong> The Retirement Fairness for Charities and Educational Institutions Act passed 295-128, records <a href=\"https://clerk.house.gov/votes/2026321\">the House Clerk</a>.",
+          "<strong>Mortgage Rates Jump.</strong> Borrowing costs rose sharply after easing for four consecutive weeks, reports <a href=\"https://www.cnbc.com/2026/11/11/mortgage-rates-jump-sharply-higher-after-easing-for-4-straight-weeks.html\">CNBC</a>.",
+          "<strong>Bond Markets Observe Veterans Day.</strong> The federal holiday closed U.S. bond trading while stock markets remained open, reports <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC</a>."
+        ],
+        "Money & markets": [
+          "<strong>RWE Beats Earnings Forecasts.</strong> Nine-month core earnings reached 4.6 billion euros against a 4.4 billion consensus, reports <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC</a>.",
+          "<strong>Vestas Misses Revenue Forecasts.</strong> Quarterly revenue reached 5.7 billion euros against 6 billion expected, reports <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC</a>.",
+          "<strong>ABN Amro Profit Rises 52%.</strong> Quarterly net profit reached 940 million euros, beating the 782 million consensus, reports <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC</a>.",
+          "<strong>Siemens Energy Sets a Revenue Record.</strong> Quarterly revenue rose 21.5% to 12.83 billion euros, reports <a href=\"https://www.cnbc.com/2026/11/10/stock-market-today-live-updates.html\">CNBC</a>."
+        ],
+        "Future frontiers": [
+          "<strong>Oura Plans a $625 Million Deal.</strong> The smart-ring company agreed to acquire AI healthcare provider Counsel Health, reports <a href=\"https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/\">TechCrunch</a>.",
+          "<strong>Congo's Ebola Cases Exceed 11,000.</strong> Officials reported 11,042 infections in the country's deadliest outbreak, reports <a href=\"https://apnews.com/article/congo-ebola-outbreak-cae4cef6e48c1d2210a59c72676bff29\">AP</a>.",
+          "<strong>NASA Explains a Saturn Occultation.</strong> A newly featured image shows the Moon hiding Saturn during an earlier event, explains <a href=\"https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/\">NASA</a>.",
+          "<strong>NASA Highlights a Small Galaxy.</strong> An image of NGC 4449 shows a dwarf galaxy's active star formation, reports <a href=\"https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/\">NASA</a>."
+        ],
+        "The score": [
+          "<strong>Kane Eyes Another International Milestone.</strong> The England striker features in this week's Nations League schedule without Cristiano Ronaldo, reports <a href=\"https://apnews.com/article/nations-league-games-e3a60d664d2a32ffb82a615eb2874e2b\">AP</a>.",
+          "<strong>NFL Divisions Produce Contrasting Leaders.</strong> The 6-3 Packers sit last in their division while the 3-5 Panthers lead theirs, reports <a href=\"https://apnews.com/article/nfl-nfc-north-south-a19308759a4550b308a59cd48dfa5eae\">AP</a>.",
+          "<strong>Cy Young Winners Are Unanimous.</strong> Jacob Misiorowski and Cam Schlittler won their leagues' pitching awards, reports <a href=\"https://apnews.com/article/mlb-cy-young-a28fec6622954768e75e618dc26673be\">AP</a>.",
+          "<strong>Knicks Beat Bucks.</strong> NBA's Knicks won 117-85 on Nov. 10, records <a href=\"https://www.espn.com/nba/scoreboard/_/date/20261110\">ESPN</a>."
+        ],
+        "Life & culture": [
+          "<strong>Nicolas Cage Takes on Madden.</strong> The actor discussed portraying the football broadcasting figure, reports <a href=\"https://www.yahoo.com/entertainment/movies/articles/nicolas-cage-transformed-within-madden-210447030.html\">Reuters</a>.",
+          "<strong>The Rings Premiere Draws Stars.</strong> The third season's cast gathered for its London premiere, reports <a href=\"https://www.centraloregondaily.com/news/entertainment/the-inner-child-in-me-is-screaming-jamie-campbell-bower-on-joining-lord-of-the/article_c5cab01d-d951-58c0-9a0f-da7d9ac930fc.html\">Reuters via Central Oregon Daily</a>.",
+          "<strong>Paper Tiger Prepares for Friday Release.</strong> James Gray's crime drama opens in select theaters Friday, reports <a href=\"https://apnews.com/article/paper-tiger-movie-review-96012a0f3ffce334f505d32c89858208\">AP</a>.",
+          "<strong>Stacy Keach Dies at 85.</strong> The actor was known for stage work and playing Mike Hammer, reports <a href=\"https://apnews.com/article/stacy-keach-dies-actor-e823cdf35ff64d9ca383adacec4eb9aa\">AP</a>."
+        ]
+      },
+      "trivia": {
+        "question": "Which Federal Reserve governor discussed a possible December rate increase?",
+        "options": [
+          "Jerome Powell",
+          "Lisa Cook",
+          "Christopher Waller",
+          "Philip Jefferson"
+        ],
+        "correct_letter": "C",
+        "explanation": "C. Christopher Waller. <a href=\"https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm\">His Federal Reserve speech</a> outlined his outlook, not a committee decision."
+      },
+      "poll": {
+        "question": "Should health apps require separate consent before sharing sensitive data?",
+        "slug": "nov11-2026-health-data-consent"
+      },
+      "subject": "Health Data Practices Face a Lawsuit. Claude Expands at Work. Wall Street Rebounds."
+    },
+    "2026-11-12": {
+      "title": "Food Aid Rules Face a Rewrite. Colom Wins Mississippi. Nvidia Changes Its CEO.",
+      "subject": "Food Aid Rules Face a Rewrite. Colom Wins Mississippi. Nvidia Changes Its CEO.",
+      "preview_text": "The stakes of a SNAP proposal, a Mississippi upset and Nvidia's leadership change.",
+      "description": "A SNAP proposal could affect millions, Scott Colom wins Mississippi's Senate race, and Jensen Huang resigns from Nvidia.",
+      "contents_extra": "Israel and Iran, the measles review, trivia and your poll",
+      "stories": [
+        {
+          "topic": "usda-snap-categorical-eligibility-rule-6-3-million-nov12",
+          "title": "A SNAP Proposal Could Remove Benefits From 6.3 Million People",
+          "region": "us",
+          "paragraphs": [
+            "A proposed Agriculture Department rule would restrict broad-based automatic eligibility for SNAP food assistance. <a href=\"https://apnews.com/article/snap-trump-administration-school-lunches-2090300a697f6cebe56bbfe1b30ec16a\">AP reports</a> the administration estimates 6.3 million people could lose benefits. The proposal has a public-comment period and would not take full effect for about two years.",
+            "<a href=\"https://www.cbsnews.com/news/usda-proposes-snap-eligibility-rule-change-food-stamps/\">CBS News reports</a> critics warn of increased food insecurity. AP says 1.8 million children could lose automatic free-meal eligibility, not necessarily meals. <a href=\"https://apnews.com/article/snap-trump-administration-school-lunches-2090300a697f6cebe56bbfe1b30ec16a\">AP reports</a> nearly 97% would likely qualify through another route. The proposal is not an immediate benefits cancellation."
+          ],
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1601598851547-4302969d0614?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/QsYXYSwV3NU",
+            "alt": "Shopping cart in a grocery aisle; file photo, 2020.",
+            "verified": true
+          }
+        },
+        {
+          "topic": "mississippi-senate-colom-defeats-hyde-smith-nov11",
+          "title": "Scott Colom Wins Mississippi\u2019s Senate Race in an Upset",
+          "region": "us",
+          "paragraphs": [
+            "Democrat Scott Colom defeated Republican Senator Cindy Hyde-Smith after days of ballot counting. <a href=\"https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346\">AP reports</a> he becomes Mississippi's first Black U.S. senator since Reconstruction. Hyde-Smith called Colom to concede and congratulated the prosecutor in a video message.",
+            "<a href=\"https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729\">NBC News reports</a> Democrats will hold at least 55 Senate seats next year, with Alaska still uncalled. Colom campaigned against tariffs and the Iran war. His victory adds a new state-level result to the broader congressional shift already projected after Election Day."
+          ],
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1787091331484-6b4b1ab0e28f?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/-BU36Vkmd-0",
+            "alt": "Hand holding a voting sticker; file photo, 2026.",
+            "verified": true
+          }
+        },
+        {
+          "topic": "israel-security-cabinet-iran-strike-readiness-nov12",
+          "title": "Iran Warns of Wider Retaliation as Israel Readies a Strike",
+          "region": "world",
+          "paragraphs": [
+            "Iran warned of wider retaliation as Israel reportedly stepped up preparations for a possible strike. <a href=\"https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack\">Al Jazeera reports</a> the Israeli security cabinet's direction was reported by public broadcaster KAN. It was not confirmation that an attack had begun.",
+            "Iran's security chief said bases used in a new attack could become targets, including locations beyond West Asia. <a href=\"https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack\">Al Jazeera reports</a> Tehran rejected a U.S. plan to transfer enriched uranium abroad. Diplomatic proposals and military preparations remained distinct from a final agreement or confirmed operation."
+          ],
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1768134046052-a2bf156d012a?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/PVyg_H-1SPc",
+            "alt": "Jerusalem cityscape on a clear day; file photo, 2026.",
+            "verified": true
+          }
+        },
+        {
+          "topic": "nvidia-huang-resigns-kress-interim-nov12",
+          "title": "Jensen Huang Resigns From Nvidia as Colette Kress Takes Over",
+          "region": "us",
+          "paragraphs": [
+            "Jensen Huang resigned as Nvidia's chief executive Thursday, ending uncertainty over whether he would stay. <a href=\"https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980\">Reuters reports</a> finance chief Colette Kress was named interim CEO. The departure followed reports of a second relationship involving a company executive.",
+            "The change leaves the chipmaker navigating a leadership transition during intense scrutiny of the AI industry. <a href=\"https://www.cnbc.com/2026/11/11/stock-market-today-live-updates.html\">CNBC reports</a> Nvidia shares fell sharply following the news. Kress's appointment is interim. <a href=\"https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980\">Reuters reports</a> Nvidia will consider internal and external candidates for the permanent role."
+          ],
+          "photo": {
+            "image_url": "https://images.unsplash.com/photo-1758549885423-819fd86e04f0?fm=jpg&fit=crop&w=1280&h=720&q=85",
+            "original_url": "https://unsplash.com/photos/cMoE2tU_BbM",
+            "alt": "Computer processor on a circuit board; file photo, 2025.",
+            "verified": true
+          }
+        }
+      ],
+      "deep_dive": {
+        "topic": "us-measles-elimination-status-paho-review-nov12",
+        "title": "Why the US Could Lose Its Measles-Free Status This Month",
+        "region": "us",
+        "photo": {
+          "image_url": "https://images.unsplash.com/photo-1576671081837-49000212a370?fm=jpg&fit=crop&w=1280&h=720&q=85",
+          "original_url": "https://unsplash.com/photos/KMvoHcB-w5g",
+          "alt": "Glass medical vials and bottle; file photo, 2019.",
+          "verified": true
+        },
+        "paragraphs": [
+          "<strong>What happened.</strong> An independent Pan American Health Organization panel is reviewing whether measles has become endemic again in several countries. <a href=\"https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status\">Al Jazeera reports</a> the United States, Mexico and Guatemala are among those at risk of losing elimination status. The United States received that designation in 2000. A review is not itself a final decision.",
+          "<strong>Why it matters.</strong> Elimination means sustained local transmission has been interrupted, not that imported cases never occur. A country can lose the designation after a virus strain spreads continuously for at least 12 months. <a href=\"https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status\">Al Jazeera explains</a> the review concerns that threshold. Vaccination remains central to preventing outbreaks, regardless of what an international status label says.",
+          "<strong>What each side says.</strong> Researchers describe a possible loss of status as a setback for public health, rather than a surprising outcome. <a href=\"https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status\">Al Jazeera quotes</a> epidemiologist Matt Ferrari on that distinction. Other experts emphasize the pressure outbreaks put on health systems. The independent panel must assess transmission evidence before recommending any change to a country's designation.",
+          "<strong>What comes next.</strong> The panel's meeting runs through Friday, after which its recommendations go to PAHO Director Jarbas Barbosa. <a href=\"https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status\">Al Jazeera reports</a> public announcements are expected early next week. Experts will examine genetic sequencing, vaccination coverage and outbreak surveillance. Case totals alone do not determine whether transmission has continued long enough to change a country's status."
+        ]
+      },
+      "briefing": {
+        "World view": [
+          "<strong>U.S. Envoys Finish Putin Talks.</strong> Witkoff and Kushner headed to Dublin after a two-hour Kremlin meeting, reports <a href=\"https://apnews.com/article/russia-ukraine-war-putin-kushner-witkoff-683810203340077f33611fd1d1757b23\">AP</a>.",
+          "<strong>Indonesia's Vice President Resigns.</strong> Gibran Rakabuming Raka stepped down amid a dispute over eligibility, reports <a href=\"https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility\">Al Jazeera</a>.",
+          "<strong>Spain's Wednesday Strike Targets Housing.</strong> Workers protested the country's severe housing crisis, reports <a href=\"https://www.nbcnews.com/world/spain/workers-launch-general-strike-spain-severe-housing-crisis-rcna608710\">NBC News</a>.",
+          "<strong>UK Growth Reaches 0.7%.</strong> The economy expanded in the third quarter, reports <a href=\"https://www.cnbc.com/2026/11/12/uk-gdp-third-quarter-2026.html\">CNBC</a>."
+        ],
+        "Need to know": [
+          "<strong>Senators Examine Samoa's Measles Outbreak.</strong> Investigators reviewed Robert F. Kennedy Jr.'s involvement in the vaccination controversy, reports <a href=\"https://apnews.com/article/samoa-rfk-jr-senate-investigation-measles-vaccines-e4b97becad6d2951d9e84ea584979c41\">AP</a>.",
+          "<strong>Brooklyn Collapse Remains Under Investigation.</strong> Construction was underway beside the building-collapse site, reports <a href=\"https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-construction/\">CBS News</a>.",
+          "<strong>House Advances a Veterans' Pay Measure.</strong> A discharge motion on combat-disabled retirees' concurrent pay passed 245-175, records <a href=\"https://repcloakroom.house.gov/floor/wednesday-november-11th-2026/\">the House Republican Cloakroom</a>.",
+          "<strong>Treasury Yields Top 5%.</strong> The 10-year yield rose as oil prices and rate-hike expectations increased, reports <a href=\"https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html\">CNBC</a>."
+        ],
+        "Money & markets": [
+          "<strong>Yeti Cuts Its Outlook.</strong> Quarterly adjusted revenue of $517.9 million missed estimates, reports <a href=\"https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html\">CNBC</a>.",
+          "<strong>Keurig Dr Pepper Plans an Offering.</strong> A proposed $2 billion stock sale would reduce debt, reports <a href=\"https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html\">CNBC</a>.",
+          "<strong>Nebius Raises Spending Plans.</strong> Its 2026 capital-expenditure forecast increased to $27 billion, reports <a href=\"https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html\">CNBC</a>.",
+          "<strong>Tetra Tech Beats Profit Estimates.</strong> Adjusted quarterly earnings reached 49 cents per share, reports <a href=\"https://www.cnbc.com/2026/11/12/stocks-moving-the-most-today-live-updates.html\">CNBC</a>."
+        ],
+        "Future frontiers": [
+          "<strong>Ibogaine Preparations Receive Funding.</strong> Federal officials committed up to $4.9 million for preparatory work, not direct patient trials, reports <a href=\"https://apnews.com/article/ibogaine-psychedelics-kennedy-trump-veterans-abe4a325930898ba2de42fea3a6ad4c2\">AP</a>.",
+          "<strong>Prostate Screening Guidance Changes.</strong> The American Cancer Society updated its approach to PSA testing, reports <a href=\"https://apnews.com/article/prostate-cancer-psa-american-cancer-society-fb0d5a89f0e91930a9f007562f4a3cdf\">AP</a>.",
+          "<strong>Outlook Suffers an Outage.</strong> Microsoft users reported another disruption to email access, reports <a href=\"https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/\">TechCrunch</a>.",
+          "<strong>SpaceX Plans Computing Campuses.</strong> The company announced more than $74 billion in Texas and Arizona investment, reports <a href=\"https://www.investing.com/news/stock-market-news/spacex-to-invest-over-74-billion-in-supercompute-facilities-in-texas-arizona-5022690\">Reuters</a>."
+        ],
+        "The score": [
+          "<strong>United Nears a Pochettino Deal.</strong> A source says Manchester United is close to hiring the U.S. men's coach, reports <a href=\"https://apnews.com/article/carrick-manchester-united-pochettino-9bd4d4205d8bb882292e8d5720bfe829\">AP</a>.",
+          "<strong>U.S. Leaves the U-17 World Cup.</strong> U.S. Soccer withdrew its boys' team from Qatar over security concerns, reports <a href=\"https://abcnews.com/Sports/wireStory/us-pulls-boys-team-fifa-17-world-cup-138073209\">AP via ABC News</a>.",
+          "<strong>Celtics Beat Raptors.</strong> NBA's Celtics won 98-93 on Nov. 11, records <a href=\"https://www.espn.com/nba/scoreboard/_/date/20261111\">ESPN</a>.",
+          "<strong>Spurs Beat Bulls.</strong> NBA's Spurs won 124-119 on Nov. 11, records <a href=\"https://www.espn.com/nba/scoreboard/_/date/20261111\">ESPN</a>."
+        ],
+        "Life & culture": [
+          "<strong>Adam Driver Discusses Paper Tiger.</strong> The actor's new crime film brings him into another tense family story, reports <a href=\"https://apnews.com/article/adam-driver-paper-tiger-654086a0367607dcbee9086f0eb7eb8e\">AP</a>.",
+          "<strong>Gram Parsons Gets Hall Recognition.</strong> Emmylou Harris reflected on the influential musician's Rock Hall induction, reports <a href=\"https://apnews.com/article/gram-parsons-emmylou-harris-rock-hall-c0d7f951668609d7070881938e2f7fc9\">AP</a>.",
+          "<strong>Latin Grammys Prepare for the Show.</strong> Performers and nominees gathered for the annual Latin music awards, reports <a href=\"https://apnews.com/article/latin-grammys-2026-70584c66afd078de1df5143f6dc10398\">AP</a>.",
+          "<strong>Maika Monroe Talks Victorian Psycho.</strong> The actor discussed her role in the new period horror film, reports <a href=\"https://apnews.com/article/maika-monroe-victorian-psycho-4b92f92b81b3926e6ec36f9ffa4b289b\">AP</a>."
+        ]
+      },
+      "trivia": {
+        "question": "Who became Nvidia's interim chief executive after Jensen Huang resigned?",
+        "options": [
+          "Lisa Su",
+          "Satya Nadella",
+          "Tim Cook",
+          "Colette Kress"
+        ],
+        "correct_letter": "D",
+        "explanation": "D. Colette Kress. <a href=\"https://www.investing.com/news/stock-market-news/nvidia-ceo-jensen-huang-to-step-down-in-big-blow-to-ai-boom-5021980\">Reuters reports</a> Nvidia's finance chief was named interim CEO."
+      },
+      "poll": {
+        "question": "Should SNAP preserve its current broad-based eligibility pathway?",
+        "slug": "nov12-2026-snap-pathway"
+      },
+      "date": "2026-11-12",
+      "date_line": "Thursday, November 12, 2026 \u00b7 6 min read"
+    }
+  },
+  "previous_photo_paths": [
+    "/photo-1474302770737-173ee21bab63",
+    "/photo-1494172961521-33799ddd43a5",
+    "/photo-1496361945947-d0250d31222a",
+    "/photo-1505751172876-fa1923c5c528",
+    "/photo-1516199423456-1f1e91b06f25",
+    "/photo-1516849841032-87cbac4d88f7",
+    "/photo-1518527989017-5baca7a58d3c",
+    "/photo-1529079688486-feaa9f516c9a",
+    "/photo-1531297484001-80022131f5a1",
+    "/photo-1534469650761-fce6cc26ac0d",
+    "/photo-1538108149393-fbbd81895907",
+    "/photo-1540910419892-4a36d2c3266c",
+    "/photo-1555899434-94d1368aa7af",
+    "/photo-1560221328-12fe60f83ab8",
+    "/photo-1560782205-4dd83ceb0270",
+    "/photo-1563299796-b729d0af54a5",
+    "/photo-1568092806323-8ec13dfa9b92",
+    "/photo-1570030534989-31a8e6812fc9",
+    "/photo-1572120360610-d971b9d7767c",
+    "/photo-1572888195250-3037a59d3578",
+    "/photo-1577942948749-a3dbb5c6db0a",
+    "/photo-1582560475093-ba66accbc424",
+    "/photo-1582719471425-ab68645ba31d",
+    "/photo-1585577529540-a8095ea25427",
+    "/photo-1589835479361-c81e5d44a77b",
+    "/photo-1607811099733-8cc75102fde3",
+    "/photo-1614064641938-3bbee52942c7",
+    "/photo-1617028277715-83a6753be197",
+    "/photo-1631887007300-3b0b43387958",
+    "/photo-1649731929606-cb8a84d7006e",
+    "/photo-1674246145742-c6e4563d94cb",
+    "/photo-1680796261004-cb56372e3599",
+    "/photo-1686620225824-d4120ed3a81e",
+    "/photo-1687273705305-d8ff89951fdc",
+    "/photo-1691256676376-357c3aa66c89",
+    "/photo-1706954867029-3798018ae194",
+    "/photo-1707236585778-cc1f5a0e3963",
+    "/photo-1713885638833-6541c5ad5a34",
+    "/photo-1727994527246-68e26082d0fd",
+    "/photo-1745939921744-ba8ef27940bf",
+    "/photo-1758562235074-c54b9f68af12",
+    "/photo-1761233138997-44d9b002a08f",
+    "/photo-1775147514417-b9b6d50c7b69",
+    "/photo-1777269749032-d8d458ae594d",
+    "/photo-1782871466961-a6a77c2e37b8"
+  ],
+  "approved_changed_paths": [
+    "index.html",
+    "editions/2026-11-03.html",
+    "editions/2026-11-04.html",
+    "editions/2026-11-05.html",
+    "editions/2026-11-10.html",
+    "editions/2026-11-11.html",
+    "editions/2026-11-12.html",
+    "tests/test_site.py",
+    "tests/test_nov9_site.py",
+    "tests/test_nov10_site.py",
+    "tests/nov10_cpi_revision.json",
+    "tests/test_archive_repair.py",
+    "tests/archive_repair_expected.json"
+  ],
+  "migrated_test_hashes": {
+    "tests/test_site.py": "0cd641e0b84c3ce843894b9d8fb357fc75fb3437b1497fd2bd91275bc73d22aa",
+    "tests/test_nov9_site.py": "de0d284877adb8b5b39d2f7d8bb82df74aeb69c3e3d747dfc8ab16c2ba42b424",
+    "tests/test_nov10_site.py": "4f22992a2466c33e864cdcf389378e1c5afcc8aba34e84054a22e745c2a1fd1a",
+    "tests/test_archive_repair.py": "9e3a8b69e749c2dea4f50435e38a0c0ea57140702a68301107ba042cd832b68f"
+  }
+}
