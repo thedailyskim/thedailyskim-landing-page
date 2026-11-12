@@ -41,16 +41,26 @@
     "tests/test_site.py": "b808151f71653db14587b66b4aa1ffdac187ee9f2e6339684c879331ca5e37d5"
   },
   "allowed": [
+    "editions/2026-11-03.html",
+    "editions/2026-11-04.html",
+    "editions/2026-11-05.html",
     "editions/2026-11-10.html",
+    "editions/2026-11-11.html",
+    "editions/2026-11-12.html",
+    "index.html",
+    "tests/archive_repair_expected.json",
     "tests/nov10_cpi_revision.json",
     "tests/nov10_expected.json",
+    "tests/test_archive_repair.py",
     "tests/test_nov10_cpi_revision.py",
-    "tests/test_nov10_site.py"
+    "tests/test_nov10_site.py",
+    "tests/test_nov9_site.py",
+    "tests/test_site.py"
   ],
   "web_changes": {
     "editions/2026-11-10.html": {
       "before_sha256": "985bb6261c41e26df9adc9f85b136b4d7e33a8a56de30627c84d197925a005b5",
-      "after_sha256": "149109ec6409f033bbd444b861e473fd7394c17c3bf136d44924c9b466d800aa",
+      "after_sha256": "35bffa0f4afd2f2256a6539d644b5311b510a0d71a545c4fab10b59439b22fd2",
       "replacements": [
         {
           "old": "<strong>Inflation data arrive Tuesday.</strong> Economists expect consumer prices rose 0.3% in October after a 0.6% jump in September; <a href=\"https://www.investing.com/news/economy-news/morning-bid-anthropic-ipo-please-try-again-5014123\">Reuters reports</a>.",

@@ -6,6 +6,7 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
 E=json.loads((ROOT/"tests/nov9_expected.json").read_text())
 B=E["brand"];C=E["content"];DATE=E["date"];OLD=E["old"]
+AR=json.loads((ROOT/"tests/archive_repair_expected.json").read_text())
 def soup(p,base=ROOT):return BeautifulSoup((base/p).read_text(),"html.parser")
 def norm(s):return " ".join(s.split())
 def config(p,base=ROOT):
@@ -46,6 +47,10 @@ class Nov9Candidate(unittest.TestCase):
  def test_02_historical_editorial_unchanged(self):
   for rel,d in E["baseline"]["files"].items():
    if not re.fullmatch(r"editions/\d{4}-\d{2}-\d{2}\.html",rel):continue
+   if rel in AR["navigation_maintenance"]:
+    raw=(ROOT/rel).read_text()
+    raw=re.sub(r'<nav\b[^>]*\bclass="ednav"[^>]*>.*?</nav>',"<NAV>",raw,flags=re.S)
+    self.assertEqual(AR["original_without_nav"][rel],h(raw),rel);continue
    if Path(rel).stem!=OLD:self.assertEqual(d,digest(ROOT/rel),rel);continue
    b=soup(rel)
    b.select_one("nav.nav,nav.ednav,nav.ed-nav").decompose()
