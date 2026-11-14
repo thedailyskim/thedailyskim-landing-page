@@ -7,6 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 E=json.loads((ROOT/"tests/nov10_expected.json").read_text())
 B=E["brand"];C=E["content"];DATE=E["date"];OLD=E["old"]
 AR=json.loads((ROOT/"tests/archive_repair_expected.json").read_text())
+NR=json.loads((ROOT/"tests/nov13_14_expected.json").read_text())
 def soup(p,base=ROOT):return BeautifulSoup((base/p).read_text(),"html.parser")
 def norm(s):return " ".join(s.split())
 def config(p,base=ROOT):
@@ -37,6 +38,7 @@ class Nov10Candidate(unittest.TestCase):
   allowed.update({"tests/nov10_cpi_revision.json","tests/test_nov10_cpi_revision.py"})
   allowed.update({"tests/nov10_hyphen_revision.json","tests/test_nov10_hyphen_revision.py"})
   allowed.update(AR["approved_changed_paths"])
+  allowed.update(NR["approved_changed_paths"])
   original=E["baseline"]["files"]
   current={str(p.relative_to(ROOT)):p for p in ROOT.rglob("*") if p.is_file() and "__pycache__" not in p.parts}
   current={name:p for name,p in current.items() if ".git" not in p.parts}
@@ -45,7 +47,7 @@ class Nov10Candidate(unittest.TestCase):
   self.assertEqual(changed,allowed)
   for p in original:
    if p not in allowed:self.assertEqual(original[p],digest(current[p]),p)
-  for p,d in E["fixture_file_sha256"].items():self.assertEqual(AR["migrated_test_hashes"].get(p,d),digest(ROOT/p),p)
+  for p,d in E["fixture_file_sha256"].items():self.assertEqual(NR["migrated_test_hashes"].get(p,AR["migrated_test_hashes"].get(p,d)),digest(ROOT/p),p)
   self.assertEqual(E["fixture_edits_sha256"],digest(ROOT/"tests/nov10_fixture_edits.json"))
  def test_02_historical_editorial_unchanged(self):
   for rel,d in E["baseline"]["files"].items():
@@ -70,7 +72,7 @@ class Nov10Candidate(unittest.TestCase):
   paths=["index.html"]+(["archive.html"] if B=="worldskim" else ["editions/index.html"] if B=="factsfirstdaily" else [])
   for p in paths:
    current=config(p);old=E["baseline"]["homes"][p]["config"]
-   current["editions"]=[x for x in current["editions"] if x["url"].split("/")[-1][:10] not in AR["content"]]
+   current["editions"]=[x for x in current["editions"] if x["url"].split("/")[-1][:10] not in set(AR["content"]) | set(NR["sources"])]
    a=current["editions"].pop(0)
    self.assertEqual(current,old)
    self.assertEqual(a["url"].split("/")[-1],DATE+".html")
@@ -149,7 +151,7 @@ class Nov10Candidate(unittest.TestCase):
   home=soup("index.html");latest=AR["content"]["2026-11-12"]
   if B=="thedailyskim":
    links=home.select(".sw-item");self.assertEqual(len(links),5)
-   self.assertEqual([a.get_text() for a in links],[a["title"] for a in latest["stories"]+[latest["deep_dive"]]])
+   self.assertEqual([a.get_text() for a in links],NR["latest_headlines"])
    self.assertEqual(len(home.select(".sw-dots button")),5)
   elif B=="worldskim":
    items=json.loads(home.select_one(".switcher")["data-items"])
