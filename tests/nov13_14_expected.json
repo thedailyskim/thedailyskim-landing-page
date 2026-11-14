@@ -1,0 +1,205 @@
+{
+  "original_archive": [
+    {
+      "title": "Food Aid Rules Face a Rewrite. Colom Wins Mississippi. Nvidia Changes Its CEO.",
+      "description": "A SNAP proposal could affect millions, Scott Colom wins Mississippi's Senate race, and Jensen Huang resigns from Nvidia.",
+      "url": "editions/2026-11-12.html",
+      "date": "Thu, Nov 12",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1601598851547-4302969d0614?fm=jpg&fit=crop&w=1280&h=720&q=85"
+    },
+    {
+      "title": "Health Data Practices Face a Lawsuit. Claude Expands at Work. Wall Street Rebounds.",
+      "description": "Five states join the Hims & Hers case, Anthropic expands workplace tools, and stocks recover before another Fed decision.",
+      "url": "editions/2026-11-11.html",
+      "date": "Wed, Nov 11",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1543709533-c032159da7b0?fm=jpg&fit=crop&w=1280&h=720&q=85"
+    },
+    {
+      "title": "FDA Adds a Vision Warning to GLP-1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
+      "description": "The FDA adds a vision loss warning to GLP-1 drugs and Lilly reports sleep apnea results. Plus Anthropic\u2019s IPO and Novaya Gazeta.",
+      "url": "editions/2026-11-10.html",
+      "date": "Tue, Nov 10",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
+      "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt\u2019s train collision and AI\u2019s power equipment squeeze.",
+      "url": "editions/2026-11-09.html",
+      "date": "Mon, Nov 9",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1706954867029-3798018ae194?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Trump Orders a DOJ Review.\nIsrael Faces Coalition Talks.\nJapan Assesses Quake Damage.",
+      "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland\u2019s investigation.",
+      "url": "editions/2026-11-08.html",
+      "date": "Sun, Nov 8",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1568092806323-8ec13dfa9b92?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Measles Cases Climb. Stocks Recover Ground. Iran Talks Continue.",
+      "description": "Measles cases exceed 5,000, technology shares regain ground and new U.S. strikes come as Qatar continues Iran mediation.",
+      "url": "editions/2026-11-07.html",
+      "date": "Sat, Nov 7",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1280&h=720&q=80"
+    },
+    {
+      "title": "Tesla Plans a Factory Shift. Raman Inherits an Olympic Host City. Cash Buyers Skew Older.",
+      "description": "Tesla plans factory changes, Los Angeles chooses a new mayor, and cash buyers reveal a widening gap in access to homes.",
+      "url": "editions/2026-11-06.html",
+      "date": "Fri, Nov 6",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=800&h=450&fit=crop&q=80&crop=entropy"
+    },
+    {
+      "title": "Democrats are projected to take Congress. Tankers burn near Hormuz. Indonesia fires a top aide.",
+      "description": "Democrats are projected to win both chambers of Congress, Iran says four tankers hit mines near Hormuz, and Indonesia's president fires his chief of staff.",
+      "url": "editions/2026-11-05.html",
+      "date": "Thu, Nov 5",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1775147514417-b9b6d50c7b69?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "What the Midterms Mean for Your Budget. CVS Plans a Split. Healthcare Stocks Rally.",
+      "description": "The election opens a household-policy debate, CVS plans two companies, and health and energy shares rally.",
+      "url": "editions/2026-11-04.html",
+      "date": "Wed, Nov 4",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1707762890671-52ef6d6f51e7?w=1280&h=720&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "America votes today on Congress and 145 ballot measures. Your health insurance is about to cost more. And Netflix wants to read your mood.",
+      "description": "Control of Congress is on the ballot today along with 145 state measures, Obamacare premiums are set to climb, and Netflix starts picking shows by mood.",
+      "url": "editions/2026-11-03.html",
+      "date": "Tue, Nov 3",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Ni\u00f1o is flooding the Southwest.",
+      "description": "Signs that Iran is open to peace talks knocked oil to its steepest one day drop in months, Sen. Chris Murphy had a stroke, and storms drenched the desert Southwest.",
+      "url": "editions/2026-11-02.html",
+      "date": "Mon, Nov 2",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1516199423456-1f1e91b06f25?w=800&h=450&fit=crop&crop=entropy&q=80"
+    },
+    {
+      "title": "Wall Street had its worst day since June. A judge ended Trump's WSJ lawsuit. And Milwaukee got its parade.",
+      "description": "AI worries sent tech stocks and Intel tumbling, a federal judge ended Trump's case against The Wall Street Journal, and Milwaukee threw its first World Series parade.",
+      "url": "editions/2026-11-01.html",
+      "date": "Sun, Nov 1",
+      "readingTime": "6 min read",
+      "image": "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&h=450&fit=crop&crop=entropy&q=80"
+    }
+  ],
+  "sources": {
+    "2026-11-13": {
+      "web_sha256": "1aebd5f8173eada550f29b6f3f79cb2fa036acdf9e22eb047271eb7624ad6c9e",
+      "output_sha256": "8e35bcdb87d43bc0a8e79687038f556658a2612ea670145d80ed10123176ab08"
+    },
+    "2026-11-14": {
+      "web_sha256": "d27b181d757c1c944fe52c92bdd356dc7d297567fa4c8d61a041b6fe969577c3",
+      "output_sha256": "af47bbed02ef5afebe03f9ebcf7aac713bc696321fb618b0f0f286000899c3bb"
+    }
+  },
+  "locks": {
+    "2026-11-13": {
+      "article.story": [
+        "f7b856438430b8fb64240317bd99537891c63751cc8d0975cb55d7a3dbd106e8",
+        "c4e1863a3a37b04d8972a4b5b928e0ea4ff7b0de578ba5ea86e470e36928f057",
+        "8eccc7c8487eb3785eab74479ed146c5497ce3c85501dd975149b18e4ba8e508",
+        "5615259fd029e365ccf2d9caba4105c1140fc110457d5c128e8940c823dd41a2"
+      ],
+      "#briefing": [],
+      "#deep-dive": [
+        "3ed47bada7e24337979dbb7aff3006c042cc3d8e8cbdc9e0ba5875a43fa2e8b4"
+      ],
+      "#tri": [
+        "0e727a8ed4f6d7c7b2d39a4eac885f6991112623b8db4d32344d7e3c0eb7da23"
+      ],
+      ".poll": [
+        "de5b5d2f26f02586747e199534808802f6cd9ecff7ccfe6aa9f491b0ea406aa0"
+      ],
+      "style": [
+        "b11f24efdabea383ec8a9b61e2026a3bb858bcea29f83db6a0606410e0e75924"
+      ],
+      "script": [
+        "325d99e43e4ffa840e5146494502eec766422c44a99c8c8f6c375e5f26e4e970",
+        "b8261393388569c249d285f66855c1f648bd8c5243b1e8e2215d4581a75710ef"
+      ],
+      "header": [
+        "7e383a3ab278badd60127086aaf698129810b5390da5f3ebc5d6b47df3977618"
+      ]
+    },
+    "2026-11-14": {
+      "article.story": [
+        "43b6251bbcaca0d27d5ee0821931016f72ef1b2811dc6d74b21ddce82d88efdd",
+        "ca9b8d74a41968d333272afa00345d2f84883f69903a14089a3b94e31cdccf87",
+        "0a12bf24d5e5d7ef7285c4ca0bf59d27f8afa5ddd89af3bb16530c2d7a7e54f6",
+        "63ba2507fdfceaa658d4381654b90906ef19be0ad54eacf2329e4ece5a9a4c75"
+      ],
+      "#briefing": [],
+      "#deep-dive": [
+        "4947871cf4edea454974c6f0ab5356bb9dfdcb9f237e9e3afe94baf5d5fb8a23"
+      ],
+      "#tri": [
+        "57520bcb9520c0aa209ed89df81bbe9432747cbb851c7860b550244d1750c305"
+      ],
+      ".poll": [
+        "a6dbfd39ea72a2c0856224c91b4e3bd983db3b0ca122ebef3bf5dab1d23bac95"
+      ],
+      "style": [
+        "b11f24efdabea383ec8a9b61e2026a3bb858bcea29f83db6a0606410e0e75924"
+      ],
+      "script": [
+        "325d99e43e4ffa840e5146494502eec766422c44a99c8c8f6c375e5f26e4e970",
+        "b8261393388569c249d285f66855c1f648bd8c5243b1e8e2215d4581a75710ef"
+      ],
+      "header": [
+        "7e383a3ab278badd60127086aaf698129810b5390da5f3ebc5d6b47df3977618"
+      ]
+    }
+  },
+  "old_files": {
+    "editions/2026-11-09.html": "84a92dd351ae26b9cf2f0d769d195dcf320a9ebd55c4541f5a21fbd89be56eac",
+    "editions/2026-11-12.html": "013c218c92dedb253be800b5aa9135dfd163ba0fd62f93b12d3111a25f9826f0",
+    "editions/2026-11-10.html": "35bffa0f4afd2f2256a6539d644b5311b510a0d71a545c4fab10b59439b22fd2",
+    "editions/2026-11-11.html": "ce97c27aafbd344d4a7f5f670c4fae15543b4445edb7db098302c505d5a39d86",
+    "editions/2026-11-08.html": "ce935fb69ea7f55f319c2f07c83e1beeee3998d84a381eb456d46216f18b9df0",
+    "editions/2026-11-04.html": "58d2babb687d4f6f9f3908762c4b9aec74242038bbf002d8452aba6320d63359",
+    "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+    "editions/2026-11-03.html": "66901bbca38e3982b196d8537ae5de5de1203602db86446f84585fc219cd5964",
+    "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+    "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+    "editions/2026-11-05.html": "305a54ab4217fcba93308dc1a38db88bc31f1767b2fd0e1cdb4aaa452c455cad",
+    "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3"
+  },
+  "approved_changed_paths": [
+    "index.html",
+    "editions/2026-11-12.html",
+    "editions/2026-11-13.html",
+    "editions/2026-11-14.html",
+    "tests/test_site.py",
+    "tests/test_archive_repair.py",
+    "tests/test_nov10_site.py",
+    "tests/test_nov10_cpi_revision.py",
+    "tests/nov13_14_expected.json",
+    "tests/test_nov13_14_site.py"
+  ],
+  "latest_headlines": [
+    "Supreme Court Agrees to Weigh Trump's Asylum Ban at the Southern Border",
+    "Airlines Dig Out After the Longest Nationwide Ground Stop in 25 Years",
+    "All Aboard Survive After a Tanker Slams Into a New Orleans River Cruise Boat",
+    "Alaska Elects Its First Democratic Governor Since 1998",
+    "Why States Can Wait Until July to Drop People Over Medicaid Work Rules"
+  ],
+  "migrated_test_hashes": {
+    "tests/test_site.py": "873e86b94e0d0e9a0b8f2714ea86cda88dc5739d8a97a5519926bb3a91f0549d",
+    "tests/test_archive_repair.py": "c669cc2e92037630f3f9bb84a0943b78a2b0d13a16dca9e26afb3c50a410fd0a"
+  }
+}

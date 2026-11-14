@@ -3,12 +3,13 @@ import json,hashlib,unittest
 from bs4 import BeautifulSoup
 from urllib.parse import urlsplit,parse_qs
 R=Path(__file__).resolve().parents[1];E=json.loads((R/"tests/nov10_cpi_revision.json").read_text());C=json.loads((R/"tests/nov10_expected.json").read_text())["content"]
+NR=json.loads((R/"tests/nov13_14_expected.json").read_text())
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 class CPIRevision(unittest.TestCase):
  def test_exact_bounded_revision_preserves_all_other_files(self):
   now={str(p.relative_to(R)):sha(p) for p in R.rglob("*") if p.is_file() and not any(x in p.parts for x in (".git","__pycache__"))}
   self.assertTrue(set(E["baseline"])<=set(now))
-  self.assertEqual({n for n,d in now.items() if E["baseline"].get(n)!=d},set(E["allowed"]))
+  self.assertEqual({n for n,d in now.items() if E["baseline"].get(n)!=d},set(E["allowed"]) | set(NR["approved_changed_paths"]))
   for n,v in E["web_changes"].items():self.assertEqual(now[n],v["after_sha256"])
  def test_primary_actuals_and_no_stale_forecast(self):
   raw=(R/"editions/2026-11-10.html").read_text();s=BeautifulSoup(raw,"html.parser");text=s.get_text(" ",strip=True)
