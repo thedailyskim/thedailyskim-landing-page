@@ -100,11 +100,11 @@
   "sources": {
     "2026-11-13": {
       "web_sha256": "1aebd5f8173eada550f29b6f3f79cb2fa036acdf9e22eb047271eb7624ad6c9e",
-      "output_sha256": "8e35bcdb87d43bc0a8e79687038f556658a2612ea670145d80ed10123176ab08"
+      "output_sha256": "d018684e4afeaab89be42e82ab1bdfae34180ad7ccb99f52efa501093b43625e"
     },
     "2026-11-14": {
       "web_sha256": "d27b181d757c1c944fe52c92bdd356dc7d297567fa4c8d61a041b6fe969577c3",
-      "output_sha256": "af47bbed02ef5afebe03f9ebcf7aac713bc696321fb618b0f0f286000899c3bb"
+      "output_sha256": "4a98a2684759ecfe0be51424c979341c660861577cb802d0948743beb6396c2e"
     }
   },
   "locks": {
@@ -201,5 +201,15 @@
   "migrated_test_hashes": {
     "tests/test_site.py": "873e86b94e0d0e9a0b8f2714ea86cda88dc5739d8a97a5519926bb3a91f0549d",
     "tests/test_archive_repair.py": "c669cc2e92037630f3f9bb84a0943b78a2b0d13a16dca9e26afb3c50a410fd0a"
+  },
+  "photo_metadata_correction": {
+    "2026-11-13": {
+      "old": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=1280&h=720&fit=crop&q=80&crop=entropy",
+      "new": "https://images.unsplash.com/photo-1560264280-88b68371db39?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    },
+    "2026-11-14": {
+      "old": "https://images.unsplash.com/photo-1727994527246-68e26082d0fd?w=1280&h=720&fit=crop&q=80&crop=entropy",
+      "new": "https://images.unsplash.com/photo-1719947688696-31ffb21b5d5e?fm=jpg&fit=crop&w=1280&h=720&q=80"
+    }
   }
 }

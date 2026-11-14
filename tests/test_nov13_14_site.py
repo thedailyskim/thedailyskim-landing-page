@@ -36,6 +36,14 @@ class DatedRelease(unittest.TestCase):
         self.assertEqual(doc('2026-11-13').select('.ednav a')[-1]['href'],'2026-11-14.html')
         self.assertEqual(doc('2026-11-12').select('.ednav a')[-1]['href'],'2026-11-13.html')
         self.assertEqual(doc('2026-11-14').select_one('.ednav span').get_text(),'Latest edition')
+    def test_new_archive_and_og_photos_match_exact_approved_lead(self):
+        rows=json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',(ROOT/'index.html').read_text(),re.S)[1])['editions']
+        for day,proof in E['photo_metadata_correction'].items():
+            d=doc(day);lead=d.select_one('article.story img')['src']
+            self.assertEqual(lead,proof['new'])
+            self.assertEqual(d.select_one('meta[property="og:image"]')['content'],lead)
+            self.assertEqual(next(r['image'] for r in rows if day in r['url']),lead)
+        self.assertEqual(doc('2026-11-14').select_one('.ds-mcard[href="2026-11-13.html"] img')['src'],E['photo_metadata_correction']['2026-11-13']['new'])
     def test_exact_canonical_trivia_and_poll_links(self):
         for n,slug,answer in [(13,'microsoft-outage','1'),(14,'air-traffic-control','2')]:
             day=f'2026-11-{n}';d=doc(day)
