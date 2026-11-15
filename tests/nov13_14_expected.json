@@ -105,6 +105,10 @@
     "2026-11-14": {
       "web_sha256": "d27b181d757c1c944fe52c92bdd356dc7d297567fa4c8d61a041b6fe969577c3",
       "output_sha256": "4a98a2684759ecfe0be51424c979341c660861577cb802d0948743beb6396c2e"
+    },
+    "2026-11-15": {
+      "web_sha256": "45c8cd616615b6d1611d08b1998b5ae02d153e9f1ca3e003a333d49bce99bf52",
+      "output_sha256": "887e3b32e816e6aeeb5da7adc31023785f21a99f2a9e74f2a31d905725fcecd4"
     }
   },
   "locks": {
@@ -189,18 +193,21 @@
     "tests/test_nov10_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/nov13_14_expected.json",
-    "tests/test_nov13_14_site.py"
+    "tests/test_nov13_14_site.py",
+    "editions/2026-11-15.html",
+    "tests/nov15_expected.json",
+    "tests/test_nov15_site.py"
   ],
   "latest_headlines": [
-    "Supreme Court Agrees to Weigh Trump's Asylum Ban at the Southern Border",
-    "Airlines Dig Out After the Longest Nationwide Ground Stop in 25 Years",
-    "All Aboard Survive After a Tanker Slams Into a New Orleans River Cruise Boat",
-    "Alaska Elects Its First Democratic Governor Since 1998",
-    "Why States Can Wait Until July to Drop People Over Medicaid Work Rules"
+    "Officials Blame a Contractor Router for the Nationwide Flight Shutdown",
+    "Judge Blocks Trump From Closing a Historic Washington Golf Course for Now",
+    "SpaceX Catches a Returning Starship in Its Launch Tower Arms",
+    "Zelenskyy Says the US Asked About Trading Donbas for NATO Membership",
+    "What Losing Measles Elimination Status Means for American Families"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "873e86b94e0d0e9a0b8f2714ea86cda88dc5739d8a97a5519926bb3a91f0549d",
-    "tests/test_archive_repair.py": "c669cc2e92037630f3f9bb84a0943b78a2b0d13a16dca9e26afb3c50a410fd0a"
+    "tests/test_site.py": "d12a68c9daa1ec34a4f9c8542aa4f8efb1a7a0cc64aca363bdaacdb1f0d0bf53",
+    "tests/test_archive_repair.py": "45b6f58eb07aadfddc91ba0cdcde7ab16969d3c18c8d5e2d28b930093925477a"
   },
   "photo_metadata_correction": {
     "2026-11-13": {

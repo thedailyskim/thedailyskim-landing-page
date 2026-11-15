@@ -24,9 +24,9 @@ class DatedRelease(unittest.TestCase):
     def test_archive_preserves_all_original_rows(self):
         raw=(ROOT/'index.html').read_text()
         rows=json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',raw,re.S)[1])['editions']
-        self.assertEqual(rows[2:],E['original_archive'])
-        self.assertEqual([x['url'] for x in rows],[f'editions/2026-11-{n:02}.html' for n in range(14,0,-1)])
-        self.assertEqual(len(BS(raw,'html.parser').select('.sw-track a[href^="editions/2026-11-14.html#"]')),5)
+        self.assertEqual(rows[3:],E['original_archive'])
+        self.assertEqual([x['url'] for x in rows],[f'editions/2026-11-{n:02}.html' for n in range(15,0,-1)])
+        self.assertEqual(len(BS(raw,'html.parser').select('.sw-track a[href^="editions/2026-11-15.html#"]')),5)
     def test_new_navigation_and_recent_cards(self):
         for n in (13,14):
             d=doc(f'2026-11-{n}')
@@ -35,7 +35,7 @@ class DatedRelease(unittest.TestCase):
             self.assertEqual(d.select_one('footer nav a')['href'],'../editions/2026-11-14.html')
         self.assertEqual(doc('2026-11-13').select('.ednav a')[-1]['href'],'2026-11-14.html')
         self.assertEqual(doc('2026-11-12').select('.ednav a')[-1]['href'],'2026-11-13.html')
-        self.assertEqual(doc('2026-11-14').select_one('.ednav span').get_text(),'Latest edition')
+        self.assertEqual(doc('2026-11-14').select('.ednav a')[-1]['href'],'2026-11-15.html')
     def test_new_archive_and_og_photos_match_exact_approved_lead(self):
         rows=json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',(ROOT/'index.html').read_text(),re.S)[1])['editions']
         for day,proof in E['photo_metadata_correction'].items():
