@@ -18,7 +18,7 @@
     },
     {
       "title": "FDA Adds a Vision Warning to GLP-1 Drugs. A Pill Eases Sleep Apnea. DNA Orders Face Screening.",
-      "description": "The FDA adds a vision loss warning to GLP-1 drugs and Lilly reports sleep apnea results. Plus Anthropic\u2019s IPO and Novaya Gazeta.",
+      "description": "The FDA adds a vision loss warning to GLP-1 drugs and Lilly reports sleep apnea results. Plus Anthropic’s IPO and Novaya Gazeta.",
       "url": "editions/2026-11-10.html",
       "date": "Tue, Nov 10",
       "readingTime": "6 min read",
@@ -26,7 +26,7 @@
     },
     {
       "title": "Nvidia Opens a Board Review. Heart Repair Advances in Mice. Climate Talks Begin.",
-      "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt\u2019s train collision and AI\u2019s power equipment squeeze.",
+      "description": "Nvidia investigates espionage allegations, researchers test heart repair in mice and COP31 opens, plus Egypt’s train collision and AI’s power equipment squeeze.",
       "url": "editions/2026-11-09.html",
       "date": "Mon, Nov 9",
       "readingTime": "6 min read",
@@ -34,7 +34,7 @@
     },
     {
       "title": "Trump Orders a DOJ Review.\nIsrael Faces Coalition Talks.\nJapan Assesses Quake Damage.",
-      "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland\u2019s investigation.",
+      "description": "Trump calls for a review of Democrats, Eisenkot begins coalition bargaining and Japan assesses earthquake damage, plus Poland’s investigation.",
       "url": "editions/2026-11-08.html",
       "date": "Sun, Nov 8",
       "readingTime": "6 min read",
@@ -81,7 +81,7 @@
       "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&h=450&fit=crop&crop=entropy&q=80"
     },
     {
-      "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Ni\u00f1o is flooding the Southwest.",
+      "title": "Oil lost nearly $9 a barrel in a day. A senator had a stroke at a hockey game. And El Niño is flooding the Southwest.",
       "description": "Signs that Iran is open to peace talks knocked oil to its steepest one day drop in months, Sen. Chris Murphy had a stroke, and storms drenched the desert Southwest.",
       "url": "editions/2026-11-02.html",
       "date": "Mon, Nov 2",
@@ -109,6 +109,10 @@
     "2026-11-15": {
       "web_sha256": "45c8cd616615b6d1611d08b1998b5ae02d153e9f1ca3e003a333d49bce99bf52",
       "output_sha256": "887e3b32e816e6aeeb5da7adc31023785f21a99f2a9e74f2a31d905725fcecd4"
+    },
+    "2026-11-16": {
+      "web_sha256": "4f9e75cfd828e911e79e440e1d0ffa68a12649762ce351806a3b3981cb114d8e",
+      "output_sha256": "2c003605ccc15f4d5df2740c70d28c4142e9d178290ecf2c7d92d5f3de861a36"
     }
   },
   "locks": {
@@ -196,18 +200,25 @@
     "tests/test_nov13_14_site.py",
     "editions/2026-11-15.html",
     "tests/nov15_expected.json",
-    "tests/test_nov15_site.py"
+    "tests/test_nov15_site.py",
+    "editions/2026-11-16.html",
+    "tests/nov16_compat.py",
+    "tests/nov16_maintenance.json",
+    "tests/test_nov16_site.py",
+    "docs/nov16-2026/approved-web-source.txt",
+    "docs/nov16-2026/approved-content.json",
+    "docs/nov16-2026/old-rows.json"
   ],
   "latest_headlines": [
-    "Officials Blame a Contractor Router for the Nationwide Flight Shutdown",
-    "Judge Blocks Trump From Closing a Historic Washington Golf Course for Now",
-    "SpaceX Catches a Returning Starship in Its Launch Tower Arms",
-    "Zelenskyy Says the US Asked About Trading Donbas for NATO Membership",
-    "What Losing Measles Elimination Status Means for American Families"
+    "A Fed Official Says Inflation Is Moving in the Wrong Direction",
+    "A Vulcan Rocket Fails After Liftoff and Destroys 40 Amazon Satellites",
+    "Estonia Will Close Its Border Crossings With Russia After a Suspected Arson Attempt",
+    "Huge Crowds Rally in Prague Against a Plan to Change Public Media Funding",
+    "Why Congo's Ebola Outbreak Is Still Out of Control After Six Months"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "d12a68c9daa1ec34a4f9c8542aa4f8efb1a7a0cc64aca363bdaacdb1f0d0bf53",
-    "tests/test_archive_repair.py": "45b6f58eb07aadfddc91ba0cdcde7ab16969d3c18c8d5e2d28b930093925477a"
+    "tests/test_site.py": "8b039736269de4ef247beb58221cd9293631628445d04185265caf42c7d0d287",
+    "tests/test_archive_repair.py": "376379d5ddf1050849018a777c1b9d157e4f3d32ff66dd87699f17a00f7c1a59"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
