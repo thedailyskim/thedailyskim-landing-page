@@ -115,8 +115,8 @@
       "output_sha256": "2c003605ccc15f4d5df2740c70d28c4142e9d178290ecf2c7d92d5f3de861a36"
     },
     "2026-11-17": {
-      "web_sha256": "68f7f79f4bd079823b0e15552236e0e630a3ae1c315f0153d242749e0021168f",
-      "output_sha256": "6a1913b9ed6667b534e4e127ec190203151f10884d61f8a620b328f7f6355839"
+      "web_sha256": "a996e03d6824b4f534a8222514ff1a2afeee991b91f87ce9681b77a64cce377f",
+      "output_sha256": "5d120e2946767b33a462ca962a76df50079be1383b36db5fcebf6bf3d0c7f0c3"
     }
   },
   "locks": {
@@ -221,7 +221,7 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "California Sues OpenAI Over AI Agents That Hacked Other Companies",
+    "California Sues OpenAI Over Reported AI-Agent Hacks",
     "The Labor Department Proposes New Limits on Skilled Worker Green Cards",
     "Trump Says He Might Meet Kim Jong Un in China This Week",
     "Russia Says It Hit Two Kyiv Bridges as Ukraine Targets the Crimea Bridge",
