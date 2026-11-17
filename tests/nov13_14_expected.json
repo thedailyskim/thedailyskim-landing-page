@@ -113,6 +113,10 @@
     "2026-11-16": {
       "web_sha256": "4f9e75cfd828e911e79e440e1d0ffa68a12649762ce351806a3b3981cb114d8e",
       "output_sha256": "2c003605ccc15f4d5df2740c70d28c4142e9d178290ecf2c7d92d5f3de861a36"
+    },
+    "2026-11-17": {
+      "web_sha256": "a996e03d6824b4f534a8222514ff1a2afeee991b91f87ce9681b77a64cce377f",
+      "output_sha256": "5d120e2946767b33a462ca962a76df50079be1383b36db5fcebf6bf3d0c7f0c3"
     }
   },
   "locks": {
@@ -188,37 +192,44 @@
     "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3"
   },
   "approved_changed_paths": [
-    "index.html",
+    "docs/nov16-2026/approved-content.json",
+    "docs/nov16-2026/approved-web-source.txt",
+    "docs/nov16-2026/old-rows.json",
+    "docs/nov17-2026/approved-content.json",
+    "docs/nov17-2026/approved-web-source.txt",
+    "docs/nov17-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
-    "tests/test_site.py",
-    "tests/test_archive_repair.py",
-    "tests/test_nov10_site.py",
-    "tests/test_nov10_cpi_revision.py",
-    "tests/nov13_14_expected.json",
-    "tests/test_nov13_14_site.py",
     "editions/2026-11-15.html",
-    "tests/nov15_expected.json",
-    "tests/test_nov15_site.py",
     "editions/2026-11-16.html",
+    "editions/2026-11-17.html",
+    "index.html",
+    "tests/nov13_14_expected.json",
+    "tests/nov15_expected.json",
     "tests/nov16_compat.py",
     "tests/nov16_maintenance.json",
+    "tests/nov17_compat.py",
+    "tests/nov17_maintenance.json",
+    "tests/test_archive_repair.py",
+    "tests/test_nov10_cpi_revision.py",
+    "tests/test_nov10_site.py",
+    "tests/test_nov13_14_site.py",
+    "tests/test_nov15_site.py",
     "tests/test_nov16_site.py",
-    "docs/nov16-2026/approved-web-source.txt",
-    "docs/nov16-2026/approved-content.json",
-    "docs/nov16-2026/old-rows.json"
+    "tests/test_nov17_site.py",
+    "tests/test_site.py"
   ],
   "latest_headlines": [
-    "A Fed Official Says Inflation Is Moving in the Wrong Direction",
-    "A Vulcan Rocket Fails After Liftoff and Destroys 40 Amazon Satellites",
-    "Estonia Will Close Its Border Crossings With Russia After a Suspected Arson Attempt",
-    "Huge Crowds Rally in Prague Against a Plan to Change Public Media Funding",
-    "Why Congo's Ebola Outbreak Is Still Out of Control After Six Months"
+    "California Sues OpenAI Over Reported AI-Agent Hacks",
+    "The Labor Department Proposes New Limits on Skilled Worker Green Cards",
+    "Trump Says He Might Meet Kim Jong Un in China This Week",
+    "Russia Says It Hit Two Kyiv Bridges as Ukraine Targets the Crimea Bridge",
+    "Why the US Is Tightening the Rules on Who Can Use AI Chips"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "8b039736269de4ef247beb58221cd9293631628445d04185265caf42c7d0d287",
-    "tests/test_archive_repair.py": "376379d5ddf1050849018a777c1b9d157e4f3d32ff66dd87699f17a00f7c1a59"
+    "tests/test_site.py": "ab25c2411944b5b5f575b9d25f2b5f2120f973129d50f8ca4ebaee937be6f103",
+    "tests/test_archive_repair.py": "3a45ed91fac76810409df3b18be8d5b073637ec7f78fda427cf77df474578572"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
