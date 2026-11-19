@@ -117,6 +117,10 @@
     "2026-11-17": {
       "web_sha256": "a996e03d6824b4f534a8222514ff1a2afeee991b91f87ce9681b77a64cce377f",
       "output_sha256": "5d120e2946767b33a462ca962a76df50079be1383b36db5fcebf6bf3d0c7f0c3"
+    },
+    "2026-11-19": {
+      "web_sha256": "98975247c6b509bb76b8891c7db698196ad18b5dc4ddb3d5b8fb0b60870a9b27",
+      "output_sha256": "1b89f729fdf70ee10f20370fb25174bdc9333e6359edf957cb66dfd50394cadb"
     }
   },
   "locks": {
@@ -198,12 +202,16 @@
     "docs/nov17-2026/approved-content.json",
     "docs/nov17-2026/approved-web-source.txt",
     "docs/nov17-2026/old-rows.json",
+    "docs/nov19-2026/approved-content.json",
+    "docs/nov19-2026/approved-web-source.txt",
+    "docs/nov19-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
     "editions/2026-11-15.html",
     "editions/2026-11-16.html",
     "editions/2026-11-17.html",
+    "editions/2026-11-19.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -211,7 +219,10 @@
     "tests/nov16_maintenance.json",
     "tests/nov17_compat.py",
     "tests/nov17_maintenance.json",
+    "tests/nov19_compat.py",
+    "tests/nov19_maintenance.json",
     "tests/test_archive_repair.py",
+    "tests/test_daily19_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -221,15 +232,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "California Sues OpenAI Over Reported AI-Agent Hacks",
-    "The Labor Department Proposes New Limits on Skilled Worker Green Cards",
-    "Trump Says He Might Meet Kim Jong Un in China This Week",
-    "Russia Says It Hit Two Kyiv Bridges as Ukraine Targets the Crimea Bridge",
-    "Why the US Is Tightening the Rules on Who Can Use AI Chips"
+    "Your Local Pharmacist Could Soon Handle More of Your Checkups",
+    "Bird Flu Forces the Biggest US Egg Producer to Cull 1.8 Million Birds",
+    "Europe Offers Ukraine a New Loan It Repays Only If Russia Pays",
+    "Voyager 1 Is Now About a Full Light-Day Away From Earth",
+    "Anthropic Begins Trading After the Biggest IPO on Record"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "ab25c2411944b5b5f575b9d25f2b5f2120f973129d50f8ca4ebaee937be6f103",
-    "tests/test_archive_repair.py": "3a45ed91fac76810409df3b18be8d5b073637ec7f78fda427cf77df474578572"
+    "tests/test_site.py": "90d6f13a64648ea7d8cdfe70ae61540a0b9f12d4055a00d6a67892ac1f78e973",
+    "tests/test_archive_repair.py": "8cb96e05e5e0b9d165cecbc945493614d0f8cac34b48962d9467a4b21bb7a71a"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
