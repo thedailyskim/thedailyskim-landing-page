@@ -54,6 +54,7 @@ class November19(unittest.TestCase):
   self.assertEqual(d.select_one('meta[property="og:image"]')["content"],L["lead_photo"])
   self.assertEqual(d.select_one("article.story img")["src"],L["lead_photo"])
   self.assertEqual(d.select_one(NAV+" a")["href"],"2026-11-17.html")
+  self.assertEqual([(x.get_text(),x["href"])for x in d.select("footer a[href]")if x.get_text()in("Today\'s edition","Daily trivia")],[("Today\'s edition","../editions/2026-11-19.html"),("Daily trivia","../editions/2026-11-19.html#tri")])
   prev=BS((R/"editions/2026-11-17.html").read_text(),"html.parser")
   self.assertIsNotNone(prev.select_one(NAV).find("a",href="2026-11-19.html"))
   if B!="ffd":
