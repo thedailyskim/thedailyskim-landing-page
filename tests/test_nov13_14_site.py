@@ -24,9 +24,9 @@ class DatedRelease(unittest.TestCase):
     def test_archive_preserves_all_original_rows(self):
         raw=(ROOT/'index.html').read_text()
         rows=json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',raw,re.S)[1])['editions']
-        self.assertEqual(rows[6:],E['original_archive'])
-        self.assertEqual([x['url'] for x in rows],[f'editions/2026-11-{n:02}.html' for n in [19]+list(range(17,0,-1))])
-        self.assertEqual(len(BS(raw,'html.parser').select('.sw-track a[href^="editions/2026-11-19.html#"]')),5)
+        self.assertEqual(rows[7:],E['original_archive'])
+        self.assertEqual([x['url'] for x in rows],[f'editions/2026-11-{n:02}.html' for n in [20,19]+list(range(17,0,-1))])
+        self.assertEqual(len(BS(raw,'html.parser').select('.sw-track a[href^="editions/2026-11-20.html#"]')),5)
     def test_new_navigation_and_recent_cards(self):
         for n in (13,14):
             d=doc(f'2026-11-{n}')
