@@ -121,6 +121,10 @@
     "2026-11-19": {
       "web_sha256": "98975247c6b509bb76b8891c7db698196ad18b5dc4ddb3d5b8fb0b60870a9b27",
       "output_sha256": "377d54bbb4b879139df493170d3fdbc20eba83ff1f71160eb7d5eed04277a0e9"
+    },
+    "2026-11-20": {
+      "web_sha256": "91d915f2a3a983d1382218f869191ae0e7ed75eda1a9b8d4554375f38b448e8a",
+      "output_sha256": "cf5e5017c77651d9bd90029e89b29d07fb7afe8ecb6884a686ddb662cfe1f60c"
     }
   },
   "locks": {
@@ -205,6 +209,9 @@
     "docs/nov19-2026/approved-content.json",
     "docs/nov19-2026/approved-web-source.txt",
     "docs/nov19-2026/old-rows.json",
+    "docs/nov20-2026/approved-content.json",
+    "docs/nov20-2026/approved-web-source.txt",
+    "docs/nov20-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -212,6 +219,7 @@
     "editions/2026-11-16.html",
     "editions/2026-11-17.html",
     "editions/2026-11-19.html",
+    "editions/2026-11-20.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -221,8 +229,11 @@
     "tests/nov17_maintenance.json",
     "tests/nov19_compat.py",
     "tests/nov19_maintenance.json",
+    "tests/nov20_compat.py",
+    "tests/nov20_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
+    "tests/test_daily20_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -232,15 +243,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "Your Local Pharmacist Could Soon Handle More of Your Checkups",
-    "Bird Flu Forces the Biggest US Egg Producer to Cull 1.8 Million Birds",
-    "Europe Offers Ukraine a New Loan It Repays Only If Russia Pays",
-    "Voyager 1 Is Now About a Full Light-Day Away From Earth",
-    "Anthropic Begins Trading After the Biggest IPO on Record"
+    "The Senate Passes an Energy Bill That Makes Data Centers Pay for Power",
+    "Record Rain Floods Florida as Storms Move Up the Space Coast",
+    "The Average 30-Year Mortgage Rate Rises to 7.28% After a Four-Week Slide",
+    "The White House Names a New Cyber Chief After a Week of Outages",
+    "The US Sells Its First Deep-Sea Mining Leases, and the Lawsuits Follow"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "90d6f13a64648ea7d8cdfe70ae61540a0b9f12d4055a00d6a67892ac1f78e973",
-    "tests/test_archive_repair.py": "8cb96e05e5e0b9d165cecbc945493614d0f8cac34b48962d9467a4b21bb7a71a"
+    "tests/test_site.py": "0e27f5980a099e92cabdbfb3d71282a5f636bed996b863f90d3d47a14a4ec52e",
+    "tests/test_archive_repair.py": "43e0476b36c244fd48401af1e19376e57f90b1bd5dd04b444e50e371c5e7141e"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
