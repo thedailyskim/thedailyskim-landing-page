@@ -125,6 +125,10 @@
     "2026-11-20": {
       "web_sha256": "91d915f2a3a983d1382218f869191ae0e7ed75eda1a9b8d4554375f38b448e8a",
       "output_sha256": "cf5e5017c77651d9bd90029e89b29d07fb7afe8ecb6884a686ddb662cfe1f60c"
+    },
+    "2026-11-21": {
+      "web_sha256": "e09b3f2345924f00f9b9b084fc3e8fc83144db458cbec7b5dbb159d1913f4933",
+      "output_sha256": "a14be40604d03dfc885aae7a6e29a3966dc6d529d06f3e429251a0252438d2c8"
     }
   },
   "locks": {
@@ -212,6 +216,9 @@
     "docs/nov20-2026/approved-content.json",
     "docs/nov20-2026/approved-web-source.txt",
     "docs/nov20-2026/old-rows.json",
+    "docs/nov21-2026/approved-content.json",
+    "docs/nov21-2026/approved-web-source.txt",
+    "docs/nov21-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -220,6 +227,7 @@
     "editions/2026-11-17.html",
     "editions/2026-11-19.html",
     "editions/2026-11-20.html",
+    "editions/2026-11-21.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -231,9 +239,12 @@
     "tests/nov19_maintenance.json",
     "tests/nov20_compat.py",
     "tests/nov20_maintenance.json",
+    "tests/nov21_compat.py",
+    "tests/nov21_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
+    "tests/test_daily21_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -243,15 +254,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "The Senate Passes an Energy Bill That Makes Data Centers Pay for Power",
-    "Record Rain Floods Florida as Storms Move Up the Space Coast",
-    "The Average 30-Year Mortgage Rate Rises to 7.28% After a Four-Week Slide",
-    "The White House Names a New Cyber Chief After a Week of Outages",
-    "The US Sells Its First Deep-Sea Mining Leases, and the Lawsuits Follow"
+    "The S&P 500 and Dow Slide Into a Correction on a Rough Friday",
+    "Hackers Hit the Agriculture Department as the FBI Probes a Database Breach",
+    "A Young Child Dies of Measles in Virginia, the State's First Death This Year",
+    "A Judge Approves Bayer's Roundup Cancer Settlement of Up to $7.25 Billion",
+    "A Second Jury Convicts a Man of Starting the Palisades Fire"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "0e27f5980a099e92cabdbfb3d71282a5f636bed996b863f90d3d47a14a4ec52e",
-    "tests/test_archive_repair.py": "43e0476b36c244fd48401af1e19376e57f90b1bd5dd04b444e50e371c5e7141e"
+    "tests/test_site.py": "f08e6b831f7f22de14d6452fe5862d14947f56659ac6c0660ddfcce90088ded9",
+    "tests/test_archive_repair.py": "090427728361bdb358d25f9ca2cbb754985a5536eb3c1ef6dd987832000a60e0"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
