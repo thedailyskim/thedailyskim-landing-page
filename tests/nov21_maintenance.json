@@ -1,0 +1,112 @@
+{
+ "brand": "daily",
+ "source_sha256": "6188b67c6f00ecf97141755cafc61d0f172978f3bd9888ec37abe3db939e6328",
+ "content_sha256": "ee1dc2a98f271e86e53aba84f580153f5f6114870c22a160e9ca28a4f737e9bf",
+ "lead_photo": "https://images.unsplash.com/photo-1638481826540-7710b13f7d53?fm=jpg&fit=crop&w=1280&h=720&q=80",
+ "base_hashes": {
+  "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
+  "docs/nov16-2026/approved-content.json": "1b942d5a3cb2a9a8135fcd526ef07032e708dc7df0793aeed38cc38316fd4237",
+  "docs/nov16-2026/approved-web-source.txt": "4f9e75cfd828e911e79e440e1d0ffa68a12649762ce351806a3b3981cb114d8e",
+  "docs/nov16-2026/old-rows.json": "39e5ab6db25a0852ed67daf8bde0fd34fb44d4cc22449951f5f830af44f2e894",
+  "docs/nov17-2026/approved-content.json": "93387986d3114eb6d0c6d83f1b886fb17d681198c161cdb815deb3d13b7b1ee6",
+  "docs/nov17-2026/approved-web-source.txt": "a996e03d6824b4f534a8222514ff1a2afeee991b91f87ce9681b77a64cce377f",
+  "docs/nov17-2026/old-rows.json": "0237cc1202d733206d28b6c8028e02760566e73ba61c67a7efdf2dca3d7703de",
+  "docs/nov19-2026/approved-content.json": "dd876876c32e240191b749f9cd2af56aa3aedd296fd4ff4efcd367a6862ac42c",
+  "docs/nov19-2026/approved-web-source.txt": "98975247c6b509bb76b8891c7db698196ad18b5dc4ddb3d5b8fb0b60870a9b27",
+  "docs/nov19-2026/old-rows.json": "6f344eb314f8a63bb5b5b2232fb274da7bb133a21c56b820d5ad901a1b23f406",
+  "docs/nov20-2026/approved-content.json": "e5ec8a8260b55fd6725ef93749298ea70c2a2150204fbd42b53ca80c2fc37f47",
+  "docs/nov20-2026/approved-web-source.txt": "91d915f2a3a983d1382218f869191ae0e7ed75eda1a9b8d4554375f38b448e8a",
+  "docs/nov20-2026/old-rows.json": "9aff08980d8ad0e4c3bbf9bfff81984c43f8476a21acb961bc7ec92ecb634f91",
+  "editions/2026-11-01.html": "cf80ba59b88c0edadb0e794e93e7d87e573495ef8686f0190fabb1231399d7b3",
+  "editions/2026-11-02.html": "f9427c6a270d88f49aa2ec27b5d2e00787bdfd4333794abd09ed6a2e5094edaf",
+  "editions/2026-11-03.html": "66901bbca38e3982b196d8537ae5de5de1203602db86446f84585fc219cd5964",
+  "editions/2026-11-04.html": "58d2babb687d4f6f9f3908762c4b9aec74242038bbf002d8452aba6320d63359",
+  "editions/2026-11-05.html": "305a54ab4217fcba93308dc1a38db88bc31f1767b2fd0e1cdb4aaa452c455cad",
+  "editions/2026-11-06.html": "daea327dbb73884aee43bcfeb958cae6eff6eeb8bc64d23b4ec36611e065280b",
+  "editions/2026-11-07.html": "19278ba2b359151f1f7609fda37f5dc77d914143b8b5f845d876aaf19ed8a069",
+  "editions/2026-11-08.html": "ce935fb69ea7f55f319c2f07c83e1beeee3998d84a381eb456d46216f18b9df0",
+  "editions/2026-11-09.html": "84a92dd351ae26b9cf2f0d769d195dcf320a9ebd55c4541f5a21fbd89be56eac",
+  "editions/2026-11-10.html": "35bffa0f4afd2f2256a6539d644b5311b510a0d71a545c4fab10b59439b22fd2",
+  "editions/2026-11-11.html": "ce97c27aafbd344d4a7f5f670c4fae15543b4445edb7db098302c505d5a39d86",
+  "editions/2026-11-12.html": "5bd9abfb054749cb8213e82b90e868ad324ebb3177477e5450a1eed5dd3a82fb",
+  "editions/2026-11-13.html": "d018684e4afeaab89be42e82ab1bdfae34180ad7ccb99f52efa501093b43625e",
+  "editions/2026-11-14.html": "1033f2fb4bb71b55eaf59ea68927da98862f44efeb4faa537792c3bd0e36977d",
+  "editions/2026-11-15.html": "0ac5812434d90f1e200bd8ae03e020bfc79131469b6254152f7132e1e5df4553",
+  "editions/2026-11-16.html": "46448bfa6d2a5cc09c3d101f463ab1b21caf726f68100229d6acb79b2068aeba",
+  "editions/2026-11-17.html": "706a96c9333b637724c6118dceb93c1a70308128a7f63815ba38bf096c1b99f1",
+  "editions/2026-11-19.html": "6db1499c9b32ad8cf2db29690fcafe71d4e84221de228022fd9f20dbd15dc673",
+  "editions/2026-11-20.html": "cf5e5017c77651d9bd90029e89b29d07fb7afe8ecb6884a686ddb662cfe1f60c",
+  "editions/edition.css": "ccd1a537b6cb03945474107488b97c0e6ba5ea85bc13ba27343cf7286e3944b9",
+  "email/2026-11-03-email.html": "69030338231d359ce17c6e48c30d3763a3b7100740f28ebc06380b9c067453f2",
+  "email/logo.png": "5c8b19143ff3b3c8e5efa4398f2ea5db73b95b5d5ea14328ae44dbcdab7b0fac",
+  "email/polls.js": "d3971bb4315da1dd8cd05180bf364c3c123540372a6af7808c8ea61af723bf73",
+  "email/thanks.html": "b51feedb6dc6c69822154e429d44c8c8020a8e2982528eae96c7919ee55eb582",
+  "index.html": "0c65fa6bff0bf1b73d15b79a9b7df741092f5247947f6711b672526a59fbd74a",
+  "privacy.html": "ae1ee904f16cf7cf16b2be42a0136b9175ef8f5435ee2ee352ee956e1c16c408",
+  "skim.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+  "styles.css": "cd7bc8e40ef0c9fe7a7d8bc5cfad5e0e21898d7c61b6865db6675ad4944111a9",
+  "terms.html": "5d3b5be26de64b7935c34bef5220846fc40abb6369832541990c4bfd235863d1",
+  "tests/archive_repair_expected.json": "8bed187321ec2ef5aa981b2f899399d392f9832e12267ff049c53b177b50452b",
+  "tests/nov10_cpi_revision.json": "fb9f3c524c7b50077a185ef765a3cbe832566636f20d48164745b8c51c392f8e",
+  "tests/nov10_expected.json": "686e6ba1592a7d8b97c6db9f1abd98ae1ab3cd73b539e8329780c416602abd2b",
+  "tests/nov10_fixture_edits.json": "0ef64ab6ba9b7a85608b6061570f9f27ba413dd704d6e5f776d560eeca4152b7",
+  "tests/nov10_hyphen_revision.json": "0bc62edb45d97ac93c9196e5b729f04379fcfd47bafdb2ac0f5a963ccc34d880",
+  "tests/nov13_14_expected.json": "9b89dde958a677b151244aeddc36fa1f7a75523d1c2351a742031d39075d9fbf",
+  "tests/nov15_expected.json": "2eb685bc4fe508da39a5e87cff81131dee4652e71df810199afdd4577ff87776",
+  "tests/nov16_compat.py": "f49960b133f3c1750c19a0e31d9786b0bf88df00866605dfb0cfb8296c7c5f60",
+  "tests/nov16_maintenance.json": "f16378abbf64fa4e7e5b31bd759fdb6711e2180adabf4a0a1fce4beeed3b9b5a",
+  "tests/nov17_compat.py": "9ebce15db98dbf62e50134ddae9da69766bd35602937f93821ef0da630773dab",
+  "tests/nov17_maintenance.json": "905f14e25c893251d1ffa6db760226aba61f4597dce5039b1a7a6f1dc2458b55",
+  "tests/nov19_compat.py": "9c897bff49c22f8917f3b75a6eb08cddc8e5154835d37951fed09de6d10ad9b8",
+  "tests/nov19_maintenance.json": "0538de8c0bfcd2fb9b69fbfc27666577c206fa24740ecfa0a9091efd6f037e2d",
+  "tests/nov20_compat.py": "d4e1325bb61e6256fbb8a60a77313e219fee985097cc57e003292639ebd87466",
+  "tests/nov20_maintenance.json": "12ed478410ebec8696ff33c980b58474122a98c2b3c1556162144c0ff1c8acfe",
+  "tests/nov7_expected.json": "b4d8a967698566a9f24b3077d6196a0e2f5ca296dc00a19e03746014c39502b5",
+  "tests/nov8_expected.json": "d899c23edc04590300f67c1fb7a5ad17867af932e12fb4015e9d2ac43cbab93e",
+  "tests/nov8_fixture_edits.json": "41490e6465e4cb21495bc944b7de1e0f7fedab6732af6562391605ceb8ffcc48",
+  "tests/nov9_expected.json": "752e080ee71d80713e24f0ce82df2bf979d84ce159a87dd80b0821154c3977d7",
+  "tests/nov9_fixture_edits.json": "00029464da037cccc86a4b8e309aff65017da916e1af48193f583517a6bc160c",
+  "tests/polls.browser.cjs": "7d9c8f19114394e1121bf0c955185aa42d7de516d7a0e52b0940aed6a0a08479",
+  "tests/test_archive_repair.py": "43e0476b36c244fd48401af1e19376e57f90b1bd5dd04b444e50e371c5e7141e",
+  "tests/test_daily19_site.py": "5a1fa05b237207db77f5bb0948c95920c99527fd46de60e00d83c46b5e0c613d",
+  "tests/test_daily20_site.py": "185a1b76107e48254792741c7ddcd5975cf63242d2dec671f76e6aee175dfc28",
+  "tests/test_nov10_cpi_revision.py": "eee95ae57c7bddf63cebc4de83ef0c2db150c2b2f69c583660f41500424cc08d",
+  "tests/test_nov10_hyphen_revision.py": "8507c3af550415964fbac9850430ab18222e4c597313d43aaeb37b21f9035fe7",
+  "tests/test_nov10_site.py": "ca1cf56f9e56a3e31a581734e28e708f0177f37ca4eb6de73cc14f1119f16dc3",
+  "tests/test_nov13_14_site.py": "97028fe1a4c979c1f8387005091c8d8c2c6b20ae7d2089cc79b733f6ffe3dc75",
+  "tests/test_nov15_site.py": "1946f8f3ec0258ba0301dfe9872fb90043ecf87890f9d1a43c5effcb82c62655",
+  "tests/test_nov16_site.py": "ea7ac0d04dd007cb8ce9235ac38940eef6d975ed6d8ca48e74fde90bcbf8589c",
+  "tests/test_nov17_site.py": "00d7c4fee9f9304610054c3c434e213c10cc18b90b91d664b89cfee5105afe97",
+  "tests/test_nov7_site.py": "d900542eba780221b5736598f15363bd129cd852c55c5f0d13ce09595450fb54",
+  "tests/test_nov8_site.py": "77a1f188a7e8a243622c7c62fd9c39f7ffac3af81b58378597506f918ffe9ce5",
+  "tests/test_nov9_site.py": "de0d284877adb8b5b39d2f7d8bb82df74aeb69c3e3d747dfc8ab16c2ba42b424",
+  "tests/test_site.py": "0e27f5980a099e92cabdbfb3d71282a5f636bed996b863f90d3d47a14a4ec52e",
+  "thanks.html": "35ca39337c8f3e89cb291dfa4242006c5eee1a681db8749bb731908d378f2c0e"
+ },
+ "pages": {
+  "editions/2026-11-20.html": [
+   {
+    "before": "11-19.html\">← Thu, Nov 19</a><span>Latest edition</span></nav>\n<section aria-labelled",
+    "after": "11-19.html\">← Thu, Nov 19</a><a href=\"2026-11-21.html\">Sat, Nov 21 →</a></nav>\n<section aria-labelled"
+   }
+  ],
+  "index.html": [
+   {
+    "before": "s-on\" href=\"editions/2026-11-20.html#s1\">The Senate Passes an Energy Bill That Makes Data Centers Pay for Power</a><a class=\"sw-item\" href=\"editions/2026-11-20.html#s2\">Record Rain Floods Florida as Storms Move Up the Space Coast</a><a class=\"sw-item\" href=\"editions/2026-11-20.html#s3\">The Average 30-Year Mortgage Rate Rises to 7.28% After a Four-Week Slide</a><a class=\"sw-item\" href=\"editions/2026-11-20.html#s4\">The White House Names a New Cyber Chief After a Week of Outages</a><a class=\"sw-item\" href=\"editions/2026-11-20.html#deep-dive\">The US Sells Its First Deep-Sea Mining Leases, and the Lawsuits Follow</a></div><div class=\"sw-ctrl\"",
+    "after": "s-on\" href=\"editions/2026-11-21.html#s1\">The S&amp;P 500 and Dow Slide Into a Correction on a Rough Friday</a><a class=\"sw-item\" href=\"editions/2026-11-21.html#s2\">Hackers Hit the Agriculture Department as the FBI Probes a Database Breach</a><a class=\"sw-item\" href=\"editions/2026-11-21.html#s3\">A Young Child Dies of Measles in Virginia, the State's First Death This Year</a><a class=\"sw-item\" href=\"editions/2026-11-21.html#s4\">A Judge Approves Bayer's Roundup Cancer Settlement of Up to $7.25 Billion</a><a class=\"sw-item\" href=\"editions/2026-11-21.html#deep-dive\">A Second Jury Convicts a Man of Starting the Palisades Fire</a></div><div class=\"sw-ctrl\""
+   },
+   {
+    "before": "<p><a href=\"editions/2026-11-20.html\">Read the latest edition",
+    "after": "<p><a href=\"editions/2026-11-21.html\">Read the latest edition"
+   },
+   {
+    "before": "li><a href=\"editions/2026-11-20.html\">Today's edition</a></li><li><a href=\"#editions\">Past editions</a></li><li><a href=\"editions/2026-11-20.html#tri\">Daily trivia</a></l",
+    "after": "li><a href=\"editions/2026-11-21.html\">Today's edition</a></li><li><a href=\"#editions\">Past editions</a></li><li><a href=\"editions/2026-11-21.html#tri\">Daily trivia</a></l"
+   },
+   {
+    "before": "ITE_CONFIG = {\n  \"editions\": [\n    {\n      \"title\": \"The Sen",
+    "after": "ITE_CONFIG = {\n  \"editions\": [\n    {\n      \"title\": \"Stocks Slide Into a Correction. Hackers Hit Federal Systems. Bayer Settles Roundup Claims.\",\n      \"description\": \"Stocks enter a correction, hackers hit USDA and FBI systems, a child dies of measles in Virginia, and Bayer settles Roundup claims.\",\n      \"url\": \"editions/2026-11-21.html\",\n      \"date\": \"Sat, Nov 21\",\n      \"readingTime\": \"6 min read\",\n      \"image\": \"https://images.unsplash.com/photo-1638481826540-7710b13f7d53?fm=jpg&fit=crop&w=1280&h=720&q=80\"\n    },\n    {\n      \"title\": \"The Sen"
+   }
+  ]
+ }
+}
