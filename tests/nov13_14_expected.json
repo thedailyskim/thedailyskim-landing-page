@@ -131,8 +131,8 @@
       "output_sha256": "01284250563edec9aa57c4219134747a4d3e3e5cbe4b09524b856a8e756149c9"
     },
     "2026-11-22": {
-      "web_sha256": "ce8ed5011786fb9ab644a53c29f4057daf3fb0b7474a571a7930b7ef8a1c115a",
-      "output_sha256": "e22bca4ab5073689bf492e09f9cb0ff17d6fb94991229bc4cc87e7ca3e4c6a31"
+      "web_sha256": "bd29136174e5d3343652f3994bcb442be6a8c6ec116852aed7feec8364b9bc1f",
+      "output_sha256": "6a05a7c36b72f75d837a2db3fd44d42c67e4811917df5a68c411bd1dec3d79cb"
     }
   },
   "locks": {
