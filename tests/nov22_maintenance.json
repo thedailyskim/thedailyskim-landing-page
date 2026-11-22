@@ -1,7 +1,7 @@
 {
  "brand": "daily",
- "source_sha256": "c568229dd9c20d8c57be6ab44d0d3e7a912823301e99cac27ba5faa606e72757",
- "content_sha256": "7c1042199abafaac3ae398606eb6f009e82aeee75caf04b0264aa8bd57aab12e",
+ "source_sha256": "ce8ed5011786fb9ab644a53c29f4057daf3fb0b7474a571a7930b7ef8a1c115a",
+ "content_sha256": "a501ea9170d30bc47f082308f9e553c4e6ea8d656137d4c24cca7c7d338d4e20",
  "lead_photo": "https://images.unsplash.com/photo-1710847189634-98b1524f694a?fm=jpg&fit=crop&w=1280&h=720&q=80",
  "base_hashes": {
   "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
