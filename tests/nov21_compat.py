@@ -4,6 +4,8 @@ import json
 R=Path(__file__).resolve().parents[1]
 L=json.loads((R/"tests/nov21_maintenance.json").read_text())
 def restore_nov21(text,name):
+ from nov22_compat import restore_nov22
+ text=restore_nov22(text,name)
  for p in reversed(L["pages"].get(name,[])):
   if text.count(p["after"])==1:text=text.replace(p["after"],p["before"],1)
   else:assert text.count(p["before"])==1,(name,"unapproved Nov21 maintenance bytes")
