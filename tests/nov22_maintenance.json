@@ -1,7 +1,7 @@
 {
  "brand": "daily",
- "source_sha256": "aab2ed986844e744b2f358fd474ece0c73b5f6a68d63a442595f823e6c1c8b09",
- "content_sha256": "79a199e27d64d426170eeef6d449b2009c8e9dee5cf66e33a82c198f0497a908",
+ "source_sha256": "c568229dd9c20d8c57be6ab44d0d3e7a912823301e99cac27ba5faa606e72757",
+ "content_sha256": "7c1042199abafaac3ae398606eb6f009e82aeee75caf04b0264aa8bd57aab12e",
  "lead_photo": "https://images.unsplash.com/photo-1710847189634-98b1524f694a?fm=jpg&fit=crop&w=1280&h=720&q=80",
  "base_hashes": {
   "CNAME": "3e18d9a8fca9528065f3db172cfcc9c8b82d262ba2aa2cee94d5b11b27a82678",
@@ -112,7 +112,7 @@
    },
    {
     "before": "ITE_CONFIG = {\n  \"editions\": [\n    {\n      \"title\": \"Stocks ",
-    "after": "ITE_CONFIG = {\n  \"editions\": [\n    {\n      \"title\": \"Honda and Toyota Recall 1.6 Million Vehicles. ICE Arrests Rattle a Flight. Mexico Nabs a Cartel Boss.\",\n      \"description\": \"Honda and Toyota recall 1.6 million vehicles, ICE arrests two people at a Seattle gate, and Kansas City wins the NWSL title.\",\n      \"url\": \"editions/2026-11-22.html\",\n      \"date\": \"Sun, Nov 22\",\n      \"readingTime\": \"6 min read\",\n      \"image\": \"https://images.unsplash.com/photo-1710847189634-98b1524f694a?fm=jpg&fit=crop&w=1280&h=720&q=80\"\n    },\n    {\n      \"title\": \"Stocks "
+    "after": "ITE_CONFIG = {\n  \"editions\": [\n    {\n      \"title\": \"Honda and Toyota Recall 1.6 Million Vehicles. ICE Arrests Rattle a Flight. Mexico Nabs a Cartel Boss.\",\n      \"description\": \"Honda and Toyota recall about 1.6 million vehicles, ICE arrests two people at a Seattle gate, and Kansas City wins the NWSL title.\",\n      \"url\": \"editions/2026-11-22.html\",\n      \"date\": \"Sun, Nov 22\",\n      \"readingTime\": \"6 min read\",\n      \"image\": \"https://images.unsplash.com/photo-1710847189634-98b1524f694a?fm=jpg&fit=crop&w=1280&h=720&q=80\"\n    },\n    {\n      \"title\": \"Stocks "
    }
   ]
  }
