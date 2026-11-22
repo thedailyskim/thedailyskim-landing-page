@@ -129,6 +129,10 @@
     "2026-11-21": {
       "web_sha256": "6188b67c6f00ecf97141755cafc61d0f172978f3bd9888ec37abe3db939e6328",
       "output_sha256": "01284250563edec9aa57c4219134747a4d3e3e5cbe4b09524b856a8e756149c9"
+    },
+    "2026-11-22": {
+      "web_sha256": "aab2ed986844e744b2f358fd474ece0c73b5f6a68d63a442595f823e6c1c8b09",
+      "output_sha256": "efce9721415c3a048ba1eaac00f63d087bbf68cab4d429be4e89aa145fb2c92a"
     }
   },
   "locks": {
@@ -219,6 +223,9 @@
     "docs/nov21-2026/approved-content.json",
     "docs/nov21-2026/approved-web-source.txt",
     "docs/nov21-2026/old-rows.json",
+    "docs/nov22-2026/approved-content.json",
+    "docs/nov22-2026/approved-web-source.txt",
+    "docs/nov22-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -228,6 +235,7 @@
     "editions/2026-11-19.html",
     "editions/2026-11-20.html",
     "editions/2026-11-21.html",
+    "editions/2026-11-22.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -241,10 +249,13 @@
     "tests/nov20_maintenance.json",
     "tests/nov21_compat.py",
     "tests/nov21_maintenance.json",
+    "tests/nov22_compat.py",
+    "tests/nov22_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
     "tests/test_daily21_site.py",
+    "tests/test_daily22_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -254,15 +265,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "The S&P 500 and Dow Slide Into a Correction on a Rough Friday",
-    "Hackers Hit the Agriculture Department as the FBI Probes a Database Breach",
-    "A Young Child Dies of Measles in Virginia, the State's First Death This Year",
-    "A Judge Approves Bayer's Roundup Cancer Settlement of Up to $7.25 Billion",
-    "A Second Jury Convicts a Man of Starting the Palisades Fire"
+    "Honda and Toyota Recall About 1.6 Million Vehicles Over Takata Airbags",
+    "ICE Arrests Two People on a Seattle Jet Bridge as Holiday Travel Ramps Up",
+    "A Russian Strike Hits Kryvyi Rih as Drones Hit a Ship Near Finland",
+    "The Kansas City Current Win Their First NWSL Championship",
+    "How Mexico Captured One of the FBI's Ten Most Wanted Fugitives"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "f08e6b831f7f22de14d6452fe5862d14947f56659ac6c0660ddfcce90088ded9",
-    "tests/test_archive_repair.py": "090427728361bdb358d25f9ca2cbb754985a5536eb3c1ef6dd987832000a60e0"
+    "tests/test_site.py": "8be26e8d75cf3a3ebc743e9d9fad4af179407bf3e900696dcf6438b151452271",
+    "tests/test_archive_repair.py": "6ab20e244084396292bdeb69f947a868110541688eaf7255b54f3604b7a1fcec"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
