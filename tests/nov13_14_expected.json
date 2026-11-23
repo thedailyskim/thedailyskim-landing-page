@@ -133,6 +133,10 @@
     "2026-11-22": {
       "web_sha256": "bd29136174e5d3343652f3994bcb442be6a8c6ec116852aed7feec8364b9bc1f",
       "output_sha256": "6a05a7c36b72f75d837a2db3fd44d42c67e4811917df5a68c411bd1dec3d79cb"
+    },
+    "2026-11-23": {
+      "web_sha256": "19f88a318d85e706c90ca70c6ffc34452963c2796a893e9c4b6f65221a864e3e",
+      "output_sha256": "eeba3981931ce3a2dc1130534fba65c385ef60385e2062ba793b43618f9a17d1"
     }
   },
   "locks": {
@@ -226,6 +230,9 @@
     "docs/nov22-2026/approved-content.json",
     "docs/nov22-2026/approved-web-source.txt",
     "docs/nov22-2026/old-rows.json",
+    "docs/nov23-2026/approved-content.json",
+    "docs/nov23-2026/approved-web-source.txt",
+    "docs/nov23-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -236,6 +243,7 @@
     "editions/2026-11-20.html",
     "editions/2026-11-21.html",
     "editions/2026-11-22.html",
+    "editions/2026-11-23.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -251,11 +259,14 @@
     "tests/nov21_maintenance.json",
     "tests/nov22_compat.py",
     "tests/nov22_maintenance.json",
+    "tests/nov23_compat.py",
+    "tests/nov23_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
     "tests/test_daily21_site.py",
     "tests/test_daily22_site.py",
+    "tests/test_daily23_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -265,15 +276,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "Honda and Toyota Recall About 1.6 Million Vehicles Over Takata Airbags",
-    "ICE Arrests Two People on a Seattle Jet Bridge as Holiday Travel Ramps Up",
-    "A Russian Strike Hits Kryvyi Rih as Drones Hit a Ship Near Finland",
-    "The Kansas City Current Win Their First NWSL Championship",
-    "How Mexico Captured One of the FBI's Ten Most Wanted Fugitives"
+    "A Delta System Outage Delays Flights Days Before Thanksgiving",
+    "Storms on Both Coasts Could Disrupt Thanksgiving Travel",
+    "Ukraine Says Its Naval Drones Sank a Russian Warship Off Libya",
+    "Democrats Clinch Their Largest House Majority Since 1992",
+    "Why the Army Plans to Blow Up Unstable Explosives in Iowa"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "8be26e8d75cf3a3ebc743e9d9fad4af179407bf3e900696dcf6438b151452271",
-    "tests/test_archive_repair.py": "6ab20e244084396292bdeb69f947a868110541688eaf7255b54f3604b7a1fcec"
+    "tests/test_site.py": "89e979dd5dc0eb6f1967852c8b4b25c403e68504703aa658c0844d198f746266",
+    "tests/test_archive_repair.py": "7a883ee553d232fdb9cd173d22872904840570dbde2afe9132be77c0bd75f3e4"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
