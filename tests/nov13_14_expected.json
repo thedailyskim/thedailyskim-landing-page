@@ -137,6 +137,10 @@
     "2026-11-23": {
       "web_sha256": "19f88a318d85e706c90ca70c6ffc34452963c2796a893e9c4b6f65221a864e3e",
       "output_sha256": "eeba3981931ce3a2dc1130534fba65c385ef60385e2062ba793b43618f9a17d1"
+    },
+    "2026-11-24": {
+      "web_sha256": "2cb138f329fd8e3ae48b0c2139fc62bd50909aebbfbb4784d2ad9d4b480f8a6d",
+      "output_sha256": "3b1cbc03e9237449e609c671749e8986afb1fdefc2896d88ca790db9e23ed4b2"
     }
   },
   "locks": {
@@ -233,6 +237,9 @@
     "docs/nov23-2026/approved-content.json",
     "docs/nov23-2026/approved-web-source.txt",
     "docs/nov23-2026/old-rows.json",
+    "docs/nov24-2026/approved-content.json",
+    "docs/nov24-2026/approved-web-source.txt",
+    "docs/nov24-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -244,6 +251,7 @@
     "editions/2026-11-21.html",
     "editions/2026-11-22.html",
     "editions/2026-11-23.html",
+    "editions/2026-11-24.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -261,12 +269,15 @@
     "tests/nov22_maintenance.json",
     "tests/nov23_compat.py",
     "tests/nov23_maintenance.json",
+    "tests/nov24_compat.py",
+    "tests/nov24_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
     "tests/test_daily21_site.py",
     "tests/test_daily22_site.py",
     "tests/test_daily23_site.py",
+    "tests/test_daily24_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -276,15 +287,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "A Delta System Outage Delays Flights Days Before Thanksgiving",
-    "Storms on Both Coasts Could Disrupt Thanksgiving Travel",
-    "Ukraine Says Its Naval Drones Sank a Russian Warship Off Libya",
-    "Democrats Clinch Their Largest House Majority Since 1992",
-    "Why the Army Plans to Blow Up Unstable Explosives in Iowa"
+    "Stocks Post Their Best Day Since April 2025 as Huang Returns to Nvidia",
+    "Rep. Jimmy Gomez Says He Will Resign After a House Ethics Report",
+    "An Appeals Court Gives Trump a New Shot at Moving His Hush Money Case",
+    "The U.S. Targets Iran's Shadow Banking Networks With New Sanctions",
+    "Why Two States Are Suing SpaceX Over Grok Images"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "89e979dd5dc0eb6f1967852c8b4b25c403e68504703aa658c0844d198f746266",
-    "tests/test_archive_repair.py": "7a883ee553d232fdb9cd173d22872904840570dbde2afe9132be77c0bd75f3e4"
+    "tests/test_site.py": "67e1876a2a6b957df5a4933f7d057414e4b8d0a61845dc332cd37aba440a611d",
+    "tests/test_archive_repair.py": "d5a7437893077dd2785b2b2b84267a682beeeafdfd4925329691ecd03dd2730f"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
