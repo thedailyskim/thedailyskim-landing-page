@@ -19,8 +19,8 @@ class November15(unittest.TestCase):
    self.assertEqual(sha(raw),expected,rel)
  def test_complete_archive_and_lead_photo(self):
   raw=(ROOT/'index.html').read_text();rows=json.loads(re.search(r'const SITE_CONFIG = (\{.*?\});',raw,re.S)[1])['editions']
-  self.assertEqual(rows[10:],E['old_rows']);self.assertEqual([r['url'] for r in rows],[f'editions/2026-11-{i:02}.html' for i in [25,24,23,22,21,20,19]+list(range(17,0,-1))])
-  d=doc('editions/2026-11-15.html');self.assertEqual(rows[9]['image'],E['lead_photo']);self.assertEqual(d.select_one('meta[property="og:image"]')['content'],E['lead_photo'])
+  self.assertEqual(rows[11:],E['old_rows']);self.assertEqual([r['url'] for r in rows],[f'editions/2026-11-{i:02}.html' for i in [26,25,24,23,22,21,20,19]+list(range(17,0,-1))])
+  d=doc('editions/2026-11-15.html');self.assertEqual(rows[10]['image'],E['lead_photo']);self.assertEqual(d.select_one('meta[property="og:image"]')['content'],E['lead_photo'])
   self.assertEqual([a['href'] for a in d.select('.ds-more-grid a')],[f'2026-11-{i}.html' for i in (14,13,12)])
  def test_exact_reader_targets(self):
   d=doc('editions/2026-11-15.html');self.assertEqual(d.select_one('link[rel=canonical]')['href'],'https://thedailyskim.com/editions/2026-11-15.html')

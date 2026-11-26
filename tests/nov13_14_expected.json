@@ -145,6 +145,10 @@
     "2026-11-25": {
       "web_sha256": "fbe43005f051586f94f127b12fd0082a1710b5c2c8910f53ed7d52706f1d1ab9",
       "output_sha256": "01a9e388d1cc028d132181ee8d98fd178d55629fa778d094c4e5f557eb1ff74c"
+    },
+    "2026-11-26": {
+      "web_sha256": "a67cf024fb0794a2ebf81848cd87773d38d2d38c01463e005b29d7b56dc2232f",
+      "output_sha256": "157e6e6145efacc08851bd6bb640f7e0ce64e2610e15c5a8e2ff737f9cfe5dda"
     }
   },
   "locks": {
@@ -247,6 +251,9 @@
     "docs/nov25-2026/approved-content.json",
     "docs/nov25-2026/approved-web-source.txt",
     "docs/nov25-2026/old-rows.json",
+    "docs/nov26-2026/approved-content.json",
+    "docs/nov26-2026/approved-web-source.txt",
+    "docs/nov26-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -260,6 +267,7 @@
     "editions/2026-11-23.html",
     "editions/2026-11-24.html",
     "editions/2026-11-25.html",
+    "editions/2026-11-26.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -281,6 +289,8 @@
     "tests/nov24_maintenance.json",
     "tests/nov25_compat.py",
     "tests/nov25_maintenance.json",
+    "tests/nov26_compat.py",
+    "tests/nov26_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
@@ -289,6 +299,7 @@
     "tests/test_daily23_site.py",
     "tests/test_daily24_site.py",
     "tests/test_daily25_site.py",
+    "tests/test_daily26_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -298,15 +309,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "TSA Expects 17.6 Million Flyers as the Holiday Rush Begins",
-    "Trump Gives Rudy Giuliani the Presidential Medal of Freedom",
-    "Anthropic Falls Below Its IPO Price as Tech Stocks Slide",
-    "Sanofi Agrees to Buy Insmed for $41 Billion",
-    "Why Bangladesh Garment Workers Won a 36% Raise"
+    "The United States Proposes New Tariffs on 14 Trading Partners",
+    "A Thanksgiving Storm Pushes the Macy's Parade to Saturday",
+    "A FedEx Cargo Jet Overruns a Runway at Miami International Airport",
+    "Global Stocks Rebound While Wall Street Takes Thanksgiving Off",
+    "Why Kim Jong Un Is Showing Off His Nuclear Factories"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "a9207111a92b93dd64c39df59b764090ac5e2852e631157dce4c484ca348a33d",
-    "tests/test_archive_repair.py": "7a573859efd654f9a866c72611a8122bed7e68b415547f8f26d8d39ae438ef28"
+    "tests/test_site.py": "6284ee8c6f243f3bce21a679101ebaef90cbf8cc7d5132cf415264566c869764",
+    "tests/test_archive_repair.py": "f0a600d0f85c9ec6525868740bec7d7cb53b2af72474b7e496141f3e361013fe"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
