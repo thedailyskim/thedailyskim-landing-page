@@ -149,6 +149,10 @@
     "2026-11-26": {
       "web_sha256": "a67cf024fb0794a2ebf81848cd87773d38d2d38c01463e005b29d7b56dc2232f",
       "output_sha256": "157e6e6145efacc08851bd6bb640f7e0ce64e2610e15c5a8e2ff737f9cfe5dda"
+    },
+    "2026-11-27": {
+      "web_sha256": "df018653e5902f1127749fd3fcfc339c912fb66420fe5d09917f1e1890e348cb",
+      "output_sha256": "3c31f710a3b7ab1771ebf9178cd9b3ea1c584e0220fd7b0f1ec8881b3eb96dfa"
     }
   },
   "locks": {
@@ -254,6 +258,9 @@
     "docs/nov26-2026/approved-content.json",
     "docs/nov26-2026/approved-web-source.txt",
     "docs/nov26-2026/old-rows.json",
+    "docs/nov27-2026/approved-content.json",
+    "docs/nov27-2026/approved-web-source.txt",
+    "docs/nov27-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -268,6 +275,7 @@
     "editions/2026-11-24.html",
     "editions/2026-11-25.html",
     "editions/2026-11-26.html",
+    "editions/2026-11-27.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -291,6 +299,8 @@
     "tests/nov25_maintenance.json",
     "tests/nov26_compat.py",
     "tests/nov26_maintenance.json",
+    "tests/nov27_compat.py",
+    "tests/nov27_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
@@ -300,6 +310,7 @@
     "tests/test_daily24_site.py",
     "tests/test_daily25_site.py",
     "tests/test_daily26_site.py",
+    "tests/test_daily27_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -309,15 +320,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "The United States Proposes New Tariffs on 14 Trading Partners",
-    "A Thanksgiving Storm Pushes the Macy's Parade to Saturday",
-    "A FedEx Cargo Jet Overruns a Runway at Miami International Airport",
-    "Global Stocks Rebound While Wall Street Takes Thanksgiving Off",
-    "Why Kim Jong Un Is Showing Off His Nuclear Factories"
+    "Black Friday Shoppers Mix Gifts With Everyday Essentials",
+    "Storms Leave Hundreds of Thousands Without Power After Thanksgiving",
+    "Stock Futures Jump Ahead of a Shortened Friday Session",
+    "New Zealand's Ruling Coalition Falls One Seat Short of a Majority",
+    "Why the Gulf Conflict Is Flaring Again"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "6284ee8c6f243f3bce21a679101ebaef90cbf8cc7d5132cf415264566c869764",
-    "tests/test_archive_repair.py": "f0a600d0f85c9ec6525868740bec7d7cb53b2af72474b7e496141f3e361013fe"
+    "tests/test_site.py": "156dbc54b0bbd6d6e40d1f9cf43fb42c1307e62d22d0b1fc573dde236632f9c9",
+    "tests/test_archive_repair.py": "1e1773256488f37497c60e8605c4f6f6f7245f74ebee4f05e4213bea2ae6af3b"
   },
   "photo_metadata_correction": {
     "2026-11-13": {
