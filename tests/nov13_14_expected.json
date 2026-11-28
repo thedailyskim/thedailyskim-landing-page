@@ -153,6 +153,10 @@
     "2026-11-27": {
       "web_sha256": "df018653e5902f1127749fd3fcfc339c912fb66420fe5d09917f1e1890e348cb",
       "output_sha256": "3c31f710a3b7ab1771ebf9178cd9b3ea1c584e0220fd7b0f1ec8881b3eb96dfa"
+    },
+    "2026-11-28": {
+      "web_sha256": "709e9c1a4583bb59b3cb13cd44e503e1c36cae1f592dac434ada14d56e24c758",
+      "output_sha256": "488de03b883620a65e413063569bf33830b33c42ad4b449d7d85a925b21d6bcc"
     }
   },
   "locks": {
@@ -261,6 +265,9 @@
     "docs/nov27-2026/approved-content.json",
     "docs/nov27-2026/approved-web-source.txt",
     "docs/nov27-2026/old-rows.json",
+    "docs/nov28-2026/approved-content.json",
+    "docs/nov28-2026/approved-web-source.txt",
+    "docs/nov28-2026/old-rows.json",
     "editions/2026-11-12.html",
     "editions/2026-11-13.html",
     "editions/2026-11-14.html",
@@ -276,6 +283,7 @@
     "editions/2026-11-25.html",
     "editions/2026-11-26.html",
     "editions/2026-11-27.html",
+    "editions/2026-11-28.html",
     "index.html",
     "tests/nov13_14_expected.json",
     "tests/nov15_expected.json",
@@ -301,6 +309,8 @@
     "tests/nov26_maintenance.json",
     "tests/nov27_compat.py",
     "tests/nov27_maintenance.json",
+    "tests/nov28_compat.py",
+    "tests/nov28_maintenance.json",
     "tests/test_archive_repair.py",
     "tests/test_daily19_site.py",
     "tests/test_daily20_site.py",
@@ -311,6 +321,7 @@
     "tests/test_daily25_site.py",
     "tests/test_daily26_site.py",
     "tests/test_daily27_site.py",
+    "tests/test_daily28_site.py",
     "tests/test_nov10_cpi_revision.py",
     "tests/test_nov10_site.py",
     "tests/test_nov13_14_site.py",
@@ -320,15 +331,15 @@
     "tests/test_site.py"
   ],
   "latest_headlines": [
-    "Black Friday Shoppers Mix Gifts With Everyday Essentials",
-    "Storms Leave Hundreds of Thousands Without Power After Thanksgiving",
-    "Stock Futures Jump Ahead of a Shortened Friday Session",
-    "New Zealand's Ruling Coalition Falls One Seat Short of a Majority",
-    "Why the Gulf Conflict Is Flaring Again"
+    "Wall Street Posts Its Best Week Since April 2025",
+    "OpenAI Countersues Apple Over Trade Secrets",
+    "New Car Prices Hit a Record as Reliability Slips",
+    "An Explosion Beside an Afghan School Kills Seven, Officials Say",
+    "What Spain's Snap Election Could Change"
   ],
   "migrated_test_hashes": {
-    "tests/test_site.py": "156dbc54b0bbd6d6e40d1f9cf43fb42c1307e62d22d0b1fc573dde236632f9c9",
-    "tests/test_archive_repair.py": "1e1773256488f37497c60e8605c4f6f6f7245f74ebee4f05e4213bea2ae6af3b"
+    "tests/test_site.py": "dcac9a970bdd8e95d24561bd9aeab643ecb220507b7b77f56b03efcb2f837907",
+    "tests/test_archive_repair.py": "a198ef85048cb103257679d46ef54eed031b8ac46c7495cb39b6b5ae6bb4d0b1"
   },
   "photo_metadata_correction": {
     "2026-11-13": {

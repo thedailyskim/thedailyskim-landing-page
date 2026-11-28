@@ -27,13 +27,13 @@ def without_nav(raw):
 class ArchiveRepair(unittest.TestCase):
     def test_all_twelve_dates_accessible_and_no_duplicates(self):
         rows = config()["editions"]
-        expected = [f"editions/2026-11-{n:02}.html" for n in [27, 26, 25, 24, 23, 22, 21, 20, 19]+list(range(17, 0, -1))]
+        expected = [f"editions/2026-11-{n:02}.html" for n in [28, 27, 26, 25, 24, 23, 22, 21, 20, 19]+list(range(17, 0, -1))]
         self.assertEqual([x["url"] for x in rows], expected)
-        self.assertEqual(len({x["url"] for x in rows}), 26)
-        self.assertEqual(len({x["title"] for x in rows}), 26)
+        self.assertEqual(len({x["url"] for x in rows}), 27)
+        self.assertEqual(len({x["title"] for x in rows}), 27)
         for row in rows:
             self.assertTrue((ROOT / row["url"]).is_file())
-        preserved = [row for row in rows if row["url"][9:19] not in NEW + ("2026-11-13", "2026-11-14", "2026-11-15", "2026-11-16", "2026-11-17", "2026-11-19", "2026-11-20", "2026-11-21", "2026-11-22", "2026-11-23", "2026-11-24", "2026-11-25", "2026-11-26", "2026-11-27")]
+        preserved = [row for row in rows if row["url"][9:19] not in NEW + ("2026-11-13", "2026-11-14", "2026-11-15", "2026-11-16", "2026-11-17", "2026-11-19", "2026-11-20", "2026-11-21", "2026-11-22", "2026-11-23", "2026-11-24", "2026-11-25", "2026-11-26", "2026-11-27", "2026-11-28")]
         self.assertEqual(preserved, E["original_archive"])
 
     def test_old_editions_and_non_navigation_bytes_unchanged(self):
@@ -124,12 +124,12 @@ class ArchiveRepair(unittest.TestCase):
                 if n < 14:
                     self.assertIsNotNone(nav.select_one(f'a[href="2026-11-{n+1:02}.html"]'))
         links = doc("index.html").select(".sw-item")
-        latest = doc("editions/2026-11-27.html")
+        latest = doc("editions/2026-11-28.html")
         data = {"stories": [{"title": n.get_text()} for n in latest.select("article.story h3")], "deep_dive": {"title": latest.select_one("#dd-h").get_text()}}
         self.assertEqual([n.get_text() for n in links],
                          [s["title"] for s in data["stories"]] + [data["deep_dive"]["title"]])
-        self.assertTrue(all("2026-11-27.html#" in n["href"] for n in links))
-        self.assertIn("2026-11-27", config()["editions"][0]["url"])
+        self.assertTrue(all("2026-11-28.html#" in n["href"] for n in links))
+        self.assertIn("2026-11-28", config()["editions"][0]["url"])
 
     def test_all_internal_links_anchors_and_javascript_syntax(self):
         documents = {p.resolve(): BeautifulSoup(p.read_text(), "html.parser") for p in ROOT.rglob("*.html")}
